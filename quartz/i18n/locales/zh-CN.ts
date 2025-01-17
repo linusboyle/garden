@@ -40,7 +40,7 @@ export default {
     },
     recentNotes: {
       title: "最近的笔记",
-      seeRemainingMore: ({ remaining }) => `查看更多${remaining}篇笔记 →`,
+      seeRemainingMore: ({ remaining }) => `查看剩余${remaining}篇 →`,
     },
     transcludes: {
       transcludeOf: ({ targetSlug }) => `包含${targetSlug}`,
