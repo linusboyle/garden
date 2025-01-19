@@ -33,7 +33,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         if (fileData.dates.created) {
             segments.push(
                  <span>
-                 🪴 <Date date={fileData.dates.created} locale={cfg.locale}  /> 种植
+                  <Date date={fileData.dates.created} locale={cfg.locale}  /> 种植
                  </span>
             )
         }
@@ -41,7 +41,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         if (fileData.dates.modified) {
             segments.push(
                  <span>
-                 ✂️ <Date date={fileData.dates.modified} locale={cfg.locale}  /> 修剪
+                  <Date date={fileData.dates.modified} locale={cfg.locale}  /> 修剪
                  </span>
             )
         }
