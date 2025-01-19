@@ -2,8 +2,9 @@
 title: C++标准Attribute
 layout: post
 tags:
-- c++
-- attribute
+  - c++
+  - attribute
+  - post
 date: 2018-08-26
 license: cc-by-nc-nd
 toc: true

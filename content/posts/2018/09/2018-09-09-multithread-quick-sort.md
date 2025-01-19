@@ -1,14 +1,15 @@
 ---
 title: 多线程快速排序
 date: 2018-09-09
-tag:
-- c++
-- 快速排序
-- 多线程
 layout: post
 license: cc-by-nc-nd
 toc: true
 description: 多线程执行快速排序（含插入排序信息熵优化）
+tags:
+  - c++
+  - 快速排序
+  - 多线程
+  - post
 ---
 
 直接上代码喽

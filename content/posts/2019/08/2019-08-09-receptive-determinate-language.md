@@ -2,9 +2,10 @@
 title: 计算机语言的接受性与确定性
 layout: post
 date: 2019-08-09
-tags: 
-- 形式语义学
-- 计算机语言
+tags:
+  - 形式语义学
+  - 计算机语言
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 接受性:Receptive/确定性:Determinate

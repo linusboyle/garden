@@ -3,8 +3,9 @@ title: 2019年6月读书总结
 date: 2019-07-01
 layout: post
 tags:
-- 读书笔记
-- 随笔
+  - 读书笔记
+  - 随笔
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 《矛盾论》、《基地三部曲》、《怎样学习文言文》、《儒家史话》、《帛书史话》

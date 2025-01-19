@@ -3,9 +3,10 @@ date: 2018-07-22
 layout: post
 title: Vim自定义配置（二）：定义ag搜索操作符
 tags:
-- Vim
-- Vimscript
-- ag
+  - Vim
+  - Vimscript
+  - ag
+  - post
 license: cc-by-nc-nd
 toc: true
 series: vim自定义配置

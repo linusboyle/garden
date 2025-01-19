@@ -3,9 +3,10 @@ date: 2018-07-22
 layout: post
 title: 简易开/关静音脚本（alsa版）
 tags:
-- alsa
-- 脚本
-- linux
+  - alsa
+  - 脚本
+  - linux
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 一小段脚本，用来开关静音，同时发送通知。

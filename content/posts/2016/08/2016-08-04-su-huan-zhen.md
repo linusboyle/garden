@@ -2,7 +2,8 @@
 title: 霹雳金光至霹雳异数——非侠者素还真
 date: 2016-08-04
 tags:
-- 布袋戏
+  - 布袋戏
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 我的第一篇布袋戏评论文章，写的是霹雳早期剧集中的素还真形象。文笔比现在好，可惜说理太次。

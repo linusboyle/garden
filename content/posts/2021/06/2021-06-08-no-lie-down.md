@@ -2,8 +2,9 @@
 title: 拒绝躺平，从我做起
 date: 2021-06-08
 lastmod: 
-tags: 
-- 讽刺
+tags:
+  - 讽刺
+  - post
 description: 假作真时真亦假，无为有处有还无
 license: cc-by-nc-nd
 related: 

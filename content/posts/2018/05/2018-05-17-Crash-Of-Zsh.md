@@ -3,8 +3,9 @@ layout: post
 title: 记zsh的崩溃
 date: 2018-05-17
 tags:
-- zsh
-- linux
+  - zsh
+  - linux
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 简要记录zsh崩溃的后果和解决方案。

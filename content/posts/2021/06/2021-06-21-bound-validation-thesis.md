@@ -2,9 +2,10 @@
 title: 简单的上界验证
 date: 2021-06-21
 lastmod: 
-tags: 
-- 形式化验证
-- 上界分析
+tags:
+  - 形式化验证
+  - 上界分析
+  - post
 description: 「基于安全属性检查的程序上界验证方法」
 license: cc-by-nc-nd
 related: 

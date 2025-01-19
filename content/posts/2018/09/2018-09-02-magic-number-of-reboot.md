@@ -2,12 +2,13 @@
 title: reboot()系统调用的magic number
 layout: post
 date: 2018-09-02
-tag:
-- linux
-- 系统调用
 license: cc-by-nc-nd
 toc: true
 description: 挺有意思的彩蛋：）
+tags:
+  - linux
+  - 系统调用
+  - post
 ---
 
 好吧，查阅reboot系统调用的时候发现，头两个参数是两个magic number，而且限定死了值，否则就是EINVAL

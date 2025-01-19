@@ -1,15 +1,16 @@
 ---
 title: 刀说异数第二集小评
 layout: post
-tag:
-- 布袋戏
-- 刀说异数
-- 剧评
 date: 2019-01-30
 series: 刀说异数剧评
 license: cc-by-nc-nd
 toc: true
 description: 新异数第二集剧评点评
+tags:
+  - 布袋戏
+  - 刀说异数
+  - 剧评
+  - post
 ---
 
 **写在前面**

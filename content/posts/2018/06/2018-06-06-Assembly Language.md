@@ -3,8 +3,9 @@ layout: post
 title: Assembly Language
 date: 2018-06-06
 tags:
-- nand2tetris
-- 汇编语言
+  - nand2tetris
+  - 汇编语言
+  - post
 license: cc-by-nc-nd
 toc: true
 description: A improved version of the original machine code chapter

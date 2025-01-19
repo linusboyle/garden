@@ -3,9 +3,10 @@ title: snapd无法加载apparmor配置解决方法
 date: 2019-05-11
 layout: post
 tags:
-- linux
-- apparmor
-- snap
+  - linux
+  - apparmor
+  - snap
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 据称这是snap的一个老问题，因为无法自动加载apparmor配置而导致的重启后应用全部失效问题。

@@ -3,8 +3,9 @@ title: Bresenham直线绘图算法：原理与实现
 date: 2019-02-01
 layout: post
 tags:
-- 算法
-- 计算机图形学
+  - 算法
+  - 计算机图形学
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 介绍Bresenham光栅化直线绘图算法，并给出简单的实现

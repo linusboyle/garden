@@ -2,9 +2,10 @@
 title: 从递归函数到递归语言
 date: 2020-05-06
 lastmod: 
-tags: 
-- 理论计算机科学
-- 计算理论
+tags:
+  - 理论计算机科学
+  - 计算理论
+  - post
 description: 在计算科学的最基点，形式语言的可判定性是如何从原始的逻辑定义引申出来的？
 license: cc-by-nc-nd
 related: 

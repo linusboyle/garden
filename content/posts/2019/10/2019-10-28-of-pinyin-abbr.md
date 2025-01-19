@@ -2,8 +2,9 @@
 title: 论拼音简写的滥用
 date: 2019-10-28
 tags:
-- 拼音
-- 语言
+  - 拼音
+  - 语言
+  - post
 layout: post
 license: cc-by-nc-nd
 toc: true

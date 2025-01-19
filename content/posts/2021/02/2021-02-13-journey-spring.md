@@ -2,8 +2,9 @@
 title: 游春
 date: 2021-02-13
 lastmod: 
-tags: 
-- 随笔
+tags:
+  - 随笔
+  - post
 description: 南方的春天到来了
 license: cc-by-nc-nd
 related: 

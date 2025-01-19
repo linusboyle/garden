@@ -3,9 +3,10 @@ title: c++对象模型
 date: 2018-07-04
 layout: post
 tags:
-- c++
-- 对象模型
-- 笔记
+  - c++
+  - 对象模型
+  - 笔记
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 一篇观后感，记录了c++最基础的对象模型:pod,对齐,成员函数的绑定等

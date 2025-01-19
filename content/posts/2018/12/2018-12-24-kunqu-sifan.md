@@ -3,10 +3,11 @@ title: 观《孽海记・思凡》有感
 date: 2018-12-24
 layout: post
 tags:
-- 昆曲
-- 思凡
-- 孽海记
-- 戏曲
+  - 昆曲
+  - 思凡
+  - 孽海记
+  - 戏曲
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 看的是梁谷音老师的思凡，借着昆曲课的机会写了一点感想，很不专业，仅作个人参考用

@@ -2,8 +2,9 @@
 title: 遍历std::tuple
 layout: post
 tags:
-- c++
-- 模板
+  - c++
+  - 模板
+  - post
 date: 2018-07-03
 license: cc-by-nc-nd
 toc: true

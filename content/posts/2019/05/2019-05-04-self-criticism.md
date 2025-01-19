@@ -3,9 +3,10 @@ title: 在五四运动一百年的这一天的自我批判
 date: 2019-05-04
 layout: post
 tags:
-- 自我批判
-- 五四运动
-- 随笔
+  - 自我批判
+  - 五四运动
+  - 随笔
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 没有批判，只有自我批判。写在这个特殊的日子里，或许只是想消解自己的内心罪恶感而已。

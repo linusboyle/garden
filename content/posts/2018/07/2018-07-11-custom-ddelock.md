@@ -2,9 +2,10 @@
 title: Scrot+ImageMagick增强dde-lock
 date: 2018-07-11
 tags:
-- deepin
-- scrot
-- linux
+  - deepin
+  - scrot
+  - linux
+  - post
 layout: post
 license: cc-by-nc-nd
 toc: true

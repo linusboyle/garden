@@ -2,9 +2,10 @@
 title: 验证的边界
 date: 2020-06-19
 lastmod: 2020-06-22
-tags: 
-- 形式化验证
-- 内核
+tags:
+  - 形式化验证
+  - 内核
+  - post
 description: 对学期内OS验证工作的总结。从CertiCore的开发中，我认识到了系统验证最重要的要求：对边界的认识
 license: cc-by-nc-nd
 related: 

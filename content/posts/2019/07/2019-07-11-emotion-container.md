@@ -3,8 +3,9 @@ title: 情感容器
 layout: post
 date: 2019-07-11
 tags:
-- 文学
-- 诗歌
+  - 文学
+  - 诗歌
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 因某好友而作

@@ -2,9 +2,10 @@
 title: GNU Octave简介与展望
 date: 2020-06-22
 lastmod: 2020-06-23
-tags: 
-- FOSS
-- Matlab
+tags:
+  - FOSS
+  - Matlab
+  - post
 description: GNU Octave是Matlab的开源替代，在小型数值计算项目上有很多优点。本文介绍其基本特点，兼谈从中体会到的软件开发问题。
 license: cc-by-nc-nd
 related: 

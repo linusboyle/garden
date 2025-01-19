@@ -3,10 +3,11 @@ layout: post
 title: 在终端直接查看图片的方法
 date: 2018-06-28
 tags:
-- shell
-- linux
-- 脚本
-- w3m
+  - shell
+  - linux
+  - 脚本
+  - w3m
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 描述了我修改的一个小脚本，可以在特定的终端支持直接打印出图片的内容，而不需要新的外部窗口。

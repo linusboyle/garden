@@ -1,13 +1,14 @@
 ---
 title: 自己动手写一个简易的tee
 date: 2018-09-15
-tag:
-- linux
-- tee
 license: cc-by-nc-nd
 toc: true
 description: 用glibc写一个简易的tee
 layout: post
+tags:
+  - linux
+  - tee
+  - post
 ---
 ## tee
 

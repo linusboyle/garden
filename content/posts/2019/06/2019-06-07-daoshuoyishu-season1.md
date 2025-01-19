@@ -2,8 +2,9 @@
 title: 观刀说异数上阕有感
 date: 2019-06-07
 tags:
-- 刀说异数
-- 随笔
+  - 刀说异数
+  - 随笔
+  - post
 layout: post
 license: cc-by-nc-nd
 toc: true

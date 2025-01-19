@@ -3,8 +3,9 @@ title: 推车行
 layout: post
 date: 2019-09-22
 tags:
-- 文学
-- 诗歌
+  - 文学
+  - 诗歌
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 托物言志一首

@@ -4,7 +4,8 @@ date: 2019-11-18T02:34:55.000Z
 license: cc-by-nc-nd
 toc: true
 tags:
-- 网络
+  - 网络
+  - post
 description: 对计算IP头校验和时端序无关原则的说明与证明
 ---
 

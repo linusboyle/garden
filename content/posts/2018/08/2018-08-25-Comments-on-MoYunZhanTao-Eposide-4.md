@@ -3,9 +3,10 @@ layout: post
 title: 神魔英雄传之魔云战韬第4集布析
 date: 2018-08-25
 tags:
-- 布袋戏
-- 剧评
-- 神魔布袋戏
+  - 布袋戏
+  - 剧评
+  - 神魔布袋戏
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 这篇文章简要点评魔云战韬第四集的剧情，更多的是对新神魔的一些个人看法

@@ -3,8 +3,9 @@ title: 2019年7月读书总结
 layout: post
 date: 2019-07-31
 tags:
-- 读书笔记
-- 随笔
+  - 读书笔记
+  - 随笔
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 《家庭史话》《黑暗精灵三部曲》《马桥词典》《钻石花》《饮酒史话》《软件基础》

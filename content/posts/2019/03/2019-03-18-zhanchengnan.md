@@ -2,12 +2,13 @@
 title: 战城南：诛星之行
 layout: post
 tags:
-- 半驼废
-- 布袋戏
-- 普九年
-- 武侠
-- 短篇
-- 同人
+  - 半驼废
+  - 布袋戏
+  - 普九年
+  - 武侠
+  - 短篇
+  - 同人
+  - post
 date: 2019-03-18
 license: cc-by-nc-nd
 toc: true

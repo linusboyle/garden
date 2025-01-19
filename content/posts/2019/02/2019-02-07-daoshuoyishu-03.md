@@ -1,15 +1,16 @@
 ---
 title: 刀说异数第三集小评
 layout: post
-tag:
-- 布袋戏
-- 刀说异数
-- 剧评
 date: 2019-02-07
 license: cc-by-nc-nd
 toc: true
 series: 刀说异数剧评
 description: 第三集：哑子的哭声
+tags:
+  - 布袋戏
+  - 刀说异数
+  - 剧评
+  - post
 ---
 
 **写在前面**

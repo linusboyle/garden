@@ -2,9 +2,10 @@
 title: Vimscript 学习笔记
 date: 2018-07-13
 tags:
-- Vim
-- Vimscript
-- 笔记
+  - Vim
+  - Vimscript
+  - 笔记
+  - post
 layout: post
 license: cc-by-nc-nd
 toc: true

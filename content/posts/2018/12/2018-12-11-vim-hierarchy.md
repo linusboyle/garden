@@ -3,8 +3,9 @@ title: Vim自定义配置（三）：拆解vimrc
 date: 2018-12-11
 layout: post
 tags:
-- Vim
-- Vimscript
+  - Vim
+  - Vimscript
+  - post
 license: cc-by-nc-nd
 toc: true
 series: vim自定义配置

@@ -2,8 +2,9 @@
 title: 酬情
 date: 2021-05-21
 lastmod: 
-tags: 
-- 诗歌
+tags:
+  - 诗歌
+  - post
 description: 和阿蔓官宣五律
 license: cc-by-nc-nd
 related: 

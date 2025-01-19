@@ -2,10 +2,11 @@
 title: C++实现通用函数返回值记忆（Memoization）"装饰器"
 date: 2018-07-07
 tags:
-- c++
-- 记忆化
-- 模板
-- 函数式
+  - c++
+  - 记忆化
+  - 模板
+  - 函数式
+  - post
 layout: post
 license: cc-by-nc-nd
 toc: true

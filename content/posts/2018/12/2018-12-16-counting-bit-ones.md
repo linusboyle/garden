@@ -3,8 +3,9 @@ title: 统计二进制表示中'1'的数量
 date: 2018-12-16
 layout: post
 tags:
-- 算法
-- 位运算
+  - 算法
+  - 位运算
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 描述了三种不同复杂度的算法来解决这一问题，虽然并不清楚这一应用的实际意义

@@ -2,12 +2,13 @@
 title: 记无冬之夜1 Linux原版
 date: 2019-08-29
 layout: post
-tags: 
-- 游戏
-- crpg
-- 龙与地下城
-- 无冬之夜
-- linux
+tags:
+  - 游戏
+  - crpg
+  - 龙与地下城
+  - 无冬之夜
+  - linux
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 本文记录了我运行原生Linux版无冬之夜1的坑和解决办法

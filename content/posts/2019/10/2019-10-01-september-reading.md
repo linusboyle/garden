@@ -3,8 +3,9 @@ title: 2019年9月读书总结
 layout: post
 date: 2019-10-01
 tags:
-- 读书笔记
-- 随笔
+  - 读书笔记
+  - 随笔
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 《前汉通俗演义》、《基地边缘》、《Depression Quest》、《Harmonia》、《Cape》、《Masquerade》、《Violet》

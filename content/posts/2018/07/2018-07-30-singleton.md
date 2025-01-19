@@ -2,13 +2,14 @@
 date: 2018-07-30
 layout: post
 title: 基于模板和继承的单例模式
-tags: 
-- 模板
-- c++
-- 单例模式
+tags:
+  - 模板
+  - c++
+  - 单例模式
+  - post
 license: cc-by-nc-nd
 toc: true
-description: 单例模式的一小段笔记 
+description: 单例模式的一小段笔记
 ---
 
 上个学期写了个python3解释器，里面抽象语法树的工厂单例是这样实现的：

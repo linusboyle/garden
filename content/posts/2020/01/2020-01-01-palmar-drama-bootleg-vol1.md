@@ -2,9 +2,10 @@
 title: 布袋戏非原创配乐出处一览表 第一辑
 date: 2020-01-01
 lastmod: 2020-09-06
-tags: 
-- 布袋戏
-- 音乐
+tags:
+  - 布袋戏
+  - 音乐
+  - post
 description: 本对照表根据编者发布于哔哩哔哩弹幕网的系列改编，截至二零一七年八月十六日更新的第五期，总共收录条数为524条。
 license: cc-by-nc-nd
 related: 

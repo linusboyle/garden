@@ -3,6 +3,7 @@ title: 评舞蹈现场《如见》
 date: 2024-03-26
 tags:
   - 舞蹈
+  - post
 related: "[[鸿爪2024-03]]"
 lastmod: 
 description: 舞蹈现场《如见》，新清华学堂，赶上了现场配乐版本

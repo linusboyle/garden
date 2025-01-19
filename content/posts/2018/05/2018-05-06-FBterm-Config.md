@@ -3,9 +3,10 @@ layout: post
 title: TTY终端模拟器Fbterm相关配置
 date: 2018-05-06
 tags:
-- framebuffer
-- linux
-- fbterm
+  - framebuffer
+  - linux
+  - fbterm
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 本文简单介绍了在framebuffer工作的终端模拟器fbterm，它能在一定程度上解决tty中文显示和输入的问题，但是却无法适应全部的要求，建议在迫不得已使用控制台时使用。本文讲解一部分设置项以供参考。

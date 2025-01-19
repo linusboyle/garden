@@ -2,9 +2,10 @@
 title: 追忆我的文艺青年时代
 date: 2019-07-15
 tags:
-- 文学
-- 随笔
-- 回忆
+  - 文学
+  - 随笔
+  - 回忆
+  - post
 layout: post
 license: cc-by-nc-nd
 toc: true

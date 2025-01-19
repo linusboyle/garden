@@ -2,13 +2,14 @@
 title: 门楣分殊 A House Divided
 date: 2024-08-31
 NoteIcon: blogpost
-lastmod:
+lastmod: 
 tags:
-- DND
-- ttrpg
+  - DND
+  - ttrpg
+  - post
 description: 各方面都不错的模组，但是整体有些松散
 license: cc-by-nc-nd
-related:
+related: 
 toc: true
 series: GM之旅
 draft: false

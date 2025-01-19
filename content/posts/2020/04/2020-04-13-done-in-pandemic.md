@@ -3,9 +3,10 @@ title: 疫中作
 date: 2020-04-13
 lastmod: 2020-09-06
 tags:
-- 诗歌
-- 疫情
-description:  四月十四日风雨大作
+  - 诗歌
+  - 疫情
+  - post
+description: 四月十四日风雨大作
 license: cc-by-nc-nd
 related: 
 toc: true

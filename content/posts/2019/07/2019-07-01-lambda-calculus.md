@@ -3,8 +3,9 @@ title: 无类型λ演算的语法与语义
 date: 2019-07-01
 layout: post
 tags:
-- λ演算
-- 语义学
+  - λ演算
+  - 语义学
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 这篇文章描述了无类型的λ演算系统的语法和操作语义。

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: 'Ideal States: The Ultimate Utopia?'
+title: "Ideal States: The Ultimate Utopia?"
 date: 2018-05-29
 tags:
-- 乌托邦
+  - 乌托邦
+  - post
 license: cc-by-nc-nd
 toc: true
 description: A little bit thinking about the ideal states and whether one should form his/her own one,political or not

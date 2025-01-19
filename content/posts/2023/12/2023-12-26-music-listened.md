@@ -2,8 +2,9 @@
 title: 2023年年末的音乐聆听小结
 date: 2023-12-26
 lastmod: 
-tags: 
-- 音乐
+tags:
+  - 音乐
+  - post
 description: 2023年的新发现：巴洛克流行，民间音乐，以及当代古典。
 license: cc-by-nc-nd
 related: 

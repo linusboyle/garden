@@ -1,9 +1,10 @@
 ---
 title: 戏曲艺术的未来——从电视布袋戏说起
 tags:
-- 布袋戏
-- 戏曲
-- 传统艺术
+  - 布袋戏
+  - 戏曲
+  - 传统艺术
+  - post
 date: 2018-07-16
 layout: post
 license: cc-by-nc-nd

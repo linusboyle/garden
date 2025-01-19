@@ -3,7 +3,8 @@ title: 任意数制补码系统
 date: 2019-11-15T09:12:58.000Z
 lastmod: 2020-09-06T11:30:06.000Z
 tags:
-- 编码
+  - 编码
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 补码系统在任意数制下的推广

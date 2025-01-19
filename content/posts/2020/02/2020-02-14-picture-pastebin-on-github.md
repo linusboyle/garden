@@ -2,9 +2,10 @@
 title: 简易图床配置与CDN加速
 date: 2020-02-14
 lastmod: 
-tags: 
-- github 
-- 图床
+tags:
+  - github
+  - 图床
+  - post
 description: 为了提升Linux下的工作流效率，使用Github API和CDN加速搭建了一个简易图床，并将其整合到了KDE环境中
 license: cc-by-nc-nd
 related: 

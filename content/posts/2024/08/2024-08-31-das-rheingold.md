@@ -2,16 +2,17 @@
 title: 圆梦《指环》之《莱茵的黄金》
 date: 2024-08-31
 NoteIcon: blogpost
-lastmod:
+lastmod: 
 tags:
-- 剧评
-- 歌剧
-- 瓦格纳
-description: 十年之后，总算去现场听到了指环，只是为了遂一个多年前的愿望而已。 
+  - 剧评
+  - 歌剧
+  - 瓦格纳
+  - post
+description: 十年之后，总算去现场听到了指环，只是为了遂一个多年前的愿望而已。
 license: cc-by-nc-nd
-related:
+related: 
 toc: true
-series:
+series: 
 draft: false
 see also:
   - "[[索引]]"

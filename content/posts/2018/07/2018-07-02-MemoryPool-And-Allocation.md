@@ -3,8 +3,9 @@ title: 单线程固定大小内存池&&C++内存分配的初步理解
 date: 2018-07-02
 layout: post
 tags:
-- c++
-- 内存池
+  - c++
+  - 内存池
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 本文简单介绍了c++ new/delete的展开，一些初步的内存分配。实现了单线程固定大小的内存池。

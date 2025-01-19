@@ -2,9 +2,10 @@
 title: 《雪雁》漫谈
 date: 2020-01-25
 lastmod: 2020-09-06
-tags: 
-- 音乐
-- 前卫摇滚
+tags:
+  - 音乐
+  - 前卫摇滚
+  - post
 description: 关于美国作家Paul Gallico所著的The Snow Goose A Story of Dunkrik一书以及Camel的衍生音乐的一些想法
 license: cc-by-nc-nd
 related: 

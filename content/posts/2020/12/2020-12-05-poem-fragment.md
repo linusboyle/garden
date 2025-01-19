@@ -2,8 +2,9 @@
 title: 残篇
 date: 2020-12-05
 lastmod: 
-tags: 
-- 诗歌
+tags:
+  - 诗歌
+  - post
 description: 冬夜望月感遇而作
 license: cc-by-nc-nd
 related: 

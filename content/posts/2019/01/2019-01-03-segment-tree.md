@@ -3,8 +3,9 @@ title: 一维线段树的2n空间实现
 date: 2019-01-03
 layout: post
 tags:
-- 算法
-- 线段树
+  - 算法
+  - 线段树
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 新年第一篇，简要介绍一下线段树的通用O(2n)空间实现

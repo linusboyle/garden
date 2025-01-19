@@ -2,10 +2,11 @@
 layout: post
 title: 牡丹亭的思想特色
 tags:
-- 戏曲
-- 牡丹亭
-- 汤显祖
-- 昆曲
+  - 戏曲
+  - 牡丹亭
+  - 汤显祖
+  - 昆曲
+  - post
 date: 2018-06-04
 license: cc-by-nc-nd
 toc: true

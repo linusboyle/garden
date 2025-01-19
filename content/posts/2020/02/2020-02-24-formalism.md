@@ -2,9 +2,10 @@
 title: 另一种形式主义
 date: 2020-02-24
 lastmod: 2020-09-06
-tags: 
-- 随笔
-- 疫情
+tags:
+  - 随笔
+  - 疫情
+  - post
 description: 随笔一篇
 license: cc-by-nc-nd
 related: 

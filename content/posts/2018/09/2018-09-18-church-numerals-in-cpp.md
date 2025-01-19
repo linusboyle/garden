@@ -1,15 +1,16 @@
 ---
 title: 使用C++17实现邱奇数
 layout: post
-tag:
-- c++
-- 函数式
-- 模板
-- 邱奇编码
 date: 2018-09-18
 license: cc-by-nc-nd
 toc: true
 description: 使用c++来写一个邱奇数的实现，包括加、乘、减等算数操作，也包括与或非等逻辑操作。最后还实现了一部分控制流
+tags:
+  - c++
+  - 函数式
+  - 模板
+  - 邱奇编码
+  - post
 ---
 
 邱奇数（或者说邱奇编码）是什么？这个我并不打算多解释，网上有很多文章已经叙述过了，也带了lua，javascript，haskell等语言的实现。不了解的同学看一看[wiki](https://en.wikipedia.org/wiki/Church_encoding)的解释就能明白，本身不是特别难懂(比起Y不动点是简单多了，lol)。这里用cpp简单的实现一下，因为是静态强类型语言，我暂时还没办法实现幂（需要一点动态语言的特性，至少我是这么理解的）

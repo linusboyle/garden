@@ -2,9 +2,10 @@
 title: 郁结的诗行
 date: 2019-10-31
 lastmod: 2020-01-25
-tags: 
-- 诗歌
-- 现代诗
+tags:
+  - 诗歌
+  - 现代诗
+  - post
 description: 此中有真意，欲辩已忘言
 license: cc-by-nc-nd
 related: 

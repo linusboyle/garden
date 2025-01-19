@@ -2,9 +2,10 @@
 title: 关于不完全的类型
 date: 2018-07-20
 tags:
-- sizeof
-- c++
-- 笔记
+  - sizeof
+  - c++
+  - 笔记
+  - post
 layout: post
 license: cc-by-nc-nd
 toc: true

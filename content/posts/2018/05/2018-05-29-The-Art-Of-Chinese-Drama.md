@@ -1,10 +1,11 @@
 ---
-layout : post
+layout: post
 title: 中国戏曲的表演艺术
 date: 2018-05-29
 tags:
-- 戏曲
-- 京剧
+  - 戏曲
+  - 京剧
+  - post
 description: 关于戏曲发展和艺术的一些不完全的笔记
 draft: true
 ---

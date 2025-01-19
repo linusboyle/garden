@@ -2,9 +2,10 @@
 title: 学琴琐记
 date: 2021-01-26
 lastmod: 
-tags: 
-- 古琴
-- 随笔
+tags:
+  - 古琴
+  - 随笔
+  - post
 description: 去年我开始了古琴的学习。回想起来，那段岁月着实很让人怀念。试将感触记录于此
 license: cc-by-nc-nd
 related: 

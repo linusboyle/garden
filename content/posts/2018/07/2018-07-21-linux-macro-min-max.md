@@ -3,8 +3,9 @@ date: 2018-07-21
 layout: post
 title: 关于Linux中min/max宏写法
 tags:
-- linux
-- 宏
+  - linux
+  - 宏
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 一小段关于linux源码中min和max的正确定义的讨论

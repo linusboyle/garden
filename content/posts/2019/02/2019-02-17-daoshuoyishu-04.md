@@ -2,9 +2,10 @@
 title: 刀说异数第四集小评
 layout: post
 tags:
-- 刀说异数
-- 布袋戏
-- 剧评
+  - 刀说异数
+  - 布袋戏
+  - 剧评
+  - post
 date: 2019-02-17
 license: cc-by-nc-nd
 toc: true

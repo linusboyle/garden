@@ -2,8 +2,9 @@
 title: 2020上半年IF作品游玩记录
 date: 2020-06-20
 lastmod: 
-tags: 
-- IF
+tags:
+  - IF
+  - post
 description: 疫情期间我在家成功完成了一些互动小说，这里推荐一些十分优秀的作品
 license: cc-by-nc-nd
 related: 

@@ -3,9 +3,10 @@ date: 2018-07-22
 layout: post
 title: 在Vim中正确加载bash别名
 tags:
-- bash
-- linux
-- Vim
+  - bash
+  - linux
+  - Vim
+  - post
 license: cc-by-nc-nd
 toc: true
 description: 关于如何在vim中使用bash定义的别名

@@ -1,15 +1,16 @@
 ---
 title: 刀说异数第一集小评
 layout: post
-tag:
-- 布袋戏
-- 刀说异数
-- 剧评
 date: 2019-01-24
 license: cc-by-nc-nd
 toc: true
 series: 刀说异数剧评
 description: 正如标题所言，一点自己的感想
+tags:
+  - 布袋戏
+  - 刀说异数
+  - 剧评
+  - post
 ---
 
 -------

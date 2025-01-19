@@ -2,9 +2,10 @@
 title: 一些前摇网络串流电台
 date: 2020-03-31
 lastmod: 2020-09-06
-tags: 
-- 音乐
-- 前卫摇滚
+tags:
+  - 音乐
+  - 前卫摇滚
+  - post
 description: 可以正常工作的前摇互联网电台列表（部分）
 license: cc-by-nc-nd
 related: 

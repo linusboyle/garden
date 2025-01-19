@@ -2,10 +2,11 @@
 title: 线性选择算法与五取样划分轴点选取
 date: 2019-01-17
 tags:
-- 算法
-- 五取样划分
-- 快速排序
-- BFPRT算法
+  - 算法
+  - 五取样划分
+  - 快速排序
+  - BFPRT算法
+  - post
 layout: post
 license: cc-by-nc-nd
 toc: true

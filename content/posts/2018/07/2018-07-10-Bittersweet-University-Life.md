@@ -2,8 +2,9 @@
 title: Bittersweet University Life
 layout: post
 tags:
-- 演讲
-- 大学生活
+  - 演讲
+  - 大学生活
+  - post
 date: 2018-07-10
 license: cc-by-nc-nd
 toc: true

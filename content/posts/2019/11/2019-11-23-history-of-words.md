@@ -2,11 +2,12 @@
 title: 谈B.A.伊斯特林《文字的历史》
 date: 2019-11-23
 lastmod: 2020-01-25
-tags: 
-- 文字
-- 语言
-- 读后感
-description:  《文字的历史》是前苏联学者B.A.伊斯特林的著名著作，旨在用通俗却严谨的方法讲述文字的起源和发展脉络
+tags:
+  - 文字
+  - 语言
+  - 读后感
+  - post
+description: 《文字的历史》是前苏联学者B.A.伊斯特林的著名著作，旨在用通俗却严谨的方法讲述文字的起源和发展脉络
 license: cc-by-nc-nd
 related: 
 toc: true

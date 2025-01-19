@@ -2,9 +2,10 @@
 title: 死不回头
 date: 2019-10-31
 lastmod: 2020-09-06
-tags: 
-- 诗歌
-- 现代诗
+tags:
+  - 诗歌
+  - 现代诗
+  - post
 description: 人身处喧嚣世界，应当如何安放自己？
 license: cc-by-nc-nd
 related: 
