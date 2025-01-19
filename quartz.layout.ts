@@ -34,7 +34,7 @@ export const defaultContentPageLayout: PageLayout = {
         showTags: false,
         filter: (f) =>
           f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
-        linkToMore: "posts/" as SimpleSlug,
+        linkToMore: "tags/post" as SimpleSlug,
       }),
     ),
     Component.DesktopOnly(Component.TableOfContents()),
