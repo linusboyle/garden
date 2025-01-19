@@ -1,12 +1,13 @@
 ---
-title: "Civl Documentation"
+title: Civl Documentation
 date: 2025-01-11
 source: https://civl-verifier.github.io/doc
 author: 
-tag:
-- clipped
 see also:
-- "[[2025-01-11]]"
+  - "[[2025-01-11]]"
+tags:
+  - clipped
+  - raw
 ---
 
 [Civl Syntax](https://civl-verifier.github.io/doc#civl-syntax)

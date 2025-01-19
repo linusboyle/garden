@@ -1,3 +1,7 @@
+---
+tags:
+  - raw
+---
 [[ReadItLater]] [[Article]]
 
 # [Nixon in China - Wikipedia](https://en.wikipedia.org/wiki/Nixon_in_China)

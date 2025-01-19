@@ -1,12 +1,13 @@
 ---
-title: "Why Is ‘Dungeons & Dragons’ Still So Misunderstood?"
+title: Why Is ‘Dungeons & Dragons’ Still So Misunderstood?
 date: 2025-01-01
 source: https://www.vulture.com/article/is-dungeons-and-dragons-fun-game-popularity-misunderstood.html
 author: Andrea Long Chu
-tag:
-- clipped
 see also:
-- "[[2025-01-01]]"
+  - "[[2025-01-01]]"
+tags:
+  - clipped
+  - raw
 ---
 
 -   [](https://nymag.com/?origSession=D250101sPAGUhinO0iwSYCOqRYsX7kDzDXqgKakLsNNxLdMf80%3D)

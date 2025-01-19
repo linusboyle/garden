@@ -6,6 +6,7 @@ author:
 tags:
   - clipped
   - linux
+  - raw
 see also:
   - "[[2024-11-14]]"
 ---

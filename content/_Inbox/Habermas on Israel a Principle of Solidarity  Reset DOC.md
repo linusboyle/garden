@@ -1,10 +1,11 @@
 ---
-title: Habermas on Israel: a Principle of Solidarity | Reset DOC
+title: Habermas on Israel a Principle of Solidarity | Reset DOC
 date: 2024-03-30
 source: https://www.resetdoc.org/story/habermas-israel-principle-solidariety/
 author: 
 tags:
-- clipped
+  - clipped
+  - raw
 ---
 
 # Habermas on Israel: a Principle of Solidarity | Reset DOC

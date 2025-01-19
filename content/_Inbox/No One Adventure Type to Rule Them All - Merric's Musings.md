@@ -1,12 +1,13 @@
 ---
-title: "No One Adventure Type to Rule Them All - Merric's Musings"
+title: No One Adventure Type to Rule Them All - Merric's Musings
 date: 2024-09-20
 source: https://merricb.com/2024/07/09/no-one-adventure-type-to-rule-them-all/
 author: merricb@yahoo.co.uk
-tag:
-- clipped
 see also:
-- "[[2024-09-20]]"
+  - "[[2024-09-20]]"
+tags:
+  - clipped
+  - raw
 ---
 
 I bang on a lot about adventure structure, because, in my opinion, it’s the most likely thing to sabotage a published adventure.

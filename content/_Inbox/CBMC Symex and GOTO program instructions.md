@@ -1,10 +1,11 @@
 ---
-title: CBMC: Symex and GOTO program instructions
+title: CBMC Symex and GOTO program instructions
 date: 2024-04-08
 source: https://diffblue.github.io/cbmc/md__home_runner_work_cbmc_cbmc_doc_architectural_symex_instructions.html#autotoc_md205
 author: 
-tag:
-- clipped
+tags:
+  - clipped
+  - raw
 ---
 
 # CBMC: Symex and GOTO program instructions

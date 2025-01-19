@@ -3,10 +3,11 @@ title: "The Making of Original Dungeons & Dragons: The Manufacture of a Controve
 date: 2024-12-05
 source: https://refereeingandreflection.wordpress.com/2024/12/05/the-making-of-original-dungeons-dragons-the-manufacture-of-a-controversy/
 author: 
-tag:
-- clipped
 see also:
-- "[[2024-12-05]]"
+  - "[[2024-12-05]]"
+tags:
+  - clipped
+  - raw
 ---
 
 Extremely online billionaire and corrupt barnacle on the hull of the American ship of state Elon Musk recently [stirred up some controversy](https://www.enworld.org/threads/elon-musk-calls-for-wizards-of-the-coast-to-burn-in-hell-over-making-of-original-d-d-passages.708087/) by hinting he might buy out Hasbro. This may or may not be serious – he talks about buying lots of things he doesn’t end up touching, he only went through on the Twitter deal because he put himself in a position where legally it would have been awkward to back out, and he Tweets a _lot_ of shit, like we’re talking the amount and style of Tweets other mortals might Tweet if they were hopelessly addicted to social media and cocaine.

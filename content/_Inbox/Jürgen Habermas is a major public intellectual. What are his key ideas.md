@@ -3,8 +3,9 @@ title: Jürgen Habermas is a major public intellectual. What are his key ideas?
 date: 2024-03-30
 source: https://theconversation.com/jurgen-habermas-is-a-major-public-intellectual-what-are-his-key-ideas-218796
 author: Duncan Ivison
-tag:
-- clipped
+tags:
+  - clipped
+  - raw
 ---
 
 # Jürgen Habermas is a major public intellectual. What are his key ideas?

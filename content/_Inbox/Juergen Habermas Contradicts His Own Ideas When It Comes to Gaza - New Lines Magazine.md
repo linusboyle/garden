@@ -3,8 +3,9 @@ title: Juergen Habermas Contradicts His Own Ideas When It Comes to Gaza - New Li
 date: 2024-03-30
 source: https://newlinesmag.com/uncategorized/juergen-habermas-contradicts-his-own-ideas-when-it-comes-to-gaza/
 author: Asef Bayat
-tag:
-- clipped
+tags:
+  - clipped
+  - raw
 ---
 
 # Juergen Habermas Contradicts His Own Ideas When It Comes to Gaza - New Lines Magazine

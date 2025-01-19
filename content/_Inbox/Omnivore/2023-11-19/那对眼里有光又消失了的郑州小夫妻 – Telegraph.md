@@ -2,11 +2,10 @@
 id: 59c58dec-cfa0-4164-8ba9-10d1c9287845
 date: 2023-11-19 13:35:51
 title: 那对眼里有光又消失了的郑州小夫妻 – Telegraph
+tags:
+  - raw
 ---
 
-#Omnivore
-
-[Read on Omnivore](https://omnivore.app/me/telegraph-18be613fb95)
 [Read Original](https://telegra.ph/%E9%82%A3%E5%AF%B9%E7%9C%BC%E9%87%8C%E6%9C%89%E5%85%89%E5%8F%88%E6%B6%88%E5%A4%B1%E4%BA%86%E7%9A%84%E9%83%91%E5%B7%9E%E5%B0%8F%E5%A4%AB%E5%A6%BB-11-19)
 
 ## Highlights

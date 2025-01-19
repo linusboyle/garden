@@ -2,13 +2,14 @@
 title: "How to make identifying magic items more fun — Map and Key "
 date: 2025-01-16
 source: https://www.mapandkey.net/blog/how-to-make-identifying-magic-items-fun
-author: Aug 23
-            
-            Written By Andrew Lenox
-tag:
-- clipped
+author: |-
+  Aug 23
+  Written By Andrew Lenox
 see also:
-- "[[2025-01-16]]"
+  - "[[2025-01-16]]"
+tags:
+  - clipped
+  - raw
 ---
 
 ![Not the magic item the players had in mind.](https://images.squarespace-cdn.com/content/v1/60883591d0a13a5fdfabc1ea/1629744123402-X8NLO6K0GRNLAI4JZCUD/magic-sword.jpg)

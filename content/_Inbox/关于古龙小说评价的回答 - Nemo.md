@@ -1,3 +1,7 @@
+---
+tags:
+  - raw
+---
 [为什么古龙评价不如金庸？ - 知乎](https://www.zhihu.com/question/31889082)  
   
 

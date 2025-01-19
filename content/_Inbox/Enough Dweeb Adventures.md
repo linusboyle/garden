@@ -1,12 +1,13 @@
 ---
-title: "Enough Dweeb Adventures"
+title: Enough Dweeb Adventures
 date: 2024-12-05
 source: https://knightattheopera.blogspot.com/2022/11/enough-dweeb-adventures.html
 author: 
-tag:
-- clipped
 see also:
-- "[[2024-12-05]]"
+  - "[[2024-12-05]]"
+tags:
+  - clipped
+  - raw
 ---
 
 The conflict centers around the recent rediscovery of the titular "lost mine of Phandelver," which in days long past not only provided this local region great prosperity through the unified efforts of humans, dwarves, and gnomes, but which also housed the famed "Forge of Spells," used to create magic items. The main villain is a dark elf... uh... warrior? Mage? Um... _guy_, named **Nezznar**, but who goes by the alias of "**the Black Spider**." His motivation is to take over the mine for himself and use it to gain... uh... _power_. Specifically, he wants the Forge of Spells... but like, just because. I mean, I guess you don't need a great reason. Magic items are cool. But that's not exactly evil, is it?

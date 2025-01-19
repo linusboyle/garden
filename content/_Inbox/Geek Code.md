@@ -1,12 +1,13 @@
 ---
-title: "Geek Code"
+title: Geek Code
 date: 2024-11-18
 source: https://en.wikipedia.org/wiki/Geek_Code
 author: Contributors to Wikimedia projects
-tag:
-- clipped
 see also:
-- "[[2024-11-18]]"
+  - "[[2024-11-18]]"
+tags:
+  - clipped
+  - raw
 ---
 
 From Wikipedia, the free encyclopedia

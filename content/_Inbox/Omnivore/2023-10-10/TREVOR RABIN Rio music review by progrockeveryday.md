@@ -2,11 +2,10 @@
 id: 4bcd5c57-2d2a-8576-30a8-69eb605622ac
 date: 2023-10-10 22:38:24
 title: TREVOR RABIN Rio music review by progrockeveryday
+tags:
+  - raw
 ---
 
-#Omnivore
-
-[Read on Omnivore](https://omnivore.app/me/trevor-rabin-rio-music-review-by-progrockeveryday-18b1b07e1e3)
 [Read Original](http://www.progarchives.com/Review.asp?id=2959747)
 
 ## Highlights

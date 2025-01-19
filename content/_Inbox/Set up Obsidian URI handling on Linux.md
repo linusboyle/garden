@@ -1,3 +1,7 @@
+---
+tags:
+  - raw
+---
 [[ReadItLater]] [[Article]]
 
 # [Set up Obsidian URI handling on Linux](https://amir.rachum.com/obsidian-uri-linux/)

@@ -1,12 +1,13 @@
 ---
-title: "The Task Asynchronous Programming (TAP) model with async and await' - C#"
+title: The Task Asynchronous Programming (TAP) model with async and await' - C#
 date: 2025-01-07
 source: moz-extension://f4973593-4977-4be4-83c3-3cdf2d1800be/_generated_background_page.html
 author: BillWagner
-tag:
-- clipped
 see also:
-- "[[2025-01-07]]"
+  - "[[2025-01-07]]"
+tags:
+  - clipped
+  - raw
 ---
 
 ## Task asynchronous programming model

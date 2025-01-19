@@ -3,10 +3,11 @@ title: "ITO: I Struggle to Find OSR adventures that I Want to Run"
 date: 2025-01-19
 source: https://tasker.land/2025/01/14/ito-i-struggle-to-find-osr-adventures-that-i-want-to-run/
 author: 
-tag:
-- clipped
 see also:
-- "[[2025-01-19]]"
+  - "[[2025-01-19]]"
+tags:
+  - clipped
+  - raw
 ---
 
 **Into the OSR** _is an occasional series in which I write up some of the creative decisions I have made in the preparation of my old school sandbox RPG campaign. The rest of the series can be found [here](https://tasker.land/category/series/into-the-osr/)_

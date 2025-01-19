@@ -3,11 +3,10 @@ id: 22aac7a4-6fa8-11ee-85f5-7b1506250e51
 date: 2023-11-01 12:00:00
 title: "Lessons from PL/I: A Most Ambitious Programming Language | November 2023 | Communications of the ACM"
 author: Doug Meil
+tags:
+  - raw
 ---
 
-#Omnivore
-
-[Read on Omnivore](https://omnivore.app/me/lessons-from-pl-i-a-most-ambitious-programming-language-november-18b4f9e1572)
 [Read Original](http://cacm.acm.org/magazines/2023/11/277418-lessons-from-pl-i-a-most-ambitious-programming-language)
 
 ## Highlights
