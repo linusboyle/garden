@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: 密林掩映的小径
+date: 2025-01-19
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+漫步在重峦叠嶂的钢筋水泥森林间，你发现了一座不起眼的花园藏在众多树木的荫翳之中。花园主人此刻身在别处，看起来也不常打理这个草木蔓生的地方，只是细看之下，倒也能发觉其中一丝整饬的痕迹。花园没有栅栏，也没有门扉，似乎在邀请过路人随意观览。
