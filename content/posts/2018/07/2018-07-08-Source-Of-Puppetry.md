@@ -9,12 +9,12 @@ layout: post
 description: 三张关于宋代类似于原始掌中戏的图画记录。
 ---
 
-![1](/images/2018/puppet1.jpg)
+![[puppet3.jpg]]
 
 ---
 
-![2](/images/2018/puppet2.jpg)
+![[puppet2.jpg]]
 
 ---
 
-![3](/images/2018/puppet3.jpg)
+![[puppet3.jpg]]

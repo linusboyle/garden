@@ -33,4 +33,4 @@ fi
 
 当然因为用了statusbar，也可以绑到顶栏上，看一看效果：（通知服务是deepin的）
 
-![效果](/images/2018/mute.gif)
+![[mute.gif]]

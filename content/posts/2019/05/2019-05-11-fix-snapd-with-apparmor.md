@@ -29,4 +29,4 @@ sudo apparmor_parse -r /var/lib/snapd/apparmor/profile/*
 
 一切正常，完美。
 
-![showcase](/images/2019/spotify.png)
+![[spotify.webp]]

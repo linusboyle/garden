@@ -69,4 +69,4 @@ echo -e $w3m_command|$W3MIMGDISPLAY
 
 截图：
 
-![pic](/images/2018/screen.png)
+![[screen.png]]

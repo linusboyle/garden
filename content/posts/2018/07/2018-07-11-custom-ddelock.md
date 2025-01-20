@@ -38,7 +38,7 @@ convert 的参数非常多，你可以配置出各种风格，比如科幻风，
 最后在控制中心把快捷键绑定上。按下super+l即可。
 
 演示：（深度录屏的gif录制失真比较严重……）
-![showcase](/images/2018/lockshowcase.gif)
+![[lockshowcase.gif]]
 
 ## 继续折腾
 
