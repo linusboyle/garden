@@ -1,7 +1,3 @@
----
-tags:
-  - annotation
----
 
 # out-of-cheese-errorgooseberry
 

@@ -1,7 +1,3 @@
----
-tags:
-  - annotation
----
 
 # DeepSeek-V3 正式发布  DeepSeek API Docs
 

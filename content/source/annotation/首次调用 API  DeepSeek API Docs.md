@@ -1,7 +1,3 @@
----
-tags:
-  - annotation
----
 
 # 首次调用 API  DeepSeek API Docs
 

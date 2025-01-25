@@ -1,7 +1,3 @@
----
-tags:
-  - annotation
----
 
 # Mastering the chaos of source notes
 
