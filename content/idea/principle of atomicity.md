@@ -1,7 +1,9 @@
 ---
 title: principle of atomicity
 date: 2021-02-23
-tags:
+tags: 
+aliases:
+  - atomic note
 ---
 
 a zettel should be atomic. it contains one unit of knowledge and one only.
