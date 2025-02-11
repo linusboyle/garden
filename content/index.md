@@ -10,17 +10,17 @@ date: 2025-01-19
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 
-| 修剪时间              | 链接                                                                                |
-| ----------------- | --------------------------------------------------------------------------------- |
-| February 11, 2025 | [[大语言模型测试：代码生成]]                                            |
-| February 09, 2025 | [[大语言模型测试：语料对齐]]                                            |
-| February 06, 2025 | [[ASPLOS25 & EuroSys25 中国参会人员]]              |
-| February 06, 2025 | [[跑团用于心理治疗？]]                                                  |
-| February 06, 2025 | [[爱情的辩证法]]                                                        |
-| February 06, 2025 | [[桌面角色扮演游戏]]                                                    |
-| February 06, 2025 | [[人类幼体观察]]                                                        |
-| February 06, 2025 | [[idea/principle of atomicity.md\|principle of atomicity]]                        |
-| February 06, 2025 | [[202404112030 DIMACS CNF format]] |
-| February 06, 2025 | [[idea/Zettelkasten.md\|Zettelkasten]]                                            |
+| 修剪时间              | 链接                                                                                                 |
+| ----------------- | -------------------------------------------------------------------------------------------------- |
+| February 11, 2025 | [[ASPLOS25 & EuroSys25 中国参会人员]]                               |
+| February 09, 2025 | [[大语言模型测试：代码生成]]                                                             |
+| February 09, 2025 | [[大语言模型测试：语料对齐]]                                                             |
+| February 05, 2025 | [[跑团用于心理治疗？]]                                                                   |
+| February 04, 2025 | [[桌面角色扮演游戏]]                                                                     |
+| February 04, 2025 | [[数字花园]]                                                                             |
+| February 04, 2025 | [[Unit Propagation]]                                                     |
+| February 04, 2025 | [[202404112127 CDCL algorithm]]                               |
+| February 04, 2025 | [[202404112103 DPLL algorithm for SAT solver]] |
+| February 04, 2025 | [[202404112030 DIMACS CNF format]]                  |
 <!-- SerializedQuery END -->
 
