@@ -10,17 +10,18 @@ date: 2025-01-19
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 
-| 修剪时间           | 链接                                                                             |
-| -------------- | ------------------------------------------------------------------------------ |
-| March 01, 2025 | [[玩家自主性]]                                                       |
-| March 01, 2025 | [[求是三农问题讨论会]]                                               |
-| March 01, 2025 | [[智能无人集群系统]]                                                 |
-| March 01, 2025 | [[布尔可满足性采样及其在软件测试中的应用]]                           |
-| March 01, 2025 | [[安科]]                                                             |
-| March 01, 2025 | [[linear rational theory]]                     |
-| March 01, 2025 | [[git的Unicode显示]]                                       |
-| March 01, 2025 | [[Verification Condition]]                     |
-| March 01, 2025 | [[Geas]]                                                         |
-| March 01, 2025 | [[Verification Condition Generator]] |
+| 修剪时间           | 链接                                                                   |
+| -------------- | -------------------------------------------------------------------- |
+| April 09, 2025 | [[ASPLOS25 & EuroSys25 中国参会人员]] |
+| April 09, 2025 | [[ASPLOS 参会计划]]                                 |
+| March 04, 2025 | [[“复兴”并非复刻]]                                       |
+| March 01, 2025 | [[玩家自主性]]                                             |
+| March 01, 2025 | [[求是三农问题讨论会]]                                     |
+| March 01, 2025 | [[智能无人集群系统]]                                       |
+| March 01, 2025 | [[布尔可满足性采样及其在软件测试中的应用]]                 |
+| March 01, 2025 | [[安科]]                                                   |
+| March 01, 2025 | [[linear rational theory]]           |
+| March 01, 2025 | [[git的Unicode显示]]                             |
 <!-- SerializedQuery END -->
+
 
