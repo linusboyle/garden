@@ -12,3 +12,5 @@ tags: []
 2. 两类不同的应用场景略有差别：
 	1. 需CPU算力的操作使用Task.Run在其他线程中进行
 	2. 单纯的等待：直接await
+
+底层的Task跟Javascript的Promise差不多，上层的async/await语法糖也类似。
