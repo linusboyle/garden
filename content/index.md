@@ -10,17 +10,17 @@ date: 2025-01-19
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 
-| 修剪时间              | 链接                                                                   |
-| ----------------- | -------------------------------------------------------------------- |
-| April 24, 2025    | [[数组近似建模堆内存]]                                     |
-| April 23, 2025    | [[鸿爪2025-04]]                                     |
-| April 02, 2025    | [[ASPLOS25 & EuroSys25 中国参会人员]] |
-| March 29, 2025    | [[ASPLOS 参会计划]]                                 |
-| March 02, 2025    | [[“复兴”并非复刻]]                                       |
-| February 27, 2025 | [[git的Unicode显示]]                             |
-| February 25, 2025 | [[Geas]]                                               |
-| February 23, 2025 | [[布尔可满足性采样及其在软件测试中的应用]]                 |
-| February 23, 2025 | [[智能无人集群系统]]                                       |
-| February 23, 2025 | [[求是三农问题讨论会]]                                     |
+| 修剪时间           | 链接                                                               |
+| -------------- | ---------------------------------------------------------------- |
+| May 02, 2025   | [[My Album of the Year 2024]] |
+| May 02, 2025   | [[Spotify]]                                     |
+| May 02, 2025   | [[Music Finds 2023]]                   |
+| May 02, 2025   | [[Last.fm]]                                     |
+| May 02, 2025   | [[鸿爪2025-04]]                                 |
+| April 29, 2025 | [[CSharp 异步编程]]                             |
+| April 25, 2025 | [[两首Joan Baez的歌]]                         |
+| April 25, 2025 | [[个人简介]]                                           |
+| April 24, 2025 | [[莱姆狂想曲-摘录]]                                   |
+| April 24, 2025 | [[数组近似建模堆内存]]                                 |
 <!-- SerializedQuery END -->
 
