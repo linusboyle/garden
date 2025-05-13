@@ -11,28 +11,28 @@ see also:
 
 **Rating:** [[鸿爪2024-12]]
 
-| Score | Meaning                                                       |
-| ----- | ------------------------------------------------------------- |
-| 0.5   | Trash: Plagiarism, AIGC, etc.                                 |
-| 1     | Waste of Time                                                 |
-| 1.5   | Only for completist                                           |
-| 2     | Unoriginal, boring                                            |
-| 2.5   | Only for those who get it, not for me                         |
-| 3     | Mediocre, won't listen again/one-hit wonders/functional music |
-| 3.5   | Decent, with some highlights                                  |
-| 4     | Excellent, very relistenable/great historical value           | 
-| 4.5   | Almost perfect, recommended for everyone                      |
-| 5     | Masterpiece, one of a kind                                    |
+| Score | Meaning                                             |
+| ----- | --------------------------------------------------- |
+| 0.5   | Trash: Plagiarism, AIGC, etc.                       |
+| 1.0   | Waste of Time                                       |
+| 1.5   | Not original, perfunctory                           |
+| 2.0   | I don't get it                                      |
+| 2.5   | functional music                                    |
+| 3.0   | Mediocre, won't listen again/one-hit wonders        |
+| 3.5   | Decent, with some highlights/great historical value |
+| 4.0   | Excellent, relistenable                             |
+| 4.5   | Almost perfect, recommended for everyone            | 
+| 5.0   | Masterpiece, one of a kind                          |
 
-| 分数 | 含义                                                 |
-| ---- | ---------------------------------------------------- |
-| 0.5  | 垃圾（AI，剽窃等）                                   |
-| 1    | 浪费时间                                             |
-| 1.5  | 只推荐给强迫症/希望听完作者完整作品的人              |
-| 2    | 无聊之作，没有多少原创性                             |
-| 2.5  | 或许需要能get到它的点，我个人无法接受                |
-| 3    | 及格，但我不会再听/功能性曲目/含有优秀单曲的平庸专辑 |
-| 3.5  | 高于平均水平，有一些高光                             |
-| 4    | 优秀，值得重听/具有重要历史价值                      |
-| 4.5  | 几乎很完美，推荐给所有听众                           | 
-| 5    | 完美，开山之作/独一无二的专辑                        |
+| 分数 | 含义                                  |
+| ---- | ------------------------------------- |
+| 0.5  | 垃圾（AI，剽窃..）                    |
+| 1.0  | 浪费时间/生理性不适                   |
+| 1.5  | 敷衍而无聊                            |
+| 2.0  | get不到                               |
+| 2.5  | 聊胜于无，功能性曲目                  | 
+| 3.0  | 及格，不会再听/含有优秀单曲的平庸专辑 |
+| 3.5  | 可圈可点/具有重要历史价值             |
+| 4.0  | 优秀，值得重听                        |
+| 4.5  | 几乎很完美，推荐给所有人              |
+| 5.0  | 完美/代表性专辑                       |
