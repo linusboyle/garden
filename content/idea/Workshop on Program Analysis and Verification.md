@@ -25,3 +25,8 @@ Session 2
 - Stellis, DSL for Separation Logic Entailments ($P \vdash Q$)
 - Relational and Unary Reasoning for sequential program verification.
 - Automatic Resource [[Bound Analysis]] for Rust
+
+---
+
+Keynote 2 *Math Variables v.s. Program Variables, Program Semantics* by **Yuan Chongyi (PKU)**
+
