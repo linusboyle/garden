@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     locale: "zh-CN",
     baseUrl: "garden.linusboyle.cn",
     ignorePatterns: ["_private", "private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    defaultDateType: "modified",
     generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
