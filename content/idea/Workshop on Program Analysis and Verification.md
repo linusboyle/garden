@@ -39,3 +39,11 @@ Session 3
 Session 4
 - Large language models for fuzzing Linux Kernel syscalls.
 - LLM for invariant generation
+- Natural language Specification with LLM
+
+Session 5
+- Optimization-based invariant generation (optimization-based-based constraint solving, as compared to template-based)
+	- Invariant also exists in continuous-time dynamical (ODE) system (trajectory does not lead to unsafe locations)
+	- For inductive invariant in real field, it is decidable but hard .
+	- Putinar's Positivstellensatz ; homogenization
+- LLM-Assisted static code checker
