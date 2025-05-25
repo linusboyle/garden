@@ -30,3 +30,12 @@ Session 2
 
 Keynote 2 *Math Variables v.s. Program Variables, Program Semantics* by **Yuan Chongyi (PKU)**
 
+Session 3
+
+- MyTalk
+- Probabilistic program verification & Dirichlet Problem
+- Evaluating the Effectiveness of Slice-Assisted program verification
+
+Session 4
+- Large language models for fuzzing Linux Kernel syscalls.
+- LLM for invariant generation
