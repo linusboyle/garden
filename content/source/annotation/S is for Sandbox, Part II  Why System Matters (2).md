@@ -1,7 +1,3 @@
----
-date: 2020-01-01
----
-
 # S is for Sandbox, Part II  Why System Matters (2)
 
 

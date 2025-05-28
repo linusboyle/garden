@@ -1,7 +1,3 @@
----
-date: 2020-01-01
----
-
 # Structuring Encounter Tables, Amended & Restated – Papers & Pencils
 
 

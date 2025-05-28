@@ -1,7 +1,3 @@
----
-date: 2020-01-01
----
-
 # How to Set Up and Use Faction Turns Addendum
 
 

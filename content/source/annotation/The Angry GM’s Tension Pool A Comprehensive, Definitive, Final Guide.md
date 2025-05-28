@@ -1,7 +1,3 @@
----
-date: 2020-01-01
----
-
 # The Angry GM’s Tension Pool A Comprehensive, Definitive, Final Guide
 
 

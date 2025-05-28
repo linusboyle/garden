@@ -1,7 +1,3 @@
----
-date: 2020-01-01
----
-
 # C is for Choices, Context, and Consequence (Part III)
 
 

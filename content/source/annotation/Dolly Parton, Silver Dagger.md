@@ -1,7 +1,3 @@
----
-date: 2020-01-01
----
-
 # Dolly Parton, Silver Dagger
 
 

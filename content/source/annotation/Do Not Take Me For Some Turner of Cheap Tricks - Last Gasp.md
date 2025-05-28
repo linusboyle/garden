@@ -1,7 +1,3 @@
----
-date: 2020-01-01
----
-
 # Do Not Take Me For Some Turner of Cheap Tricks - Last Gasp
 
 

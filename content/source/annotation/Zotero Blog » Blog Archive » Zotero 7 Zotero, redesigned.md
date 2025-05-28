@@ -1,7 +1,3 @@
----
-date: 2020-01-01
----
-
 # Zotero Blog » Blog Archive » Zotero 7 Zotero, redesigned
 
 

@@ -1,7 +1,3 @@
----
-date: 2020-01-01
----
-
 # Break and Prevent the Boredom Spiral
 
 
