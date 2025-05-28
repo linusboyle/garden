@@ -1,3 +1,6 @@
+---
+date: 1970-01-01
+---
 
 # DeepSeek-V3 正式发布  DeepSeek API Docs
 

@@ -1,3 +1,6 @@
+---
+date: 1970-01-01
+---
 
 # What’s a Thieves’ Guild and where did it come from
 

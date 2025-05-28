@@ -1,3 +1,6 @@
+---
+date: 1970-01-01
+---
 
 # The Making of the First English Jubensha
 

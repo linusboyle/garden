@@ -1,3 +1,6 @@
+---
+date: 1970-01-01
+---
 
 # Bloom filters - Eli Bendersky's website
 

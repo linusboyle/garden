@@ -1,3 +1,6 @@
+---
+date: 1970-01-01
+---
 
 # C is for Choices, Context, and Consequence (Part I)
 

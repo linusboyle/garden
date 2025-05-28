@@ -1,3 +1,6 @@
+---
+date: 1970-01-01
+---
 
 # Zotero Blog » Blog Archive » Zotero 7 Zotero, redesigned
 

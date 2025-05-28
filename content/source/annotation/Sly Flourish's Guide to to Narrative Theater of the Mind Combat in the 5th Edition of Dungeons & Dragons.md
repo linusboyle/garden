@@ -1,3 +1,6 @@
+---
+date: 1970-01-01
+---
 
 # Sly Flourish's Guide to to Narrative Theater of the Mind Combat in the 5th Edition of Dungeons & Dragons
 

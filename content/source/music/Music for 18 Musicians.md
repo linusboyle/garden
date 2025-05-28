@@ -1,3 +1,9 @@
+---
+title: Music for 18 Musicians
+date: 2025-05-28
+tags: []
+---
+
 [Music for 18 Musicians - Wikipedia](https://en.wikipedia.org/wiki/Music_for_18_Musicians)  
   
 

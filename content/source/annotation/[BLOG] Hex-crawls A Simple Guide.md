@@ -1,3 +1,6 @@
+---
+date: 1970-01-01
+---
 
 # [BLOG] Hex-crawls A Simple Guide
 
