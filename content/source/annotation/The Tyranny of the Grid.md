@@ -1,3 +1,7 @@
+---
+date: 2020-01-01
+---
+
 # The Tyranny of the Grid
 
 

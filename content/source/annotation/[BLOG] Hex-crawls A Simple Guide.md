@@ -1,3 +1,7 @@
+---
+date: 2020-01-01
+---
+
 # [BLOG] Hex-crawls A Simple Guide
 
 

@@ -1,3 +1,7 @@
+---
+date: 2020-01-01
+---
+
 # Hex-based Campaign Design (Part 1)  The Welsh Piper
 
 
