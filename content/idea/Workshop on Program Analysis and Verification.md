@@ -19,7 +19,7 @@ Session 1
 - Proof-integrated Programming (C* language in PKU)
 	- Encapsulation: Proof-Specification-Implementation (PSI) module
 	- Proofs in C (LCF architecture：user write proofs in C by calling functions in the C interface of HOL)
-- QCP (C verification tool with separation logic: symbolic execution -> vc generation -> SMTs, if failed, Manual Proof in Rocq)
+- QCP (C verification tool with separation logic: symbolic execution -> vc generation -> [[SMT]] s, if failed, Manual Proof in Rocq)
 
 Session 2
 - Stellis, DSL for Separation Logic Entailments ($P \vdash Q$)

@@ -7,20 +7,19 @@ date: 2025-01-19
 
 花园没有栅栏，也没有门扉，似乎在邀请过路人随意观览。近处有几株主人近期打理过的花卉。
 
-
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 
-| 修剪时间         | 链接                                                                                     |
-| ------------ | -------------------------------------------------------------------------------------- |
-| May 30, 2025 | [[20250530104343 神话地世]]                                   |
-| May 28, 2025 | [[个人简介]]                                                                 |
-| May 28, 2025 | [[布袋戏]]                                                                   |
-| May 28, 2025 | [[Aboue Me]]                                                         |
-| May 28, 2025 | [[202404061945 从Konsole迁移到Alacritty的原因]] |
-| May 28, 2025 | [[Vim]]                                                                   |
-| May 28, 2025 | [[vim filter lines by match]]                       |
-| May 28, 2025 | [[音乐欣赏]]                                                                 |
-| May 28, 2025 | [[数字花园]]                                                                 |
-| May 28, 2025 | [[rsshub开发]]                                                         |
+| 修剪时间          | 链接                                                                                                       |
+| ------------- | -------------------------------------------------------------------------------------------------------- |
+| June 05, 2025 | [[Workshop on Program Analysis and Verification]] |
+| June 05, 2025 | [[SMT]]                                                                                     |
+| June 05, 2025 | [[大语言模型测试：代码生成]]                                                                   |
+| June 05, 2025 | [[大语言模型测试：语料对齐]]                                                                   |
+| June 05, 2025 | [[CAT]]                                                                                     |
+| June 05, 2025 | [[大语言模型]]                                                                                 |
+| June 05, 2025 | [[玩家自主性]]                                                                                 |
+| June 03, 2025 | [[雾中奇谈]]                                                                                   |
+| May 30, 2025  | [[20250530104343 神话地世]]                                                     |
+| May 28, 2025  | [[个人简介]]                                                                                   |
 <!-- SerializedQuery END -->
