@@ -38,7 +38,7 @@ Session 3
 
 Session 4
 - Large language models for fuzzing Linux Kernel syscalls.
-- LLM for invariant generation
+- [[大语言模型|LLM]] for invariant generation
 - Natural language Specification with LLM
 
 Session 5
