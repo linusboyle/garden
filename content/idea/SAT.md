@@ -1,6 +1,6 @@
 ---
 title: SAT
-date: 2025-06-05
+date: 2021-01-11
 tags: 
 - 逻辑
 alias:
@@ -9,3 +9,5 @@ alias:
 ---
 
 即命题逻辑的可满足性问题，可判定，也是第一个被证明为 NP 完全的问题。
+
+An extension of SAT is [[SMT]]
