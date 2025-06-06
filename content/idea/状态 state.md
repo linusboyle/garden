@@ -1,0 +1,15 @@
+---
+title: 状态 state
+date: 2021-01-20
+tags: 
+aliases:
+  - state
+  - 程序状态
+---
+
+# 状态 state
+> a computer program stores data in variables, which represent storage locations in the computer's memory. The contents of these memory locations, at any given point in the program's execution, is called the program's state.（注：这里指的单纯是命令式程序的state）
+
+形式化地来说，程序的memory状态一般用valuation来表示（即变量到值的映射）。在[[命令式程序的建模]] 中，可以认为还存在一种更广意义上的状态，即程序位置与memory状态的组合（笛卡儿积），有时也称作configuration/配置。
+
+另外，如果程序不在语义上处理异常的话，可以通过加上一个error state解决。
