@@ -1,3 +1,9 @@
+---
+title: temporal liveness property
+date: 2021-01-20
+tags: 
+---
+
 # temporal liveness property
 The following definition assumes the property is expressed in temporal logic and thus the model are infinite sequence of states:
 
