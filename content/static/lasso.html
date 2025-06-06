@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:x="http://www.texmacs.org/2002/extensions" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <head>
+    <title>Lasso Trace Exists</title>
+    <meta content="TeXmacs 1.99.13" name="generator"></meta>
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.5em; } .subsup { display:
+      inline; vertical-align: -0.2em } .subsup td { padding: 0px; text-align:
+      left} .fraction { display: inline; vertical-align: -0.8em } .fraction td
+      { padding: 0px; text-align: center } .wide { position: relative;
+      margin-left: -0.4em } .accent { position: relative; margin-left: -0.4em;
+      top: -0.1em } .title-block { width: 100%; text-align: center }
+      .title-block p { margin: 0px } .compact-block p { margin-top: 0px;
+      margin-bottom: 0px } .left-tab { text-align: left } .center-tab {
+      text-align: center } .balloon-anchor { border-bottom: 1px dotted
+      #000000; outline: none; cursor: help; position: relative; }
+      .balloon-anchor [hidden] { margin-left: -999em; position: absolute;
+      display: none; } .balloon-anchor: hover [hidden] { position: absolute;
+      left: 1em; top: 2em; z-index: 99; margin-left: 0; width: 500px; display:
+      inline-block; } .balloon-body { } .ornament { border-width: 1px;
+      border-style: solid; border-color: black; display: inline-block;
+      padding: 0.2em; } .right-tab { float: right; position: relative; top:
+      -1em } 
+    </style>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" language="javascript"></script>
+  </head>
+  <body>
+    <table class="title-block">
+      <tr>
+        <td><table class="title-block">
+          <tr>
+            <td><font style="font-size: 168.2%"><b>Lasso Trace Exists</b></font></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <b>Lemma <class style="font-style: normal">1</class>. </b><i>For any non-empty Buchi
+      automaton \(A = (Q, \delta, q_0, F)\), there is \(w \in L (A)\) s.t. \(w
+      = u v^{\omega}\) where \(u, v \in \Sigma^{\ast}\).</i>
+    </p>
+    <p>
+      <p>
+        <b>Proof. </b>
+      </p>
+      <p>
+        Since A is non-empty, we take an arbitrary infinite word \(w \in L
+        (A)\). Suppose \(w = a_1 a_2 \cdots\).
+      </p>
+      <p>
+        From the acceptance condition of Buchi automaton, we know there must
+        be at least one final state \(q_f \in F\) that occurs in \(w\)
+        infinitely often. Assume at position i, after reading prefix \(a_1
+        \cdots a_i\), \(q_f\) is reached for the first time, and at position j
+        it is reached for the second time.
+      </p>
+      <p>
+        Then consider the infinite word \(w' = a_1 \cdots a_i (a_{i + 1}
+        \cdots a_j)^{\omega}\). Obviously \(w' \in L (A)\) and it satisfies
+        the condition.
+      </p>
+    </p>
+  </body>
+</html>

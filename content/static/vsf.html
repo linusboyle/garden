@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:x="http://www.texmacs.org/2002/extensions" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <head>
+    <title>VSF&#x5224;&#x5B9A;&#x7B97;&#x6CD5;</title>
+    <meta content="TeXmacs 1.99.13" name="generator"></meta>
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.5em; } .subsup { display:
+      inline; vertical-align: -0.2em } .subsup td { padding: 0px; text-align:
+      left} .fraction { display: inline; vertical-align: -0.8em } .fraction td
+      { padding: 0px; text-align: center } .wide { position: relative;
+      margin-left: -0.4em } .accent { position: relative; margin-left: -0.4em;
+      top: -0.1em } .title-block { width: 100%; text-align: center }
+      .title-block p { margin: 0px } .compact-block p { margin-top: 0px;
+      margin-bottom: 0px } .left-tab { text-align: left } .center-tab {
+      text-align: center } .balloon-anchor { border-bottom: 1px dotted
+      #000000; outline: none; cursor: help; position: relative; }
+      .balloon-anchor [hidden] { margin-left: -999em; position: absolute;
+      display: none; } .balloon-anchor: hover [hidden] { position: absolute;
+      left: 1em; top: 2em; z-index: 99; margin-left: 0; width: 500px; display:
+      inline-block; } .balloon-body { } .ornament { border-width: 1px;
+      border-style: solid; border-color: black; display: inline-block;
+      padding: 0.2em; } .right-tab { float: right; position: relative; top:
+      -1em } 
+    </style>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" language="javascript"></script>
+  </head>
+  <body>
+    <table class="title-block">
+      <tr>
+        <td><table class="title-block">
+          <tr>
+            <td><font style="font-size: 168.2%"><b>VSF&#x5224;&#x5B9A;&#x7B97;&#x6CD5;</b></font></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+    <p>
+      &#x4E0B;&#x9762;&#x7684;&#x7B97;&#x6CD5;&#x9700;&#x8981;&#x5BF9;Regex&#x4F5C;&#x53D8;&#x6362;&#xFF0C;&#x4ECE;&#x800C;&#x6539;&#x53D8;&#x62EC;&#x53F7;&#x7684;&#x6807;&#x53F7;&#xFF0C;&#x56E0;&#x6B64;&#xFF0C;&#x91C7;&#x7528;&#x65B0;&#x7684;&#x5199;&#x6CD5;&#x3002;Regex&#x4E2D;&#x7684;&#x6355;&#x83B7;&#x7EC4;&#x7528;&#x4E00;&#x4E2A;<b>&#x8DB3;&#x591F;&#x5927;&#x7684;</b>&#x548C;&#x5B57;&#x6BCD;&#x8868;&#x4E0D;&#x76F8;&#x4EA4;&#x7684;&#x53D8;&#x91CF;&#x96C6;&Gamma;&#x4E2D;&#x7684;&#x53D8;&#x91CF;x&#x8868;&#x793A;&#xFF0C;&#x53D8;&#x91CF;&#x7684;&#x6355;&#x83B7;&#x5199;&#x4F5C;(e)%x&#xFF1B;&#x53D8;&#x91CF;&#x7684;&#x5F15;&#x7528;&#x76F4;&#x63A5;&#x5199;&#x4F5C;x&#x3002;
+    </p>
+    <p>
+      &#x6CA1;&#x6709;%x&#x7684;&#x62EC;&#x53F7;&#x53EA;&#x6307;&#x793A;&#x4F18;&#x5148;&#x7EA7;&#x3002;
+    </p>
+    <p>
+      &#x5982;&#xFF1A;\((a^{\ast})  (a|b) \backslash 1 \Rightarrow (a^{\ast})
+      \%x (a|b) x\)
+    </p>
+    <h2 id="auto-1">1<span style="margin-left: 1em"></span>&#x6982;&#x8FF0;<span style="margin-left: 1em"></span></h2>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <b>&#x95EE;&#x9898; <class style="font-style: normal">1</class>. </b>&#x7ED9;&#x5B9A;vsf
+      regex u, v &#x5224;&#x5B9A;\(L (u) \cap L
+      (v)\)&#x662F;&#x5426;&#x4E3A;&#x7A7A;
+    </p>
+    <p>
+      &#x5173;&#x4E8E;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x6B64;&#x524D;[<a
+      href="#bib-freydenbergerLogicDocumentSpanners2019">1</a>]&#x7684;&#x505A;&#x6CD5;&#x662F;&#x628A;&#x95EE;&#x9898;&#x8F6C;&#x6362;&#x5230;SpLog&#xFF0C;&#x800C;[<a
+      href="#bib-freydenbergerDeterministicRegularExpressions2019">2</a>]&#x4E2D;&#x5BF9;&#x786E;&#x5B9A;&#x578B;&#x7684;vsf&#x7684;&#x4E00;&#x79CD;&#x7C7B;&#x4F3C;&#x5224;&#x5B9A;&#x662F;&#x901A;&#x8FC7;TMFA&#x5B8C;&#x6210;&#x7684;&#x3002;&#x4E0B;&#x9762;&#x7ED9;&#x51FA;&#x7684;&#x662F;&#x4E00;&#x79CD;&#x901A;&#x8FC7;&#x76F4;&#x63A5;&#x5728;regex&#x5C42;&#x9762;&#x53D8;&#x6362;&#xFF0C;&#x6700;&#x540E;&#x8F6C;&#x6362;&#x4E3A;Word
+      Equation&#x6C42;&#x89E3;&#x7684;&#x5224;&#x5B9A;&#x65B9;&#x6CD5;&#x3002;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x9996;&#x5148;&#xFF0C;&#x89C2;&#x5BDF;&#x5230;regex&#x7684;&#x51E0;&#x4E2A;&#x6027;&#x8D28;&#xFF1A;
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <b>&#x5F15;&#x7406; <class style="font-style: normal">1</class>.
+      </b><i>&#x5982;&#x679C;&#x4E00;&#x4E2A;regex&#x4E2D;&#x6240;&#x6709;&#x53D8;&#x91CF;&#x5BF9;&#x5E94;&#x7684;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;&#x90FD;&#x4E0D;&#x542B;Star&#xFF0C;&#x90A3;&#x4E48;&#x6B64;regex&#x5B9E;&#x9645;&#x4E0A;&#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E2A;&#x6B63;&#x89C4;&#x8BED;&#x8A00;&#x3002;</i>
+    </p>
+    <p>
+      &#x6362;&#x8A00;&#x4E4B;&#xFF0C;regex&#x548C;&#x4F20;&#x7EDF;&#x6B63;&#x89C4;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x533A;&#x522B;&#x5176;&#x5B9E;&#x4E0D;&#x6765;&#x81EA;&#x4E8E;&#x9006;&#x5F15;&#x7528;&#x672C;&#x8EAB;&#xFF0C;&#x800C;&#x662F;&#x9006;&#x5F15;&#x7528;&#x548C;Star&#x540C;&#x65F6;&#x4F5C;&#x7528;&#x7684;&#x7ED3;&#x679C;&#x3002;
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <b>&#x4F8B; <class style="font-style: normal">1</class>. </b>\(L ((a|b) \%x c x) = L
+      (\operatorname{aca}|\operatorname{bca})\)
+    </p>
+    <p>
+      
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <b>&#x5F15;&#x7406; <class style="font-style: normal">2</class>.
+      </b><i>&#x5BF9;&#x4E00;&#x4E2A;regex&#xFF0C;&#x5982;&#x679C;&#x5728;&#x5176;AST&#x4E2D;&#xFF0C;&#x67D0;&#x4E2A;&#x53D8;&#x91CF;x&#x7684;&#x6355;&#x83B7;&#x548C;&#x5F15;&#x7528;&#x5206;&#x5C5E;&#x67D0;alternation&#x8282;&#x70B9;&#x7684;&#x4E24;&#x4E2A;&#x5B50;&#x6811;&#xFF0C;&#x90A3;&#x4E48;&#x5220;&#x9664;&#x6B64;&#x5F15;&#x7528;&#x4E0D;&#x5F71;&#x54CD;&#x6B64;regex&#x7684;&#x8BED;&#x8A00;&#x3002;</i>
+    </p>
+    <p>
+      &#x6362;&#x8A00;&#x4E4B;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5B89;&#x5168;&#x5730;&#x5047;&#x8BBE;&#x53D8;&#x91CF;&#x7684;&#x6355;&#x83B7;&#x548C;&#x5F15;&#x7528;&#x5728;&#x6BCF;&#x4E00;&#x4E2A;alternation&#x7684;&#x540C;&#x4E00;&#x4E2A;&#x6790;&#x53D6;&#x652F;&#x5185;&#x3002;
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <b>&#x5F15;&#x7406; <class style="font-style: normal">3</class>.
+      </b><i>&#x5220;&#x9664;&#x6CA1;&#x6709;&#x5F15;&#x7528;&#x7684;&#x6355;&#x83B7;&#x548C;&#x6CA1;&#x6709;&#x6355;&#x83B7;&#x7684;&#x5F15;&#x7528;&#x4E0D;&#x6539;&#x53D8;&#x8BED;&#x8A00;</i>
+    </p>
+    <p>
+      &#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#xFF1A;
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <b>&#x4F8B; <class style="font-style: normal">2</class>. </b>\(L ((a^{\ast}) \%x|x b) = L
+      ((a^{\ast}) \%x| b) = L (a^{\ast} |b)\)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x4E0B;&#x9762;&#xFF0C;&#x975E;&#x5F62;&#x5F0F;&#x5316;&#x5730;&#x7B80;&#x8FF0;&#x5224;&#x5B9A;&#x7B97;&#x6CD5;&#x7684;&#x57FA;&#x672C;&#x601D;&#x8DEF;&#xFF1A;
+    </p>
+    <ol>
+      <li>
+        <p>
+          &#x4F7F;&#x7528;&#x4E00;&#x79CD;&#x8FED;&#x4EE3;&#x8FC7;&#x7A0B;&#xFF0C;&#x5C06;regex
+          u&#x548C;v&#x90FD;&#x53D8;&#x6362;&#x4E3A;&#x4E00;&#x79CD;&#x7B49;&#x4EF7;&#x7684;&#x8303;&#x5F0F;&#x3002;&#x8FD9;&#x79CD;&#x8303;&#x5F0F;&#x7C7B;&#x4F3C;&#x4E8E;&#x6790;&#x53D6;&#x8303;&#x5F0F;&#xFF0C;&#x8981;&#x6C42;regex&#x7531;&#x4E00;&#x7CFB;&#x5217;alternation&#x7EC4;&#x6210;&#x3002;&#x5373;\(a
+          = b_1 |b_2 | \ldots
+          |b_m\)&#xFF0C;&#x5176;&#x4E2D;&#xFF0C;&#x6BCF;&#x4E00;&#x4E2A;b&#x4E2D;&#xFF0C;alternation&#x53EA;&#x5728;Star&#x4E2D;&#x51FA;&#x73B0;&#x3002;
+        </p>
+      </li>
+      <li>
+        <p>
+          &#x66F4;&#x8FDB;&#x4E00;&#x6B65;&#xFF0C;&#x8981;&#x6C42;&#x5C06;&#x6BCF;&#x4E00;&#x4E2A;&#x6790;&#x53D6;&#x652F;b&#x5316;&#x4E3A;\(e_1
+          e_2 \ldots
+          e_n\)&#x7684;&#x5F62;&#x5F0F;&#x3002;&#x5176;&#x4E2D;&#xFF0C;&#x6BCF;&#x4E00;&#x4E2A;e&#x5982;&#x679C;&#x662F;&#x53D8;&#x91CF;&#x7684;&#x6355;&#x83B7;(e)%x&#xFF0C;&#x5219;e&#x5FC5;&#x5B9A;&#x662F;&#x4E00;&#x4E2A;Kleene
+          Star&#x3002;
+        </p>
+      </li>
+      <li>
+        <p>
+          &#x5206;&#x522B;&#x4ECE;u&#x548C;v&#x7684;&#x8303;&#x5F0F;&#x4E2D;<b>&#x4E0D;&#x786E;&#x5B9A;&#x5730;</b>&#x9009;&#x62E9;&#x4E00;&#x4E2A;&#x6790;&#x53D6;&#x652F;\(b_u\)&#x548C;\(b_v\)&#x3002;
+        </p>
+      </li>
+      <li>
+        <p>
+          &#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x5C06;\(b_u\)&#x548C;\(b_v\)&#x5206;&#x522B;&#x8F6C;&#x5316;&#x4E3A;&#x5E26;&#x6B63;&#x5219;&#x7EA6;&#x675F;&#x7684;word
+          equation&#x3002;&#x5DF2;&#x77E5;&#x6B64;&#x7406;&#x8BBA;&#x662F;&#x53EF;&#x5224;&#x5B9A;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x4F7F;&#x7528;&#x4E00;&#x79CD;&#x5DF2;&#x6709;&#x7684;&#x5224;&#x5B9A;&#x7B97;&#x6CD5;&#x89E3;&#x4E4B;&#xFF0C;&#x5373;&#x53EF;&#x5224;&#x5B9A;VSF&#x76F8;&#x4EA4;&#x7684;&#x975E;&#x7A7A;&#x6027;&#x3002;
+        </p>
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+    <p>
+      &#x9996;&#x5148;&#x7ED9;&#x51FA;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#x8BF4;&#x660E;&#x8FED;&#x4EE3;&#x8FC7;&#x7A0B;&#x662F;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#x7684;&#xFF1A;
+    </p>
+    <p>
+      <p>
+        <b>&#x4F8B; <class style="font-style: normal">3</class>. </b>&#x5BF9;regex \(( a^{\ast}
+        (c|d) b^{\ast} |  b^{\ast} (c|d)^{\ast} a^{\ast}) \%x
+        (x|p)\)&#xFF0C;&#x9996;&#x5148;&#x5C55;&#x5F00;&#x6240;&#x6709;&#x4E0D;&#x5728;Star&#x548C;&#x6355;&#x83B7;&#x4E2D;&#x51FA;&#x73B0;&#x7684;alternation&#xFF1A;
+      </p>
+      <center>
+        \begin{eqnarray*}
+  ( a^{\ast} (c|d) b^{\ast} |  b^{\ast} (c|d)^{\ast}
+        a^{\ast}) \%x (x|p) &
+  \Rightarrow & ( a^{\ast} c b^{\ast} |a^{\ast}
+        d b^{\ast} |  b^{\ast}
+  (c|d)^{\ast} a^{\ast}) \%x (x|p)\\
+  &
+        \Rightarrow & ( a^{\ast} c b^{\ast} |a^{\ast} d b^{\ast} |  b^{\ast}
+ 
+        (c|d)^{\ast} a^{\ast}) \%x x| ( a^{\ast} c b^{\ast} |a^{\ast} d
+        b^{\ast} | 
+  b^{\ast} (c|d)^{\ast} a^{\ast}) \%x p\\
+  & \Rightarrow
+        & ( a^{\ast} c b^{\ast} |a^{\ast} d b^{\ast} |  b^{\ast}
+ 
+        (c|d)^{\ast} a^{\ast}) \%x x| ( a^{\ast} c b^{\ast} |a^{\ast} d
+        b^{\ast} | 
+  b^{\ast} (c|d)^{\ast} a^{\ast}) p\\
+  & \Rightarrow & (
+        a^{\ast} c b^{\ast} |a^{\ast} d b^{\ast} |  b^{\ast}
+  (c|d)^{\ast}
+        a^{\ast}) \%x x|a^{\ast} c b^{\ast} p|a^{\ast} d b^{\ast}
+  p|b^{\ast}
+        (c|d)^{\ast} a^{\ast} p
+\end{eqnarray*}
+      </center>
+      <p>
+        &#x73B0;&#x5728;&#xFF0C;alternation&#x53EA;&#x51FA;&#x73B0;&#x5728;Star&#x548C;x&#x7684;&#x6355;&#x83B7;&#x4E2D;&#xFF0C;&#x5BF9;&#x53D8;&#x91CF;x&#x7684;&#x6355;&#x83B7;&#xFF0C;&#x901A;&#x8FC7;&#x53D8;&#x91CF;&#x91CD;&#x547D;&#x540D;&#x5C55;&#x5F00;&#x5176;&#x9876;&#x5C42;&#x7684;alternation&#xFF1A;
+      </p>
+      <center>
+        \begin{eqnarray*}
+  ( a^{\ast} c b^{\ast} |a^{\ast} d b^{\ast} | 
+        b^{\ast} (c|d)^{\ast}
+  a^{\ast}) \%x x & \Rightarrow & (a^{\ast} c
+        b^{\ast}) \%x_1 x_1 | (a^{\ast}
+  d b^{\ast}) \%x_2 x_2 | (b^{\ast}
+        (c|d)^{\ast} a^{\ast}) \%x_3 x_3
+\end{eqnarray*}
+      </center>
+      <p>
+        &#x73B0;&#x5728;&#x5DF2;&#x7ECF;&#x5F97;&#x5230;&#x4E86;&#x6790;&#x53D6;&#x5F62;&#x5F0F;&#x7684;&#x7B49;&#x4EF7;regex&#xFF0C;&#x4F46;&#x662F;&#x8FD8;&#x4E0D;&#x6EE1;&#x8DB3;&#x6355;&#x83B7;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x4E00;&#x5B9A;&#x662F;Star&#x3002;&#x56E0;&#x6B64;&#x8FDB;&#x4E00;&#x6B65;&#x5C55;&#x5F00;concatenation&#xFF1A;
+      </p>
+      <center>
+        \begin{eqnarray*}
+  (b^{\ast} (c|d)^{\ast} a^{\ast}) \%x_3 x_3 &
+        \Rightarrow & (b^{\ast}) \%y_1
+  ((c|d)^{\ast}) \%y_2 (a^{\ast}) \%y_3
+        y_1 y_2 y_3
+\end{eqnarray*}
+      </center>
+      <p>
+        &#x8FD9;&#x6837;&#x5C31;&#x5F97;&#x5230;&#x4E86;&#x539F;&#x5F0F;&#x7684;&#x4E00;&#x4E2A;&#x7B49;&#x4EF7;&#x5F62;&#x5F0F;&#xFF0C;&#x7531;&#x4E00;&#x7CFB;&#x5217;alternation&#x8FDE;&#x63A5;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x7EC4;&#x6210;&#xFF0C;&#x6BCF;&#x4E00;&#x4E2A;&#x8868;&#x8FBE;&#x5F0F;&#x4E2D;&#x90FD;&#x53EA;&#x5B58;&#x5728;&#x5BF9;Star&#x7684;&#x6355;&#x83B7;&#x3002;
+      </p>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x4E0B;&#x9762;&#x662F;&#x4E00;&#x4E2A;&#x5F52;&#x7EA6;&#x5230;word
+      equation&#x7684;&#x4F8B;&#x5B50;&#xFF1A;
+    </p>
+    <p>
+      <p>
+        <b>&#x4F8B; <class style="font-style: normal">4</class>.
+        </b>&#x8BBE;&#x53D8;&#x6362;&#x540E;&#x7684;&#x8303;&#x5F0F;&#x6709;&#x4E00;&#x4E2A;&#x6790;&#x53D6;&#x652F;&#x662F;\(c^{\ast}
+        ((a^{\ast} |b)^{\ast}) \%x d
+        x\)&#x3002;&#x9996;&#x5148;&#xFF0C;&#x627E;&#x51FA;&#x6240;&#x6709;&#x6355;&#x83B7;&#xFF0C;&#x8BB0;&#x4E0B;&#x5BF9;&#x5E94;&#x7684;&#x53D8;&#x91CF;&#xFF08;&#x8FD9;&#x91CC;&#x662F;x&#xFF09;&#xFF0C;&#x7136;&#x540E;&#x627E;&#x51FA;&#x6240;&#x6709;&#x6CA1;&#x6709;&#x88AB;&#x6355;&#x83B7;&#x7684;Star&#xFF0C;&#x7ED9;&#x6BCF;&#x4E00;&#x4E2A;&#x8FD9;&#x6837;&#x7684;Star&#x5206;&#x914D;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x540D;&#x3002;&#x6BD4;&#x5982;&#xFF0C;&#x5047;&#x8BBE;&#x8FD9;&#x91CC;&#x7ED9;\(c^{\ast}\)&#x5206;&#x914D;y&#x3002;&#x8BBE;w&#x662F;&#x4E00;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x8868;&#x793A;&#x8F93;&#x5165;&#x4E32;&#x7684;&#x53D8;&#x91CF;&#x3002;&#x8FD9;&#x6837;&#xFF0C;&#x6B64;&#x6790;&#x53D6;&#x652F;&#x88AB;&#x8F6C;&#x6362;&#x4E3A;&#xFF1A;
+      </p>
+      <center>
+        \begin{eqnarray*}
+  w = y + x +' d' + x &  & \\
+  x \in L ((a^{\ast}
+        |b)^{\ast}) &  & \\
+  y \in L (c^{\ast}) &  & 
+\end{eqnarray*}
+      </center>
+    </p>
+    <p>
+      
+    </p>
+    <h2 id="auto-2">2<span style="margin-left: 1em"></span>&#x5F62;&#x5F0F;&#x5316;<span style="margin-left: 1em"></span></h2>
+    <p>
+      <p>
+        <b>&#x5B9A;&#x4E49; <class style="font-style: normal">1</class>. </b><i>vsf
+        regex&#x8BED;&#x6CD5;&#xFF1A; </i>
+      </p>
+      <p>
+        <i><p>
+          \(\alpha := \alpha_1 \alpha_2 | \alpha_1 + \alpha_2 | \beta^{\ast} |
+          (\alpha)
+\%x|x|c| \varepsilon\)
+        </p></i>
+      </p>
+      <p>
+        <i>\(\beta := \beta_1 \beta_2 | \beta_1 + \beta_2 | \beta^{\ast} |c|
+        \varepsilon\)</i>
+      </p>
+    </p>
+    <p>
+      &#x5BF9;&#x4E8E;&#x4E00;&#x4E2A;&#x8F93;&#x5165;&#x7684;vsf
+      regex&#xFF0C;&#x9996;&#x5148;&#x5220;&#x9664;&#x5176;&#x6240;&#x6709;&#x8BED;&#x6CD5;&#x4E0A;&#x5197;&#x4F59;&#x7684;&#x53D8;&#x91CF;&#xFF08;&#x5373;&#x300C;&#x5DE6;&#x4FA7;&#x300D;&#x6CA1;&#x6709;&#x6355;&#x83B7;&#x7684;&#x53D8;&#x91CF;&#xFF09;&#xFF0C;&#x4EE5;&#x53CA;&#x6EE1;&#x8DB3;&#x5F15;&#x7406;2&#x6216;3&#x6761;&#x4EF6;&#x7684;&#x53D8;&#x91CF;&#x548C;&#x6355;&#x83B7;&#x3002;&#x5C06;&#x7B80;&#x5316;&#x540E;&#x7684;regex&#x8F93;&#x5165;&#x540E;&#x7EED;&#x4F8B;&#x7A0B;&#x3002;
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <b>&#x5B9A;&#x4E49; <class style="font-style: normal">2</class>. </b><i>&#x79F0;vsf regex
+      a&#x662F;&#x4F2A;&#x6790;&#x53D6;&#x8303;&#x5F0F;&#xFF0C;&#x5982;&#x679C;a&#x4E3A;\(a_1
+      + \cdots +
+      a_n\)&#x7684;&#x5F62;&#x5F0F;&#xFF0C;&#x4E14;&#x6BCF;&#x4E2A;\(a_i\)&#x4E2D;&#xFF0C;alternation&#x53EA;&#x5728;&#x6355;&#x83B7;&#x6216;star&#x4E2D;&#x51FA;&#x73B0;&#x3002;</i>
+    </p>
+    <p>
+      <p>
+        <b>&#x5B9A;&#x4E49; <class style="font-style: normal">3</class>.
+        </b><i>&#x5B9A;&#x4E49;&#x4F5C;&#x7528;&#x4E8E;vsf regex
+        u&#x7684;&#x7B97;&#x5B50;T&#x5982;&#x4E0B;&#xFF1A;</i>
+      </p>
+      <p>
+        <i></i>
+      </p>
+      <p>
+        <i><ul>
+          <li>
+            <p>
+              &#x5982;&#x679C;\(u = e_1 + e_2\)&#xFF0C;&#x5219;\(T (u) = T
+              (e_1) + T (e_2)\)
+            </p>
+          </li>
+          <li>
+            <p>
+              &#x5982;&#x679C;\(u = e_1 e_2\)
+            </p>
+            <p>
+              &#x5047;&#x8BBE;\(T (e_1) = \Sigma^n_1 s_i, T (e_2) = \Sigma^m_1
+              t_j\)&#x3002;&#x5B9A;&#x4E49;Q&#x4E3A;u&#x4E2D;&#x6240;&#x6709;&#x540C;&#x65F6;&#x51FA;&#x73B0;&#x5F15;&#x7528;&#x548C;&#x6355;&#x83B7;&#x7684;&#x53D8;&#x91CF;&#x96C6;&#xFF0C;\(\Gamma_i\)&#x4E3A;\(s_i\)&#x4E2D;&#x88AB;&#x6355;&#x83B7;&#x7684;&#x53D8;&#x91CF;&#x96C6;&#xFF0C;\(S_{i
+              j} = s_i \circ t_j [\varepsilon / Q -
+              \Gamma_i]\)&#xFF0C;&#x5176;&#x4E2D;\([x /
+              y]\)&#x8868;&#x793A;y&#x66FF;&#x6362;&#x4E3A;x&#x3002;
+            </p>
+            <p>
+              &#x5219;&#x6709;\(T (u) = \Sigma_i \Sigma_j S_{i j}\)
+            </p>
+          </li>
+          <li>
+            <p>
+              &#x5426;&#x5219;\(T (u) = u\)
+            </p>
+          </li>
+        </ul></i>
+      </p>
+    </p>
+    <p>
+      <p>
+        <b>&#x5F15;&#x7406; <class style="font-style: normal">4</class>.
+        </b><i>&#x5982;&#x679C;u&#x662F;&#x88AB;&#x7B80;&#x5316;&#x540E;&#x7684;vsf
+        regex&#xFF0C;v=T(u)&#x4E00;&#x5B9A;&#x6EE1;&#x8DB3;&#x5982;&#x4E0B;&#x6027;&#x8D28;&#xFF1A;</i>
+      </p>
+      <p>
+        <i></i>
+      </p>
+      <p>
+        <i><ol>
+          <li>
+            <p>
+              v&#x662F;&#x4F2A;&#x6790;&#x53D6;&#x8303;&#x5F0F;
+            </p>
+          </li>
+          <li>
+            <p>
+              &#x5BF9;&#x4EFB;&#x610F;&#x53D8;&#x91CF;x&#xFF0C;&#x6BCF;&#x4E00;&#x4E2A;&#x6790;&#x53D6;&#x652F;&#x5185;&#x6700;&#x591A;&#x51FA;&#x73B0;&#x4E00;&#x6B21;x&#x7684;&#x6355;&#x83B7;
+            </p>
+          </li>
+          <li>
+            <p>
+              &#x5BF9;&#x4EFB;&#x610F;&#x53D8;&#x91CF;x&#xFF0C;&#x5982;&#x679C;x&#x7684;&#x6355;&#x83B7;&#x5728;u&#x4E2D;&#x51FA;&#x73B0;&#xFF0C;&#x4E14;v&#x7684;&#x4E00;&#x4E2A;&#x6790;&#x53D6;&#x652F;&#x5185;&#x51FA;&#x73B0;x&#x7684;&#x5F15;&#x7528;&#xFF0C;&#x5219;&#x5FC5;&#x5B9A;&#x4E5F;&#x51FA;&#x73B0;x&#x7684;&#x6355;&#x83B7;&#xFF0C;&#x4E14;&#x5728;&#x5F15;&#x7528;&#x4E4B;&#x524D;&#x51FA;&#x73B0;&#x3002;
+            </p>
+          </li>
+        </ol></i>
+      </p>
+    </p>
+    <p>
+      <p>
+        <b>&#x8BC1;&#x660E;.
+        </b>&#x5BF9;u&#x5E94;&#x7528;&#x7ED3;&#x6784;&#x5F52;&#x7EB3;&#x6CD5;&#x3002;
+      </p>
+      <ul>
+        <li>
+          <p>
+            &#x57FA;&#x7840;&#x60C5;&#x51B5;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#xFF0C;&#x5BB9;&#x6613;&#x9A8C;&#x8BC1;&#x3002;
+          </p>
+        </li>
+        <li>
+          <p>
+            &#x5F53;\(u = e_1 +
+            e_2\)&#xFF0C;&#x7531;&#x5F52;&#x7EB3;&#x6761;&#x4EF6;&#x53EF;&#x77E5;\(T
+            (e_1) 、T
+            (e_2)\)&#x90FD;&#x662F;&#x4F2A;&#x6790;&#x53D6;&#x8303;&#x5F0F;&#xFF0C;&#x6240;&#x4EE5;T(u)&#x4E5F;&#x662F;&#x3002;
+          </p>
+          <p>
+            &#x8003;&#x8651;&#x6761;&#x4EF6;2&#xFF0C;&#x5BF9;&#x4EFB;&#x610F;&#x53D8;&#x91CF;x&#xFF0C;&#x7531;&#x5F52;&#x7EB3;&#x6761;&#x4EF6;&#x77E5;\(T
+            (e_1) 、T
+            (e_2)\)&#x5185;&#x6700;&#x591A;&#x51FA;&#x73B0;1&#x6B21;x&#x7684;&#x6355;&#x83B7;&#xFF0C;&#x7531;&#x4E8E;T(u)&#x7684;&#x6790;&#x53D6;&#x652F;&#x5C31;&#x662F;&#x4E8C;&#x8005;&#x7684;&#x6790;&#x53D6;&#x652F;&#x7684;&#x5E76;&#xFF0C;&#x6240;&#x4EE5;T(u)&#x4E5F;&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;2&#x3002;
+          </p>
+          <p>
+            &#x8003;&#x8651;&#x6761;&#x4EF6;3&#xFF0C;&#x5982;&#x679C;x&#x7684;&#x6355;&#x83B7;&#x5728;u&#x4E2D;&#x51FA;&#x73B0;&#xFF0C;&#x5206;&#x4E24;&#x79CD;&#x60C5;&#x51B5;&#xFF1A;&#x5982;&#x679C;&#x6355;&#x83B7;&#x662F;&#x5728;\(e_1\)&#x4E2D;&#x51FA;&#x73B0;&#xFF0C;&#x5219;&#x82E5;v&#x7684;&#x4E00;&#x4E2A;&#x6790;&#x53D6;&#x652F;&#x5185;&#x6709;x&#xFF0C;&#x6839;&#x636E;&#x7B80;&#x5316;&#x89C4;&#x5219;&#xFF0C;&#x6B64;&#x6790;&#x53D6;&#x652F;&#x5FC5;&#x7136;&#x6765;&#x81EA;\(\)\(T
+            (e_1)\)&#xFF0C;&#x5219;&#x7531;&#x5F52;&#x7EB3;&#x6761;&#x4EF6;&#x77E5;3&#x6210;&#x7ACB;&#xFF1B;&#x5982;&#x679C;&#x6355;&#x83B7;&#x662F;&#x5728;\(e_2\)&#x4E2D;&#x51FA;&#x73B0;&#xFF0C;&#x5219;&#x82E5;v&#x7684;&#x4E00;&#x4E2A;&#x6790;&#x53D6;&#x652F;&#x5185;&#x6709;x&#xFF0C;&#x6839;&#x636E;&#x7B80;&#x5316;&#x89C4;&#x5219;&#xFF0C;&#x6B64;&#x6790;&#x53D6;&#x652F;&#x5FC5;&#x7136;&#x6765;&#x81EA;\(T
+            (e_2)\)&#xFF0C;&#x540C;&#x6837;&#x5730;&#xFF0C;&#x7531;&#x5F52;&#x7EB3;&#x6761;&#x4EF6;&#x77E5;3&#x6210;&#x7ACB;&#x3002;
+          </p>
+        </li>
+        <li>
+          <p>
+            &#x5F53;\(u = e_1
+            e_2\),&#x7531;&#x5F52;&#x7EB3;&#x6761;&#x4EF6;&#x77E5;\(T (e_1)
+            、T
+            (e_2)\)&#x4E2D;&#x90FD;&#x4E0D;&#x542B;alternation&#x7684;&#x81EA;&#x7531;&#x51FA;&#x73B0;.&#x56E0;&#x4E3A;T(u)&#x662F;\(T
+            (e_1) 、T
+            (e_2)\)&#x6790;&#x53D6;&#x652F;&#x7684;&#x7EC4;&#x5408;&#xFF0C;&#x6240;&#x4EE5;&#x4E5F;&#x5FC5;&#x7136;&#x4E0D;&#x542B;alternation&#x7684;&#x81EA;&#x7531;&#x51FA;&#x73B0;&#x3002;
+          </p>
+          <p>
+            &#x8003;&#x8651;&#x6761;&#x4EF6;2&#xFF0C;&#x7531;&#x6761;&#x4EF6;2&#x7684;&#x5F52;&#x7EB3;&#x6761;&#x4EF6;&#x77E5;&#xFF0C;&#x5BF9;&#x4EFB;&#x610F;&#x53D8;&#x91CF;x&#xFF0C;&#x6BCF;&#x4E00;&#x4E2A;s&#x548C;t&#x4E2D;&#x90FD;&#x6700;&#x591A;&#x6709;&#x4E00;&#x4E2A;x&#x7684;&#x6355;&#x83B7;&#x3002;&#x7531;&#x4E8E;&#x8F93;&#x5165;&#x7684;u&#x4E2D;&#x540C;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x6355;&#x83B7;&#xFF0C;&#x6240;&#x4EE5;s&#x548C;t&#x4E0D;&#x53EF;&#x80FD;&#x540C;&#x65F6;&#x6709;&#x6355;&#x83B7;&#xFF0C;&#x6240;&#x4EE5;v&#x7684;&#x6790;&#x53D6;&#x652F;&#x4E2D;&#x4E5F;&#x6700;&#x591A;&#x6709;&#x4E00;&#x4E2A;&#x6355;&#x83B7;&#x3002;
+          </p>
+          <p>
+            &#x8003;&#x8651;&#x6761;&#x4EF6;3&#xFF0C;&#x5047;&#x8BBE;x&#x7684;&#x6355;&#x83B7;&#x5728;u&#x4E2D;&#x51FA;&#x73B0;&#x3002;
+          </p>
+          <p>
+            &#x5982;&#x679C;&#x51FA;&#x73B0;&#x5728;\(e_1\)&#x4E2D;&#xFF0C;&#x4E14;v&#x4E2D;&#x4E00;&#x4E2A;&#x6790;&#x53D6;&#x652F;&#x6709;x&#x7684;&#x5F15;&#x7528;&#xFF0C;&#x90A3;&#x4E48;&#x5B58;&#x5728;i&#xFF0C;j&#x4F7F;&#x5F97;\(S_{\operatorname{ij}}\)&#x4E2D;&#x6709;x&#x7684;&#x5F15;&#x7528;&#x3002;&#x5982;&#x679C;&#x6B64;&#x5F15;&#x7528;&#x662F;&#x5728;\(s_i\)&#x4E2D;&#xFF0C;&#x5219;&#x6709;&#x5F52;&#x7EB3;&#x6761;&#x4EF6;&#x53EF;&#x77E5;3&#x6210;&#x7ACB;&#xFF0C;&#x5982;&#x679C;&#x6B64;&#x5F15;&#x7528;&#x662F;&#x5728;\(t_j
+            [\varepsilon / Q -
+            \Gamma_i]\)&#x4E2D;&#xFF0C;&#x90A3;&#x4E48;x&#x5FC5;&#x7136;&#x5728;\(\Gamma_i\)&#x4E2D;&#xFF0C;&#x4ECE;&#x800C;x&#x5FC5;&#x7136;&#x5728;s&#x4E2D;&#x88AB;&#x6355;&#x83B7;&#xFF0C;&#x56E0;&#x6B64;3&#x6210;&#x7ACB;&#x3002;
+          </p>
+          <p>
+            &#x5982;&#x679C;&#x51FA;&#x73B0;&#x5728;\(e_2\)&#x4E2D;&#xFF0C;&#x4E14;v&#x4E2D;&#x4E00;&#x4E2A;&#x6790;&#x53D6;&#x652F;&#x6709;x&#x7684;&#x5F15;&#x7528;&#xFF0C;&#x90A3;&#x4E48;&#x540C;&#x6837;&#x5B58;&#x5728;i&#xFF0C;j&#x4F7F;&#x5F97;\(S_{\operatorname{ij}}\)&#x4E2D;&#x6709;x&#x7684;&#x5F15;&#x7528;&#x3002;&#x6B64;&#x65F6;&#x6839;&#x636E;&#x5F52;&#x7EB3;&#x6761;&#x4EF6;&#x5373;&#x53EF;&#x77E5;3&#x6210;&#x7ACB;&#x3002;
+          </p>
+        </li>
+      </ul>
+      <p>
+        
+      </p>
+    </p>
+    <p>
+      &#x5F97;&#x5230;&#x4F2A;&#x6790;&#x53D6;&#x8303;&#x5F0F;u&#x540E;&#xFF0C;u&#x4E2D;&#x53EF;&#x80FD;&#x542B;&#x6709;&#x540C;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x7684;&#x591A;&#x6B21;&#x6355;&#x83B7;&#xFF0C;&#x4F46;&#x8FD9;&#x4E9B;&#x6355;&#x83B7;&#x4E00;&#x5B9A;&#x5728;&#x4E0D;&#x540C;&#x7684;&#x6790;&#x53D6;&#x652F;&#x5185;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x4E4B;&#x540E;&#x5148;&#x8981;&#x5BF9;&#x6240;&#x6709;&#x53D8;&#x91CF;&#x8FDB;&#x884C;&#x4E00;&#x6B21;&#x6362;&#x540D;&#xFF0C;&#x4FDD;&#x6301;&#x6355;&#x83B7;&#x7684;&#x552F;&#x4E00;&#x6027;&#x3002;&#x5177;&#x4F53;&#x505A;&#x6CD5;&#x7565;&#x3002;
+    </p>
+    <p>
+      
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <b>&#x5B9A;&#x4E49; <class style="font-style: normal">4</class>.
+      </b><i>&#x79F0;u&#x662F;&#x6790;&#x53D6;&#x8303;&#x5F0F;&#xFF0C;&#x5982;&#x679C;u&#x662F;&#x4F2A;&#x6790;&#x53D6;&#x8303;&#x5F0F;&#xFF0C;&#x4E14;&#x6BCF;&#x4E2A;&#x6790;&#x53D6;&#x652F;&#x90FD;&#x5F62;&#x5982;\(e_1
+      e_2 \ldots
+      e_n\)&#xFF0C;&#x5BF9;&#x5176;&#x4E2D;&#x6BCF;&#x4E2A;e&#xFF0C;&#x5982;&#x679C;\(e
+      = (e') \%x\)&#xFF0C;&#x5219;\(e'\)&#x4E00;&#x5B9A;&#x662F;Kleene
+      Star&#x3002;</i>
+    </p>
+    <p>
+      <p style="margin-top: 1em; margin-bottom: 0.5em">
+        <div style="text-indent: 0em">
+          <div class="compact-block">
+            <p>
+              <b>&#x7B97;&#x6CD5; <class style="font-style: normal">1</class></b>
+            </p>
+          </div>
+        </div>
+      </p>
+      <div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="margin-left: 35.145870328812px">
+            <p>
+              &#x5BF9;&#x4EFB;&#x610F;&#x4F2A;&#x6790;&#x53D6;&#x8303;&#x5F0F;u&#xFF0C;&#x8BBE;\(u
+              = a_1 + \cdots +
+              a_n\)&#x3002;&#x5BF9;&#x6BCF;&#x4E2A;&#x6790;&#x53D6;&#x652F;a&#xFF0C;&#x627E;&#x51FA;&#x6240;&#x6709;&#x7684;&#x6355;&#x83B7;b=(e)%x&#xFF0C;&#x5E76;&#x4F5C;&#x5982;&#x4E0B;&#x53D8;&#x6362;&#xFF1A;
+            </p>
+          </div>
+          <div style="margin-left: 35.145870328812px">
+            <ul>
+              <li>
+                <p>
+                  &#x5982;&#x679C;e&#x662F;&#x5355;&#x5B57;&#x7B26;c&#xFF0C;&#x5219;&#x5C06;b&#x548C;&#x6790;&#x53D6;&#x652F;a&#x4E2D;&#x6240;&#x6709;&#x7684;x&#x66FF;&#x6362;&#x4E3A;c.
+                </p>
+              </li>
+              <li>
+                <p>
+                  &#x5982;&#x679C;e&#x662F;&#x7A7A;&#xFF0C;&#x5219;&#x4ECE;a&#x4E2D;&#x5220;&#x53BB;b&#x548C;&#x6240;&#x6709;x&#x3002;
+                </p>
+              </li>
+              <li>
+                <p>
+                  &#x5982;&#x679C;e&#x662F;\(e_1
+                  e_2\)&#xFF0C;&#x5219;&#x5C06;a&#x66FF;&#x6362;&#x4E3A;\(a
+                  [(e_1) \%x_1 (e_2) \%x_2 / b, x_1 x_2 / x]\)
+                </p>
+              </li>
+              <li>
+                <p>
+                  &#x5982;&#x679C;e&#x662F;\(e_1 +
+                  e_2\)&#xFF0C;&#x5219;&#x5C06;a&#x66FF;&#x6362;&#x4E3A;&#x4E24;&#x4E2A;&#x6790;&#x53D6;&#x652F;p&#x548C;q&#xFF0C;&#x5176;&#x4E2D;\(p
+                  = a [(e_1) \%x_1 / b, x_1 / x], q = a [(e_2) \%x_2 / b, x_2
+                  / x]\)&#x3002;
+                </p>
+              </li>
+              <li>
+                <p>
+                  &#x5982;&#x679C;e&#x662F;\((e')
+                  \%y\)&#xFF0C;&#x5219;&#x5C06;a&#x66FF;&#x6362;&#x4E3A;\(a [e
+                  / b, y / x]\)
+                </p>
+              </li>
+              <li>
+                <p>
+                  &#x5982;&#x679C;e&#x662F;&#x53D8;&#x91CF;\(y\)&#xFF0C;&#x5219;&#x5C06;a&#x66FF;&#x6362;&#x4E3A;\(a
+                  [y / b, y / x]\)
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="margin-left: 35.145870328812px">
+            <p>
+              &#x91CD;&#x590D;&#x4E0A;&#x8FF0;&#x6B65;&#x9AA4;&#xFF0C;&#x76F4;&#x5230;&#x6240;&#x6709;&#x6355;&#x83B7;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x90FD;&#x662F;Star&#xFF0C;&#x505C;&#x6B62;&#x3002;
+            </p>
+          </div>
+        </div>
+      </div>
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <b>&#x5F15;&#x7406; <class style="font-style: normal">5</class>.
+      </b><i>&#x7ECF;&#x8FC7;&#x4E0A;&#x8FF0;&#x7684;&#x51E0;&#x4E2A;&#x6B65;&#x9AA4;&#xFF0C;vsf
+      regex&#x88AB;&#x53D8;&#x6362;&#x4E3A;&#x6790;&#x53D6;&#x8303;&#x5F0F;&#xFF0C;&#x4E14;&#x53D8;&#x6362;&#x540E;&#x4F9D;&#x7136;&#x662F;vsf&#x7684;&#x3002;</i>
+    </p>
+    <p>
+      <p>
+        <b>&#x8BC1;&#x660E;.
+        </b>&#x53D8;&#x6362;&#x540E;&#x662F;&#x6790;&#x53D6;&#x8303;&#x5F0F;&#x4ECE;&#x7B97;&#x6CD5;&#x7684;&#x7ED3;&#x675F;&#x6761;&#x4EF6;&#x5373;&#x53EF;&#x77E5;&#xFF1B;&#x800C;&#x4E0A;&#x8FF0;&#x7684;&#x51E0;&#x6B65;&#x90FD;&#x4E0D;&#x6539;&#x53D8;Star&#x5185;&#x90E8;&#x7684;&#x7ED3;&#x6784;&#xFF0C;&#x56E0;&#x6B64;vsf&#x6027;&#x8D28;&#x4FDD;&#x6301;&#x3002;&#x5173;&#x952E;&#x5728;&#x4E8E;&#x7B97;&#x6CD5;&#x4E00;&#x5B9A;&#x7EC8;&#x6B62;&#xFF1A;
+      </p>
+      <p>
+        &#x5BF9;&#x6BCF;&#x4E2A;&#x6790;&#x53D6;&#x652F;&#xFF0C;&#x6BCF;&#x6B21;&#x8FED;&#x4EE3;&#x90FD;&#x5C06;&#x5176;&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x6355;&#x83B7;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x7B80;&#x5316;&#x4E00;&#x5C42;&#xFF0C;&#x540C;&#x65F6;&#x6355;&#x83B7;&#x6570;&#x91CF;&#x6700;&#x591A;&#x52A0;&#x4E00;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x7B97;&#x6CD5;&#x7684;&#x8FED;&#x4EE3;&#x6B21;&#x6570;&#x53EA;&#x53D6;&#x51B3;&#x4E8E;&#x6240;&#x6709;&#x6355;&#x83B7;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x8BED;&#x6CD5;&#x6811;&#x4E2D;&#x975E;Star&#x8282;&#x70B9;&#x7684;&#x6700;&#x5927;&#x5C42;&#x6570;&#x3002;&#xFF08;&#x590D;&#x6742;&#x5EA6;&#x5F85;&#x5206;&#x6790;&#xFF09;
+      </p>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <p style="margin-top: 1em; margin-bottom: 0.5em">
+        <div style="text-indent: 0em">
+          <div class="compact-block">
+            <p>
+              <b>&#x7B97;&#x6CD5; <class style="font-style: normal">2</class></b>
+            </p>
+          </div>
+        </div>
+      </p>
+      <div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="margin-left: 35.145870328812px">
+            <p>
+              &#x5BF9;&#x4E8E;&#x8303;&#x5F0F;u&#x7684;&#x4E00;&#x4E2A;&#x6790;&#x53D6;&#x652F;a=\(e_1
+              e_2 \ldots
+              e_n\)&#xFF0C;&#x4EE4;&#x7279;&#x6B8A;&#x7684;&#x53D8;&#x91CF;w&#x4EE3;&#x8868;&#x8F93;&#x5165;&#x4E32;&#xFF0C;&#x5B9A;&#x4E49;&#x521D;&#x59CB;&#x7EA6;&#x675F;&#x4E3A;S={\(w
+              = x_1 + x_2 + \cdots +
+              x_n\)}&#x3002;&#x5BF9;&#x6BCF;&#x4E00;&#x4E2A;\(e_i\),&#x4F5C;&#x5982;&#x4E0B;&#x64CD;&#x4F5C;&#xFF1A;
+            </p>
+          </div>
+          <div style="margin-left: 35.145870328812px">
+            <ul>
+              <li>
+                <p>
+                  &#x5982;&#x679C;\(e_i\)&#x662F;&#x53D8;&#x91CF;x&#x6216;&#x8005;&#x5355;&#x5B57;&#x7B26;c&#xFF0C;&#x5219;\(S
+                  = S \cup x_i = e_i\)&#x3002;
+                </p>
+              </li>
+              <li>
+                <p>
+                  &#x5982;&#x679C;\(e_i\)&#x662F;Kleene
+                  Star&#xFF0C;&#x5219;\(S = S \cup x_i \in L (e_i)\)
+                </p>
+              </li>
+              <li>
+                <p>
+                  &#x5982;&#x679C;\(e_i\)&#x662F;(e)%x,&#x5219;\(S = S \cup x
+                  \in L (e) \cup x_i = x\)
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="margin-left: 35.145870328812px">
+            <p>
+              &#x6700;&#x540E;&#x5F97;&#x5230;&#x7684;S&#x5C31;&#x662F;a&#x5BF9;&#x5E94;&#x7684;word
+              equation&#x3002;
+            </p>
+          </div>
+        </div>
+      </div>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x603B;&#x5224;&#x5B9A;&#x7B97;&#x6CD5;&#xFF1A;
+    </p>
+    <p>
+      <p style="margin-top: 1em; margin-bottom: 0.5em">
+        <div style="text-indent: 0em">
+          <div class="compact-block">
+            <p>
+              <b>&#x7B97;&#x6CD5; <class style="font-style: normal">3</class></b>
+            </p>
+          </div>
+        </div>
+      </p>
+      <div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="margin-left: 35.145870328812px">
+            <p>
+              &#x8F93;&#x5165;vsf regex u&#x548C;v&#x3002;
+            </p>
+          </div>
+          <div style="margin-left: 35.145870328812px">
+            <p>
+              &#x4F9D;&#x6B21;&#x5BF9;u&#x548C;v&#x5E94;&#x7528;&#x7B80;&#x5316;&#x8FC7;&#x7A0B;&#x3001;&#x7B97;&#x5B50;T&#x3001;&#x6362;&#x540D;&#x8FC7;&#x7A0B;&#x4EE5;&#x53CA;&#x7B97;&#x6CD5;1&#xFF0C;&#x5F97;&#x5230;u&#x548C;v&#x7684;&#x6790;&#x53D6;&#x8303;&#x5F0F;\(u'
+              = a_1 + \cdots + a_n\)&#x548C;\(v' = b_1 + \cdots +
+              b_m\)&#x3002;
+            </p>
+            <p>
+              <b>&#x975E;&#x786E;&#x5B9A;&#x5730;</b>&#x4ECE;u&#x7684;n&#x4E2A;&#x6790;&#x53D6;&#x652F;&#x4E2D;&#x9009;&#x62E9;&#x4E00;&#x652F;a&#xFF0C;&#x4EE5;&#x53CA;&#x4ECE;v&#x7684;m&#x4E2A;&#x6790;&#x53D6;&#x652F;&#x4E2D;&#x9009;&#x62E9;&#x4E00;&#x652F;b&#x3002;&#x5BF9;a&#x548C;b&#x5E94;&#x7528;&#x7B97;&#x6CD5;2&#xFF0C;&#x5F97;&#x5230;&#x7EA6;&#x675F;\(S_a\)&#x548C;\(S_b\)&#x3002;
+            </p>
+          </div>
+        </div>
+      </div>
+      <div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="margin-left: 35.145870328812px">
+            <p>
+              &#x5E94;&#x7528;word
+              equation&#x7684;&#x6C42;&#x89E3;&#x8FC7;&#x7A0B;&#xFF0C;&#x6C42;&#x89E3;\(S_a
+              \cup
+              S_b\)&#x3002;&#x5982;&#x679C;&#x6709;&#x89E3;&#xFF0C;&#x5219;&#x8F93;&#x51FA;YES&#xFF0C;&#x5426;&#x5219;&#x8F93;&#x51FA;NO&#x3002;
+            </p>
+          </div>
+        </div>
+      </div>
+    </p>
+    <h2 id="auto-3">&#x53C2;&#x8003;&#x6587;&#x732E;<span style="margin-left: 1em"></span></h2>
+    <div style="text-indent: 0em">
+      <div class="compact-block">
+        <font style="font-size: 84.0%"><dl>
+          <p>
+            <p>
+              <strong>[1]  </strong> <a id="bib-freydenbergerLogicDocumentSpanners2019"></a>Dominik D. Freydenberger. A
+              Logic for Document Spanners. 63(7):1679&ndash;1754.
+            </p>
+            <p>
+              <strong>[2]  </strong> <a id="bib-freydenbergerDeterministicRegularExpressions2019"></a>Dominik D. Freydenberger
+              &#x4E0E; Markus L. Schmid. Deterministic regular expressions
+              with back-references. 105:1&ndash;39.
+            </p>
+          </p>
+        </dl></font>
+      </div>
+    </div>
+  </body>
+</html>

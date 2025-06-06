@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:x="http://www.texmacs.org/2002/extensions" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <head>
+    <title>PostImage</title>
+    <meta content="TeXmacs 1.99.13" name="generator"></meta>
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.5em; } .subsup { display:
+      inline; vertical-align: -0.2em } .subsup td { padding: 0px; text-align:
+      left} .fraction { display: inline; vertical-align: -0.8em } .fraction td
+      { padding: 0px; text-align: center } .wide { position: relative;
+      margin-left: -0.4em } .accent { position: relative; margin-left: -0.4em;
+      top: -0.1em } .title-block { width: 100%; text-align: center }
+      .title-block p { margin: 0px } .compact-block p { margin-top: 0px;
+      margin-bottom: 0px } .left-tab { text-align: left } .center-tab {
+      text-align: center } .balloon-anchor { border-bottom: 1px dotted
+      #000000; outline: none; cursor: help; position: relative; }
+      .balloon-anchor [hidden] { margin-left: -999em; position: absolute;
+      display: none; } .balloon-anchor: hover [hidden] { position: absolute;
+      left: 1em; top: 2em; z-index: 99; margin-left: 0; width: 500px; display:
+      inline-block; } .balloon-body { } .ornament { border-width: 1px;
+      border-style: solid; border-color: black; display: inline-block;
+      padding: 0.2em; } .right-tab { float: right; position: relative; top:
+      -1em } 
+    </style>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" language="javascript"></script>
+  </head>
+  <body>
+    <table class="title-block">
+      <tr>
+        <td><table class="title-block">
+          <tr>
+            <td><font style="font-size: 168.2%"><b>PostImage</b></font></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+    <p>
+      For any transducer \(T = (Q_T, \Sigma, \delta_T, q_{0, T}, F_T)\) and FA
+      \(A = (Q_A, \Sigma, \delta_A, q_{0, A}, F_A)\), we can construct a FA
+      \(B = (Q_B, \Sigma, \delta_B, q_{0, B}, F_B)\) which satisfies \(L (B)
+      =\operatorname{Post}_T (A)\) as follows:
+    </p>
+    <p>
+      \(Q_B = (Q_T \times Q_A) \cup S\), where S contains all the fresh
+      intermediate states which are introduced below.
+    </p>
+    <p>
+      The initial state \(q_{0, B}\) is \((q_{0, T}, q_{0, A})\), and \(F_B\)
+      contains states of the form \((q_T, q_A)\) which satisfies \(q_T \in F_T
+      \wedge q_A \in F_A\). 
+    </p>
+    <p>
+      For any tuple \((q_T, a, w, q_T') \in \delta_T\), and any \((q_A, a,
+      q_A') \in \delta_A\):
+    </p>
+    <p>
+      Suppose \(w = \sigma_1 \ldots \sigma_n\), then we add \(n - 1\) fresh
+      states to \(Q_B\), which we label by \(q_1, \ldots, q_{n - 1}\). Then we
+      have:
+    </p>
+    <ul>
+      <li>
+        <p>
+          \(((q_T, q_A), \sigma_1, q_1) \in \delta_B\)
+        </p>
+      </li>
+      <li>
+        <p>
+          \((q_1, \sigma_2, q_2) \in \delta_B\)
+        </p>
+      </li>
+      <li>
+        <p>
+          <span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span style="margin-left: 0.16665em"></span>.<span
+          style="margin-left: 0.16665em"></span>
+        </p>
+      </li>
+      <li>
+        <p>
+          \((q_{n - 1}, \sigma_n, (q_T', q_A')) \in \delta_B\)
+        </p>
+      </li>
+    </ul>
+    <p>
+      Note that the input 'a' is not used in the construction, but it is
+      crucial that the transitions in T and A have the same input character.
+    </p>
+  </body>
+</html>

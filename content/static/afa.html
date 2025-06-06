@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:x="http://www.texmacs.org/2002/extensions" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <head>
+    <title>AFA</title>
+    <meta content="TeXmacs 1.99.13" name="generator"></meta>
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.5em; } .subsup { display:
+      inline; vertical-align: -0.2em } .subsup td { padding: 0px; text-align:
+      left} .fraction { display: inline; vertical-align: -0.8em } .fraction td
+      { padding: 0px; text-align: center } .wide { position: relative;
+      margin-left: -0.4em } .accent { position: relative; margin-left: -0.4em;
+      top: -0.1em } .title-block { width: 100%; text-align: center }
+      .title-block p { margin: 0px } .compact-block p { margin-top: 0px;
+      margin-bottom: 0px } .left-tab { text-align: left } .center-tab {
+      text-align: center } .balloon-anchor { border-bottom: 1px dotted
+      #000000; outline: none; cursor: help; position: relative; }
+      .balloon-anchor [hidden] { margin-left: -999em; position: absolute;
+      display: none; } .balloon-anchor: hover [hidden] { position: absolute;
+      left: 1em; top: 2em; z-index: 99; margin-left: 0; width: 500px; display:
+      inline-block; } .balloon-body { } .ornament { border-width: 1px;
+      border-style: solid; border-color: black; display: inline-block;
+      padding: 0.2em; } .right-tab { float: right; position: relative; top:
+      -1em } 
+    </style>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" language="javascript"></script>
+  </head>
+  <body>
+    <table class="title-block">
+      <tr>
+        <td><table class="title-block">
+          <tr>
+            <td><font style="font-size: 168.2%"><b>AFA</b></font></td>
+          </tr>
+        </table><table class="title-block">
+          <tr>
+            <td><i>2020&#x5E74;9&#x6708;3&#x65E5;</i></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+    <p>
+      AFA M&#x662F;&#x4E94;&#x5143;&#x7EC4;\((Q, \Sigma, q_0, g,
+      F)\)&#x3002;&#x5176;&#x4E2D;\(g : Q \times \Sigma \times B^Q \rightarrow
+      B\).
+    </p>
+    <p>
+      &#x5B9A;&#x4E49;\(g^{\ast} : Q \times \Sigma^{\ast} \times B^Q
+      \rightarrow B\)&#x4E3A;&#xFF1A;
+    </p>
+    <center>
+      \(\displaystyle g^{\ast} (q, \varepsilon, v) = v_q\)
+    </center>
+    <center>
+      \(\displaystyle g^{\ast} (q, a w, v) = g (q, a, g^{\ast} (w, v))\)
+    </center>
+    <p>
+      &#x5176;&#x4E2D;\(g^{\ast} (w, v) (q) = g^{\ast} (q, w, v), q \in Q\)
+    </p>
+    <p>
+      &#x5B9A;&#x4E49;f&#x4E3A;&#x4E0B;&#x5217;&#x6761;&#x4EF6;&#x5B9A;&#x4E49;&#x7684;&#x5E03;&#x5C14;&#x5411;&#x91CF;v&#xFF1A;
+    </p>
+    <center>
+      \(\displaystyle v_q = q \quad \operatorname{iff} \quad q \in F\)
+    </center>
+    <p>
+      &#x5219;AFA&#x63A5;&#x53D7;&#x7684;&#x8BED;&#x8A00;&#x4E3A;\(L (M) = \{
+      \omega |g^{\ast} (q_0, w, f) = 1 \}\)
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <b>&#x5B9A;&#x7406; <class style="font-style: normal">1</class>.
+      </b><i>AFA&#x548C;DFA&#x7B49;&#x4EF7;</i>
+    </p>
+    <p>
+      <p>
+        <b>&#x8BC1;&#x660E;. </b>&#x8BBE;AFA M&#x4E3A;\((Q, \Sigma, q_0, g,
+        F)\)&#x3002;&#x9996;&#x5148;&#x6784;&#x9020;&#x4E00;&#x4E2A;DFA
+        D&#x63A5;&#x53D7;M&#x8BED;&#x8A00;&#x7684;&#x9006;&#x3002;
+      </p>
+      <p>
+        &#x8BBE;D=\((Q', \Sigma, q_0', \delta,
+        F')\)&#xFF0C;&#x5176;&#x4E2D;\(Q' = B^Q, q_0' = f\).
+        \(F'\)&#x4E3A;&#x6EE1;&#x8DB3;\(v_{q_0'} =
+        1\)&#x7684;&#x5E03;&#x5C14;&#x5411;&#x91CF;v&#x7684;&#x96C6;&#x5408;.
+      </p>
+      <p>
+        &#x8F6C;&#x79FB;&#x51FD;&#x6570;&#x5982;&#x4E0B;&#x5B9A;&#x4E49;&#xFF1A;
+      </p>
+      <center>
+        \(\displaystyle \delta (q, a) = p \quad \operatorname{iff} \quad g (a,
+        q) = p\)
+      </center>
+      <p>
+        &#x5176;&#x4E2D;g(a,q)(t)=g(t,a,q), forall t in Q.
+      </p>
+      <p>
+        &#x53EF;&#x4EE5;&#x8BC1;&#x660E;\(M^R\)&#x548C;D&#x7B49;&#x4EF7;&#x3002;&#x53C8;&#xFF0C;&#x56E0;&#x4E3A;&#x6B63;&#x89C4;&#x8BED;&#x8A00;&#x5BF9;&#x8865;&#x5C01;&#x95ED;&#xFF0C;&#x53EF;&#x4EE5;&#x6784;&#x9020;\(D^R\)&#x4E0E;M&#x7B49;&#x4EF7;&#x3002;
+      </p>
+    </p>
+  </body>
+</html>
