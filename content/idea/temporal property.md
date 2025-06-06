@@ -4,7 +4,7 @@ date: 2021-01-20
 tags: 
 ---
 
-使用temporal logic描述的性质，（如果将时间视为线性的）代表的是一组无限的 [[状态 state|state]] 序列。这些性质也可以被看成是infinite word 上的语言（[[ω-language|omega language]]），从而拥有自动机表示（如果合适）。
+使用temporal logic描述的性质，（如果将时间视为线性的）代表的是一组无限的 [[状态|state]] 序列。这些性质也可以被看成是infinite word 上的语言（[[ω-language|omega language]]），从而拥有自动机表示（如果合适）。
 
 依据其表达的能力，可以将其聚类为若干类。下图是常见的temporal property分类及包含关系：
 

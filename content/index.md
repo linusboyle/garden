@@ -7,19 +7,20 @@ date: 2025-01-19
 
 花园没有栅栏，也没有门扉，似乎在邀请过路人随意观览。近处有几株主人近期打理过的花卉。
 
+
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 
-| 修剪时间          | 链接                                                                                                       |
-| ------------- | -------------------------------------------------------------------------------------------------------- |
-| June 05, 2025 | [[Workshop on Program Analysis and Verification]] |
-| June 05, 2025 | [[SMT]]                                                                                     |
-| June 05, 2025 | [[大语言模型测试：代码生成]]                                                                   |
-| June 05, 2025 | [[大语言模型测试：语料对齐]]                                                                   |
-| June 05, 2025 | [[CAT]]                                                                                     |
-| June 05, 2025 | [[大语言模型]]                                                                                 |
-| June 05, 2025 | [[玩家自主性]]                                                                                 |
-| June 03, 2025 | [[雾中奇谈]]                                                                                   |
-| May 30, 2025  | [[20250530104343 神话地世]]                                                     |
-| May 28, 2025  | [[个人简介]]                                                                                   |
+| 修剪时间          | 链接                                                       |
+| ------------- | -------------------------------------------------------- |
+| June 06, 2025 | [[命令式程序的建模]]                           |
+| June 06, 2025 | [[temporal property]]         |
+| June 06, 2025 | [[state formula]]                 |
+| June 06, 2025 | [[状态]]                                       |
+| June 06, 2025 | [[模型检测]]                                   |
+| June 06, 2025 | [[强连通分量]]                                 |
+| June 06, 2025 | [[基于归纳程序合成的算法自动应用]]             |
+| June 06, 2025 | [[在Linux上安装博德之门1&2的Mod]]   |
+| June 06, 2025 | [[在latex中使用minted进行代码高亮]] |
+| June 06, 2025 | [[变迁系统]]                                   |
 <!-- SerializedQuery END -->
