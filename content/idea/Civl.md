@@ -13,3 +13,5 @@ see also:
 2. Mover：右移，左移或者both，指代可以与其他action交换的操作
 	1. 根据Lipton's Reduction，形如 `Right* a Left*` 的语句可以视为原子块
 3. Linear Type 
+
+[官网](https://civl-verifier.github.io/doc)有较为详细的介绍

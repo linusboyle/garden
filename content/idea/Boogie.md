@@ -19,3 +19,5 @@ Boogie 2 时期的微软官方介绍：
 > The Boogie research project is being developed primarily in the [RiSE](https://www.microsoft.com/en-us/research/group/research-in-software-engineering-rise/) group at [Microsoft Research](https://www.microsoft.com/en-us/research) in Redmond. However, people at several other institutions make the open-source Boogie tool what it is.
 
 目前的 Boogie 3 版本加入了对并发的支持（即 [[Civl]]），此外代码库也进行了较大的重构开。
+
+Boogie 的官方文档近乎没有，只有较早的两篇论文，以及 WIP 的[文档站](https://boogie-docs.readthedocs.io/)，有些机制需要读源码才能知晓。
