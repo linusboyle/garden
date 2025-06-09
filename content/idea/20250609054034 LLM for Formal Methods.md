@@ -20,19 +20,6 @@ alias:
 - 生成规约
 - 生成证明（[[交互式定理证明]]）
 
-从目前来看，以自然语言出发生成规约应该是较为靠谱的研究方向
+从目前来看，以自然语言出发生成规约应该是较为靠谱的，而大模型在推理方面的能力有待观察。特别的，有一些专用 Lean 作数学证明的模型，比如 [Kimina](https://github.com/MoonshotAI/Kimina-Prover-Preview)。
 
-对于[[模型检测]]来说，还有辅助生成模型的应用方向。微软的 [Cheng Huang](https://www.microsoft.com/en-us/research/people/chengh/) 最近在 Azure 上成功应用了 [[大语言模型|LLM]] ，以自动化程度很高地方式完成了对大规模业务代码的 TLA+建模和模型检测，还找到了一个 data race。Hillel Wayne [总结](https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/)了 AI 在这方面的优势：
-
-- 修复语法
-- 解读反例路径
-- 减轻负担，比如自动生成 unchanged 变量
-- 将自然语言的规约形式化（但是要小心表述的准确性）
-
-劣势：
-
-- 修复模型 spec
-- 在没有用户指导的情况下生成 spec（无法生成足够好的非平凡性质）
-- 代码生成
-
-但总体来说，其最大价值体现在降低上手难度，可能有利于形式化方法的推广。
+对于[[模型检测]]来说，还有辅助生成模型的应用方向。比如，微软的 [Cheng Huang](https://www.microsoft.com/en-us/research/people/chengh/) 最近在 Azure 上成功应用了 [[大语言模型|LLM]] ，以自动化程度很高地方式完成了对大规模业务代码的 TLA+建模和模型检测，还找到了一个 data race。见 [[The Coming AI Revolution in Distributed Systems]]，另见 [[20250609112156 Hillel Wayne总结大模型在TLA+建模与验证方面的能力]]
