@@ -10,6 +10,8 @@ Organized by Programming Language Labs, PKU
 
 Attendee around 30+
 
+[Offical Page](https://pl.cs.pku.edu.cn/workshop.html)
+
 ---
 
 Keynote 1 *[[From Logic to Staged Logic for Higher-Order Programs and Beyond]]* by **Wei-Ngan Chin (NUS)**
