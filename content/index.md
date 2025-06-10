@@ -7,20 +7,19 @@ date: 2025-01-19
 
 花园没有栅栏，也没有门扉，似乎在邀请过路人随意观览。近处有几株主人近期打理过的花卉。
 
-
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 
-| 修剪时间          | 链接                                                       |
-| ------------- | -------------------------------------------------------- |
-| June 06, 2025 | [[命令式程序的建模]]                           |
-| June 06, 2025 | [[temporal property]]         |
-| June 06, 2025 | [[state formula]]                 |
-| June 06, 2025 | [[状态]]                                       |
-| June 06, 2025 | [[模型检测]]                                   |
-| June 06, 2025 | [[强连通分量]]                                 |
-| June 06, 2025 | [[基于归纳程序合成的算法自动应用]]             |
-| June 06, 2025 | [[在Linux上安装博德之门1&2的Mod]]   |
-| June 06, 2025 | [[在latex中使用minted进行代码高亮]] |
-| June 06, 2025 | [[变迁系统]]                                   |
+| 修剪时间          | 链接                                                                                                           |
+| ------------- | ------------------------------------------------------------------------------------------------------------ |
+| June 09, 2025 | [[20250609054034 LLM for Formal Methods]]                     |
+| June 09, 2025 | [[20250609112156 Hillel Wayne总结大模型在TLA+建模与验证方面的能力]] |
+| June 09, 2025 | [[交互式定理证明]]                                                                                 |
+| June 09, 2025 | [[Rocq]]                                                                                       |
+| June 09, 2025 | [[Workshop on Program Analysis and Verification]]     |
+| June 09, 2025 | [[202403291041 后福特主义生产体制]]                                                   |
+| June 09, 2025 | [[202403291025 福特主义生产体制]]                                                     |
+| June 08, 2025 | [[20250608090050 极端通勤]]                                                         |
+| June 08, 2025 | [[DnD]]                                                                                         |
+| June 08, 2025 | [[20250607110043 影响DnD的原典作品]]                                             |
 <!-- SerializedQuery END -->
