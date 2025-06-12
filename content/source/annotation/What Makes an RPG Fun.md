@@ -69,8 +69,6 @@ Created: [[2025-06-12]]
 
 > But a never-ending string of perfect, dramatically appropriate, fun outcomes that defies probability eventually leads even the dimmest players to realize they don't have real choice at all. A roller coaster may be a wild ride, but it's still a railroad. And when the railroading gets revealed, the sense of agency dies, and with it dies the sense of fun.
 
-^9b3b0b
-
 
 
 [See in context](https://hyp.is/L3x8QEd8EfChcTs8QWT5MA/arbiterofworlds.substack.com/p/what-makes-an-rpg-fun) at [What Makes an RPG Fun?](https://arbiterofworlds.substack.com/p/what-makes-an-rpg-fun)
