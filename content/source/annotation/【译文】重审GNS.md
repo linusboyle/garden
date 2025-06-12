@@ -9,8 +9,6 @@ Created: [[2025-06-10]]
 
 > “游戏主义”和“模拟主义”则是借来的术语（没错，这是种误用），它们来自一个90年代中后期的usenet（译注，一种早期的计算机用全球分布式讨论系统）讨论组rec.game.frp.advocacy。我不知道这几个术语最初是由谁创造的，也不知道还有没有更早的起源。这俩和一个大模型没使用的术语“戏剧主义dramatism”共同构成了“RGFA三相模型 RGFA Threefold”（译注，关于RGFA三相模型，若有兴趣可以查看这一系列文章）的核心，大模型建立在它的基础之上，并且期望将其取代。
 
-^dc5d50
-
 
 
 [See in context](https://hyp.is/ceOcKEWkEfCHAyeYYrPOkQ/www.goddessfantasy.net/bbs/index.php?topic=159076.0) at [【译文】重审GNS](https://www.goddessfantasy.net/bbs/index.php?topic=159076.0)
