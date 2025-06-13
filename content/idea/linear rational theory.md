@@ -10,7 +10,7 @@ see also:
 # linear rational theory
 > The complete theory of the rational numbers (with addition and multiplication) is undecidable, since it can encode the property of being a natural number.
 
-> The theory of linear arithmetic over the rationals $T_Q$ is **decidable** in a more efficient way than the corresponding theory in the integers.
+> The theory of linear arithmetic over the rationals $T_Q$ is **decidable** in a more efficient way than [[Presburger arithmetic|the corresponding theory in the integers]].
 > 
 > （带量词和无量词的片段都可判定）
 
