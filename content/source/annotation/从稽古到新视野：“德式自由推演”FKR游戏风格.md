@@ -19,6 +19,8 @@ Created: [[2025-02-21]]
 
 > Free Kriegsspiel指的正是这种爱好的早期形态：没有完备和严格的规则，大部分行动都依靠GM的军事和地理知识裁定，随机性的部分则用骰子来表现。这和后世的以书面规则为优先、不需要裁判做出裁定的严格式战棋/兵棋推演极为不同。依赖常识、重视虚构环境而非桌上的文本数据和规则这一点正是FKR游戏的核心，显然，OSR、PbtA和forge式叙事主义游戏的粉丝都会对这一观点感到熟悉和亲切，FKR也正是从这些一脉相承的道路里走下来的。就和OSR一样，FKR也不是真正的复古，而是崇古以创新。
 
+^157911
+
 
 
 [See in context](https://hyp.is/Tk6DVPA2Ee-DEZuCMnOdpA/www.goddessfantasy.net/bbs/index.php?topic=156399.0) at [从稽古到新视野：“德式自由推演”FKR游戏风格](https://www.goddessfantasy.net/bbs/index.php?topic=156399.0)
