@@ -10,4 +10,5 @@ A theory T admits **quantifier elimination** if there is an algorithm that given
 
 ---
 
-Tarski's Theorem 证明了 [[theory of reals]] 可以量词消去
+- [[Presburger arithmetic|linear integer arithmetic]] 可以量词消去（由 [[Presburger arithmetic]] 的可判定性）
+- Tarski's Theorem 证明了 [[theory of reals]] 可以量词消去
