@@ -21,7 +21,14 @@ $$
 \varphi \land P_1(x) \land P_2(x) \ldots \rightarrow P(x)
 $$
 
-其中 $P_1, P_2, \ldots P$ 是谓词符号。$P(x)$ 处 (Head) 也可以是约束 $\psi$
+其中 $P_1, P_2, \ldots P$ 是未解释的谓词符号，$\varphi$ 是背景一阶理论中的公式。$P(x)$ 处 (Head) 也可以是约束 $\psi$
+
+CHC 中的变量隐式为全称量词所约束。
+
+## 分类
+
+1. Goal/Query Clause：Head 处为约束 $\psi$
+2. Fact Clause: Head 处未解释谓词，body 为约束
 
 ## 判定
 
