@@ -1,9 +1,9 @@
 ---
 title: Farkas' Lemma
 date: 2025-06-20
-tags: 
-alias:
-- Farkas 引理
+tags:
+aliases:
+  - Farkas 引理
 ---
 
 在约束求解中常见的一种表述是：

@@ -2,9 +2,9 @@
 title: OSR
 date: 2025-05-26
 tags: []
-alias:
-- Old School Revival
-- Old School Renaissance
+aliases:
+  - Old School Revival
+  - Old School Renaissance
 ---
 
 Old School Revival, or Old School Renaissance, or Old School Revolution. 简写里的 R 到底指什么一直没有定论。

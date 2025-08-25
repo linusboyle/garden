@@ -7,8 +7,8 @@ tags:
 see also:
   - "[[索引]]"
   - "[[2025-06-09]]"
-alias:
-- LLM for Formal Methods
+aliases:
+  - LLM for Formal Methods
 ---
 
 # LLM for Formal Methods
