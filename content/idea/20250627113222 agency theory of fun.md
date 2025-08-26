@@ -7,8 +7,8 @@ tags:
 see also:
   - "[[索引]]"
   - "[[2025-06-27]]"
-alias:
-- agency theory of fun
+aliases:
+  - agency theory of fun
 ---
 
 # agency theory of fun

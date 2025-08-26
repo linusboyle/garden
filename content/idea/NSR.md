@@ -1,10 +1,10 @@
 ---
 title: NSR
 date: 2025-06-05
-tags: 
-- TRPG
-alias:
-- New School Revolution
+tags:
+  - TRPG
+aliases:
+  - New School Revolution
 ---
 
 一种在 [[OSR]] 基础上发展而来的[[桌面角色扮演游戏]]设计风格，用来描述与 OSR 游戏有相近的原则或哲学，但在机制上老式 DnD 并不兼容。

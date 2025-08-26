@@ -7,9 +7,9 @@ tags:
 see also:
   - "[[索引]]"
   - "[[2025-06-13]]"
-alias:
-- Constrained Horn clauses
-- CHCs
+aliases:
+  - Constrained Horn clauses
+  - CHCs
 ---
 
 # Constrained Horn clauses

@@ -2,8 +2,8 @@
 title: Hybrid System
 date: 2025-06-12
 tags:
-alias:
-- 混成系统
+aliases:
+  - 混成系统
 ---
 
 # Hybrid System

@@ -7,9 +7,9 @@ tags:
 see also:
   - "[[索引]]"
   - "[[2025-08-03]]"
-alias:
-- Tseytin transformation
-- Tseitin transformation
+aliases:
+  - Tseytin transformation
+  - Tseitin transformation
 ---
 
 一种将公式转换为等可满足 CNF 形式的变换。与直接暴力应用 De Morgan 律和分配律相比（规模为指数），Tseitin transformation 得到的公式规模为线性，但是需要引入额外辅助变量。

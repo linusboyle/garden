@@ -2,8 +2,8 @@
 title: ranking function
 date: 2021-06-20
 tags:
-alias:
-- 秩函数
+aliases:
+  - 秩函数
 ---
 # ranking function
 A standard and classical technique to prove the **termination** of a loop is to find a **ranking function**, or _progress measure_ (This technique was originally proposed by Turing.)

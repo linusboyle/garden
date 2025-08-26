@@ -5,8 +5,8 @@ tags:
   - idea
   - 一阶理论
 see also:
-alias:
-- linear integer arithmetic
+aliases:
+  - linear integer arithmetic
 ---
 
 # Presburger arithmetic
