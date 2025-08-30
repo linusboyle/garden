@@ -7,19 +7,20 @@ date: 2025-01-19
 
 花园没有栅栏，也没有门扉，似乎在邀请过路人随意观览。近处有几株主人近期打理过的花卉。
 
+
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 10 -->
 
-| 修剪时间            | 链接                                                       |
-| --------------- | -------------------------------------------------------- |
-| August 26, 2025 | [[安全攸关系统]]                               |
-| August 26, 2025 | [[形式化方法]]                                 |
-| August 26, 2025 | [[玩家自主性]]                                 |
-| August 26, 2025 | [[轨训]]                                       |
-| August 26, 2025 | [[NSR]]                                     |
-| August 26, 2025 | [[OSR]]                                     |
-| August 26, 2025 | [[Presburger arithmetic]] |
-| August 26, 2025 | [[SAT]]                                     |
-| August 26, 2025 | [[ranking function]]           |
-| August 26, 2025 | [[剑与魔法]]                                   |
+| 修剪时间            | 链接                                                                             |
+| --------------- | ------------------------------------------------------------------------------ |
+| August 30, 2025 | [[Non-termination Proving at Scale]] |
+| August 30, 2025 | [[最长上升子序列]]                                                   |
+| August 30, 2025 | [[norm]]                                                         |
+| August 30, 2025 | [[202403301926 vacuous truth]]             |
+| August 30, 2025 | [[weakest precondition]]                         |
+| August 30, 2025 | [[weakest liberal precondition]]         |
+| August 30, 2025 | [[20250829094226 2DPC 主板内存布线]]             |
+| August 30, 2025 | [[DIMM]]                                                         |
+| August 29, 2025 | [[Pika]]                                                         |
+| August 29, 2025 | [[DDR]]                                                           |
 <!-- SerializedQuery END -->
