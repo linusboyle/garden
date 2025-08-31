@@ -2,7 +2,8 @@
 title: 背包DP
 date: 2025-08-22
 tags:
-- dsa
+  - dsa
+  - dp
 ---
 
 # 背包DP
