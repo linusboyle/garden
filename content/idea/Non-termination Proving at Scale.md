@@ -9,7 +9,7 @@ conference: OOPSLA22
 
 By Azalea Raad, Julien Vanegue, and Peter O’Hearn
 
-一种基于 Incorrectness Logic 的类霍尔逻辑推理系统，可靠且完备。可用于进行[[非终止性分析]]，具有可组合性，支持扩展到分离逻辑对堆内存进行建模和推理。基于 Pulse 的实现，Pulse∞，为首个能对实际百万行代码库进行非终止性分析的工作。
+一种基于 Incorrectness Logic 的类霍尔逻辑推理系统，可靠且完备。可用于进行[[非终止性分析]]，具有可组合性，支持扩展到分离逻辑对堆内存进行建模和推理。基于 Pulse 的实现，[Pulse∞](https://zenodo.org/records/12637589)，为首个能对实际百万行代码库进行非终止性分析的工作。
 
 原始审稿意见：[[Reviews on Non-Termination Proving at Scale]] [[Additional Comment on OOPSLA Paper173]]
 
@@ -26,7 +26,7 @@ By Azalea Raad, Julien Vanegue, and Peter O’Hearn
 | 可达性       | p状态总是可达q                      | q状态总是从p可达                    | p状态总是可达q                   |
 | 用途         | 证明功能正确性                      | 证明缺陷                            | 证明非终止性                     |
 | 推理系统     | 霍尔逻辑                            | Incorrectness Logic                 | UNTer                            |
-| Cons规则方向 | $p'\rightarrow p, q \rightarrow q'$ | $p\rightarrow p’, q' \rightarrow q$ | 同霍尔逻辑                       |
+| Cons规则方向 | $p'\rightarrow p, q \rightarrow q'$ | $p\rightarrow p', q' \rightarrow q$ | 同霍尔逻辑                       |
 
 BUA 和 Incorrectness Logic 底层的 FUA 的绝大多数推导规则都相同，区别只在于 CONSEQUENCE 规则的放缩方向。FUA 的推导规则见 Incorrectness Logic
 
