@@ -15,6 +15,3 @@ some tutorial and the like:
 - [[202408251407 Obsidian for TTRPG]]
 
 See [Moment.js Doc](https://momentjs.com/docs/#/displaying/format/) For the date format string
-
----
-created on [[2024-03-05]]

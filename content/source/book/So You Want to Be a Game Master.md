@@ -11,6 +11,7 @@ see also:
 author: Justin Alexander
 zotero url: 
 finished date:
+rating: 4
 ---
 
 1. Ruling：默认判决为肯定，不要否定玩家的行动，不要对玩家说不（除非太离谱）
@@ -64,3 +65,7 @@ finished date:
 > If you, as the GM, interrupt that process and declare a fiat success, you take that moment away from them: They didn’t kill the monster; you did.
 > 
 > It’s a subtle distinction, and it won’t always result in the moment getting deflated
+
+## Related
+
+- [[桌面角色扮演游戏|TTRPG]]
