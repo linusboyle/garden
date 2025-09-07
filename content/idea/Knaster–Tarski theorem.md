@@ -27,3 +27,4 @@ For a given complete [[lattice]] $(L, \sqsubseteq)$, function $f : L \rightarrow
 ## Related
 
 -  [Lambda calculus引论(二): 不动点](https://zhuanlan.zhihu.com/p/25674637) 参考，但是需注意Tarski定理的部分证明有误
+- Tarski‘55，*A lattice-theoretical fixpoint theorem and its applications*
