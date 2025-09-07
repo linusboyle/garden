@@ -2,9 +2,10 @@
 title: recurrence set
 date: 2025-08-31
 tags:
-- 非终止性分析
+  - 非终止性分析
 aliases:
   - recurrent set
+  - open recurrence set
 ---
 
 # recurrence set
