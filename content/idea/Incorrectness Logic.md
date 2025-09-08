@@ -2,6 +2,7 @@
 title: Incorrectness Logic
 date: 2025-09-02
 tags:
+  - logic
 aliases:
   - 错误逻辑
 ---
@@ -10,7 +11,9 @@ Peter W. O'Hearn, POPL20
 
 类似于霍尔逻辑，但是为下近似。三元组的含义及对比见 [[Non-termination Proving at Scale]] 中的 FUA。
 
-从谓词变换的角度来看，以前置条件在语句作用下的最强后置条件为基准（不一定可表示/可计算），霍尔逻辑的后置条件为其上近似（更弱），IL 为下近似（更强）。
+从谓词变换的角度来看，以前置条件在语句作用下的最强后置条件为基准（不一定可计算）[^1]，霍尔逻辑的后置条件为其上近似（更弱），IL 为下近似（更强）。
+
+反过来，给定后置条件，满足 IL 三元组的前置条件不一定存在。要进行后向推理，文中的一种思路是先使用标准的后向谓词变换计算出前置条件，然后再前向计算（新的）后置条件。
 
 
 ## Annotations  
@@ -46,3 +49,5 @@ Peter W. O'Hearn, POPL20
 “This reachability property does not imply that a loop must terminate on all executions. Instead, it establishes that enough paths terminate to cover all the states in the result assertion, while allowing that other paths might lead to divergence” (O'Hearn, 2020, p. 10)
 
 “We can cast the property as stated in terms of something happening by reading a spec backwards: for every state in the result, it is possible to eventually reach a state in the pre by executing backwards.” (O'Hearn, 2020, p. 10)
+
+[^1]: 最强后置条件这个名称历史上来源于霍尔逻辑中的上近似，对 IL 而言反而是最弱。这里指的实际上就是前置条件的状态在 C 下的象集。[[weakest liberal precondition|最弱前置条件]]同理

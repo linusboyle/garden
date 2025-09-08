@@ -28,7 +28,9 @@ By Azalea Raad, Julien Vanegue, and Peter O’Hearn
 | 推理系统     | 霍尔逻辑                            | Incorrectness Logic                 | UNTer                            |
 | Cons规则方向 | $p'\rightarrow p, q \rightarrow q'$ | $p\rightarrow p', q' \rightarrow q$ | 同霍尔逻辑                       |
 
-BUA 和 Incorrectness Logic 底层的 FUA 的绝大多数推导规则都相同，区别只在于 CONSEQUENCE 规则的放缩方向。FUA 的推导规则见 Incorrectness Logic
+BUA 和 Incorrectness Logic 底层的 FUA 的绝大多数推导规则都相同，区别只在于 CONSEQUENCE 规则的放缩方向。FUA 的推导规则见 [[Incorrectness Logic]]
+
+BUA 的另一个特点是后置条件不一定存在，因此不存在类似最强后置条件的谓词变换。如果要使用 BUA 进行前向分析，本文建议使用 abduction（即给定前置条件，找到并合取一个新的公式使后置条件存在）
 
 ## UNTer
 

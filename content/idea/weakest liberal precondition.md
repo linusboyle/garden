@@ -1,14 +1,16 @@
 ---
 title: weakest liberal precondition
 date: 2021-03-08
-tags: 
+tags:
+aliases:
+  - 最弱前置条件
 ---
 
 # weakest liberal precondition
 
 $wlp([[S]],\phi)$ stands for **weakest liberal precondition** of $\phi$ under program S.
 
-Here, the term “weakest” means “least restrictive” or “most general”, and ”liberal” refers to the fact that this precondition need not guarantee termination of S.
+Here, the term 'weakest' means 'least restrictive' or  'most general', and 'liberal' refers to the fact that this precondition need not guarantee termination of S.
 
 
 ## Computing WP
