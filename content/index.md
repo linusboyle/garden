@@ -13,28 +13,28 @@ date: 2025-01-19
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 
-| 修剪时间               | 链接                                                                         |
-| ------------------ | -------------------------------------------------------------------------- |
-| September 09, 2025 | [[Incorrectness Separation Logic]] |
-| September 08, 2025 | [[读书记录]]                                                     |
-| September 08, 2025 | [[程序分析]]                                                     |
-| September 08, 2025 | [[形式逻辑与辩证逻辑]]                                           |
-| September 08, 2025 | [[形式化验证]]                                                   |
-| September 08, 2025 | [[lattice]]                                               |
-| September 08, 2025 | [[Knaster–Tarski theorem]]                 |
-| September 08, 2025 | [[git的Unicode显示]]                                   |
-| September 08, 2025 | [[recurrence set]]                                 |
-| September 08, 2025 | [[个人简介]]                                                     |
-| September 08, 2025 | [[交互式定理证明]]                                               |
-| September 08, 2025 | [[安全攸关系统]]                                                 |
-| September 08, 2025 | [[形式化方法]]                                                   |
-| September 08, 2025 | [[招聘相关网站]]                                                 |
-| September 08, 2025 | [[数字花园]]                                                     |
-| September 08, 2025 | [[数理逻辑]]                                                     |
-| September 08, 2025 | [[Obsidian]]                                             |
-| September 08, 2025 | [[Rocq]]                                                     |
-| September 03, 2025 | [[Incorrectness Logic]]                       |
-| September 03, 2025 | [[weakest liberal precondition]]     |
+| 修剪时间               | 链接                                                                             |
+| ------------------ | ------------------------------------------------------------------------------ |
+| September 09, 2025 | [[weakest liberal precondition]]         |
+| September 09, 2025 | [[Incorrectness Logic]]                           |
+| September 09, 2025 | [[Incorrectness Separation Logic]]     |
+| September 09, 2025 | [[Non-termination Proving at Scale]] |
+| September 09, 2025 | [[程序分析]]                                                         |
+| September 09, 2025 | [[Data-flow Analysis]]                             |
+| September 08, 2025 | [[lattice]]                                                   |
+| September 08, 2025 | [[Knaster–Tarski theorem]]                     |
+| September 07, 2025 | [[安全攸关系统]]                                                     |
+| September 07, 2025 | [[形式化验证]]                                                       |
+| September 07, 2025 | [[形式化方法]]                                                       |
+| September 07, 2025 | [[recurrence set]]                                     |
+| September 07, 2025 | [[交互式定理证明]]                                                   |
+| September 07, 2025 | [[Rocq]]                                                         |
+| September 07, 2025 | [[读书记录]]                                                         |
+| September 07, 2025 | [[Obsidian]]                                                 |
+| September 07, 2025 | [[个人简介]]                                                         |
+| September 07, 2025 | [[数字花园]]                                                         |
+| September 06, 2025 | [[招聘相关网站]]                                                     |
+| September 05, 2025 | [[git的Unicode显示]]                                       |
 <!-- SerializedQuery END -->
 
 
