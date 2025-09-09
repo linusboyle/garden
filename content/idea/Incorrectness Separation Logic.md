@@ -1,7 +1,9 @@
 ---
 title: Incorrectness Separation Logic
 date: 2025-09-04
-tags: 
+tags:
+  - 错误逻辑
+  - logic
 ---
 
 CAV20, *Local Reasoning About the Presence of Bugs: Incorrectness Separation Logic*
