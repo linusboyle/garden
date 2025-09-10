@@ -23,3 +23,7 @@ For assert, assume and havoc:
 
 
 **注意**：wlp 并不是求谓词在语句关系语义下的原象，这在关系语义不是函数的情况下体现（如 havoc）。
+
+## Related
+
+- https://en.wikipedia.org/wiki/Predicate_transformer_semantics

@@ -9,12 +9,107 @@ aliases:
 
 Peter W. O'Hearn, POPL20
 
-类似于霍尔逻辑，但是为下近似。三元组的含义及对比见 [[Non-termination Proving at Scale]] 中的 FUA。
+*In this paper we investigate the hypothesis that reasoning about the presence of bugs can be underpinned by sound techniques in a principled logical system, just as reasoning about correctness (absence of bugs) has been demonstrated to have sound logical principles in an extensive research literature.*
+
+类似于霍尔逻辑，但是为下近似。三元组的含义及对比详见 [[Non-termination Proving at Scale]] 中的 FUA。
 
 从谓词变换的角度来看，以前置条件在语句作用下的最强后置条件为基准（不一定可计算）[^1]，霍尔逻辑的后置条件为其上近似（更弱），IL 为下近似（更强）。
 
 反过来，给定后置条件，满足 IL 三元组的前置条件不一定存在。要进行后向推理，文中的一种思路是先使用标准的后向谓词变换计算出前置条件，然后再前向计算（新的）后置条件。
 
+## Semantics of the Under-Approximate Triple
+
+### Definition
+
+$$
+[presumption] code [result]
+$$
+
+It means: the post-assertion *result* be an under-approximation (subset) of the final states that can be reached starting from states satisfying the *presumption*.
+
+![](Incorrectness%20Logic-20250910160531580.webp)
+
+The triple is equivalent to backward reachability:
+
+![](Incorrectness%20Logic-20250910161036185.webp)
+
+From the perspective of predicate transformer, result is stronger than (a subset of) the so-called strongest post-condition (a.k.a. *strongest over-approximate post-condition*):
+
+![](Incorrectness%20Logic-20250910160855679.webp)
+
+This condition is equivalently the *weakest under-approximate post-condition*.
+
+## The Proof System
+
+Firstly, we add labels to post-condition to signify normal execution or errors.
+
+$$
+[p] c [\epsilon: q]
+$$
+
+The inference rules:
+
+![](Incorrectness%20Logic-20250910170124012.webp)
+
+![](Incorrectness%20Logic-20250910170358643.webp)
+
+Note that, the Hoare-style (backwards-running) axiom for assignment is unsound for Incorrectness Logic. For example:
+
+$$
+[42 == y] x = 42 [ok: x == y]
+$$
+
+### Properties
+
+The proof system is sound and complete, in the same sense that Hoare Logic is sound and complete.
+
+## Predicate Transformer
+
+### Forward Transformer
+
+#### Loops
+
+For Hoare triple, the post() transformer can be written in terms of loop invariants:
+
+$$
+\mathit{post}([[ C^* ]] \mathit{ok})p = \bigwedge \{I \mid p \Rightarrow I \land \{I\}C\{I\} \text{ is true}\}
+$$
+
+Or equivalently defined by under-approximate triples:
+
+$$
+\mathit{post}([[ C^* ]] \epsilon)p = \bigvee_{i \in \mathbb{N}} \{q \mid [p]C^i[\epsilon:q] \text{ is true}\}
+$$
+
+which means we can under-approximate the post() predicate transformer by loop unrolling (bounded model checking).
+
+$$
+\underline{\mathit{post}}([[ C^* ]] \epsilon)p = \bigvee_{i \le \mathit{bound}} \{q \mid [p]C^i[\epsilon:q] \text{ is true}\}.
+$$
+
+*It is a simple and surprisingly effective way to discover some post-conditions for a loop, but in general stronger reasoning is needed (as provided by the Backwards Variant rule).*
+
+#### Branches
+
+The semantic definition is:
+
+$$
+\mathit{post}([[ C_1 + C_2 ]] \epsilon)p = \mathit{post}([[ C_1 ]] \epsilon)p \lor \mathit{post}([[ C_2 ]] \epsilon)p.
+$$
+
+So instead of abandoning some path, we can define a under-approximate 'join-operator':
+
+$$
+\underline{\mathit{post}}([[ C_1 + C_2 ]] \epsilon)p = \underline{\mathit{post}}([[ C_1 ]] \epsilon)p \underline{\lor} \underline{\mathit{post}}([[ C_2 ]] \epsilon)p
+$$
+
+### Backward Transformer
+
+Given a relation r and assertion q, there need not exist any p such that [p]r [q]
+
+$$
+[?] x = 41 [true]
+$$
 
 ## Annotations  
 
