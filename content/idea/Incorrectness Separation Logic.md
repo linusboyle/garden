@@ -8,6 +8,41 @@ tags:
 
 CAV20, *Local Reasoning About the Presence of Bugs: Incorrectness Separation Logic*
 
+## Motivation
+
+*Using SL, symbolic execution need not begin from a "main" program, but rather can "begin anywhere" in a codebase, with constraints on the environment synthesized along the way.*
+
+*this paper take a step towards transferring the local reasoning techniques from the world of program verification to that of bug catching.*
+
+**Challenge:** the original SL model, based on partial heaps, is incompatible with local, under-approximate reasoning. 
+
+For instance, from this following triple
+$$
+[x \mapsto -] \text{free}(x) [\text{ok}: \text{emp} \land \text{loc}(x)]
+$$
+
+if we apply Frame rule:
+
+$$
+[x \mapsto - * x \mapsto -] \text{free}(x) [\text{ok}: (\text{emp} \land \text{loc}(x)) * x \mapsto -]
+$$
+
+The presumption here is false, so the under-approximate triple is invalid. However, this does not cause problem in classical Hoare logic.
+
+## Extra Syntax
+
+Compared to original SL, ISL introduces an explicit symbol for freed memory.
+
+![](Incorrectness%20Separation%20Logic-20250911163231336.webp)
+
+## Proof System
+
+Note that in Separation Logic, we only need to specify **local** specification needed for the statement. Thus the rule for assignments, skip etc. are different.
+
+![](Incorrectness%20Separation%20Logic-20250911163321705.webp)
+
+![](Incorrectness%20Separation%20Logic-20250911163427675.webp)
+
 [[Incorrectness Logic]] 的 [[Separation Logic]] 扩展。三元组使用与错误逻辑相同的解释（后向可达、下近似）。核心是为了让 Frame 规则仍然成立，需要在断言语言中显式引入刻画内存已释放的语法（SL 原本是不区分 emp和已释放的堆）
 
 >  We observe that the original SL model, based on partial heaps, is incompatible with local, under-approximate reasoning. The problem is that the original model does not distinguish a pointer known to be dangling from one about which we have no knowledge; this in turn contradicts the frame rule for under-approximate reasoning.
