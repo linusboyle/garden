@@ -6,22 +6,22 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-  Component.Comments({
-    provider: 'giscus',
-    options: {
-      // from data-repo
-      repo: 'linusboyle/garden',
-      // from data-repo-id
-      repoId: 'R_kgDONrreng',
-      // from data-category
-      category: 'Announcements',
-      // from data-category-id
-      categoryId: 'DIC_kwDONrrens4CvDhR',
-      // from data-lang
-      lang: 'zh-CN',
-      inputPosition: 'top',
-    }
-  }),
+    Component.Comments({
+        provider: 'giscus',
+        options: {
+        // from data-repo
+        repo: 'linusboyle/garden',
+        // from data-repo-id
+        repoId: 'R_kgDONrreng',
+        // from data-category
+        category: 'Announcements',
+        // from data-category-id
+        categoryId: 'DIC_kwDONrrens4CvDhR',
+        // from data-lang
+        lang: 'zh-CN',
+        inputPosition: 'top',
+        }
+    }),
   ],
   footer: Component.Footer({
     links: {
@@ -45,13 +45,20 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-    //Component.DesktopOnly(Component.Explorer()),
+    Component.Flex({
+        components: [
+            {
+                Component: Component.Search(),
+                grow: true,
+            },
+            { Component: Component.Darkmode() },
+            { Component: Component.ReaderMode() },
+        ],
+    }),
     Component.DesktopOnly(
       Component.RecentNotes({
         title: "文章",
-        limit: 4,
+        limit: 7,
         showTags: false,
         filter: (f) =>
           f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
@@ -62,8 +69,8 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.Graph({
-    localGraph : {showTags: false},
-    globalGraph : {showTags: false},
+        localGraph : {showTags: false},
+        globalGraph : {showTags: false},
     }),
     Component.Backlinks(),
   ],
@@ -79,8 +86,15 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        { Component: Component.Darkmode() },
+      ],
+    }),
   ],
   right: [],
 }
