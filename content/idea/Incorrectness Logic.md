@@ -9,13 +9,14 @@ aliases:
 
 Peter W. O'Hearn, POPL20
 
-*In this paper we investigate the hypothesis that reasoning about the presence of bugs can be underpinned by sound techniques in a principled logical system, just as reasoning about correctness (absence of bugs) has been demonstrated to have sound logical principles in an extensive research literature.*
 
 类似于霍尔逻辑，但是为下近似。三元组的含义及对比详见 [[Non-termination Proving at Scale]] 中的 FUA。
 
 从谓词变换的角度来看，以前置条件在语句作用下的最强后置条件为基准（不一定可计算）[^1]，霍尔逻辑的后置条件为其上近似（更弱），IL 为下近似（更强）。
 
 反过来，给定后置条件，满足 IL 三元组的前置条件不一定存在。要进行后向推理，文中的一种思路是先使用标准的后向谓词变换计算出前置条件，然后再前向计算（新的）后置条件。
+
+*In this paper we investigate the hypothesis that reasoning about the presence of bugs can be underpinned by sound techniques in a principled logical system, just as reasoning about correctness (absence of bugs) has been demonstrated to have sound logical principles in an extensive research literature.*
 
 ## Semantics of the Under-Approximate Triple
 
@@ -53,7 +54,7 @@ The inference rules:
 
 ![](Incorrectness%20Logic-20250910170358643.webp)
 
-Note that, the Hoare-style (backwards-running) axiom for assignment is unsound for Incorrectness Logic. For example:
+Note that, the Hoare-style (backwards-running) axiom for assignment $\{P[x/e]\}x = e\{P\}$is unsound for Incorrectness Logic. For example:
 
 $$
 [42 == y] x = 42 [ok: x == y]
