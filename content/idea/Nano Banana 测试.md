@@ -2,6 +2,7 @@
 title: Nano Banana 测试
 date: 2025-09-14
 tags: 
+- LLM
 ---
 
 Nano Banana即Gemini-2.5-flash-image
