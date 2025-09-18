@@ -18,6 +18,8 @@ Sly Flourish对这个问题的[观点](https://slyflourish.com/avoid_npc_betraya
 
 一种替代的方式是引入（明知）可疑的NPC，让玩家的行动决定后果。
 
+> Above all, shady NPCs give the characters _agency_. The characters know what's going on. They aren't being led by the nose through a pre-conceived plot. Instead, they're working with the variables they have and thus the story unfolds as they make their decisions.
+
 ## Related
 
 - [[桌面角色扮演游戏|TTRPG]]
