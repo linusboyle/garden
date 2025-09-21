@@ -9,31 +9,32 @@ date: 2025-01-19
 
 花园没有栅栏，也没有门扉，似乎在邀请过路人随意观览。一张石桌上正随意地摊开着些[[读书记录|书卷]]，散落其中的是些潦草写就的[[tags/post|文章]]。近处则是一些不久前修剪过的花卉，零落着等待最终的开花结果。越过花园，脚下的小径继续延伸，通往比邻而未知的[[友链|远方]]。
 
+
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 
-| 修剪时间               | 链接                                                                                                                                             |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| September 11, 2025 | [[Finding real bugs in big programs with incorrectness logic]]             |
-| September 11, 2025 | [[母舰]]                                                                                                                             |
-| September 11, 2025 | [[Incorrectness Separation Logic]]                                                                     |
-| September 11, 2025 | [[友链]]                                                                                                                             |
-| September 10, 2025 | [[非终止性分析]]                                                                                                                     |
-| September 10, 2025 | [[差分]]                                                                                                                             |
-| September 10, 2025 | [[单调队列]]                                                                                                                         |
-| September 10, 2025 | [[单调栈]]                                                                                                                           |
-| September 10, 2025 | [[prove nontermination 08]]                                                                                   |
-| September 10, 2025 | [[nontermination via safety]]                                                                               |
-| September 10, 2025 | [[nontermination overapproximation]]                                                                 |
-| September 10, 2025 | [[live abstraction]]                                                                                                 |
-| September 10, 2025 | [[alternation termination]]                                                                                   |
-| September 10, 2025 | [[Proving Termination Through Conditional Termination]]                           |
-| September 10, 2025 | [[Proving Non-termination Using Max-SMT]]                                                       |
-| September 10, 2025 | [[FliT - A Library for Simple and Efficient Persistent  Algorithms]] |
-| September 10, 2025 | [[Disproving termination with overapproximation]]                                       |
-| September 10, 2025 | [[weakest liberal precondition]]                                                                         |
-| September 10, 2025 | [[Incorrectness Logic]]                                                                                           |
-| September 10, 2025 | [[Data-flow Analysis]]                                                                                             |
+| 修剪时间               | 链接                                                                                                                                 |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| September 21, 2025 | [[PAC Learning]]                                                                                             |
+| September 21, 2025 | [[避免NPC的背叛]]                                                                                                     |
+| September 17, 2025 | [[20250917100353 PAC Learning中的大O记号问题]]                                               |
+| September 16, 2025 | [[Incorrectness Logic]]                                                                               |
+| September 16, 2025 | [[母舰]]                                                                                                                 |
+| September 16, 2025 | [[Finding real bugs in big programs with incorrectness logic]] |
+| September 15, 2025 | [[DnD]]                                                                                                               |
+| September 15, 2025 | [[Nano Banana 测试]]                                                                                         |
+| September 15, 2025 | [[个人简介]]                                                                                                             |
+| September 13, 2025 | [[友链]]                                                                                                                 |
+| September 11, 2025 | [[Incorrectness Separation Logic]]                                                         |
+| September 10, 2025 | [[非终止性分析]]                                                                                                         |
+| September 10, 2025 | [[差分]]                                                                                                                 |
+| September 10, 2025 | [[单调队列]]                                                                                                             |
+| September 10, 2025 | [[单调栈]]                                                                                                               |
+| September 10, 2025 | [[prove nontermination 08]]                                                                       |
+| September 10, 2025 | [[nontermination via safety]]                                                                   |
+| September 10, 2025 | [[nontermination overapproximation]]                                                     |
+| September 10, 2025 | [[live abstraction]]                                                                                     |
+| September 10, 2025 | [[alternation termination]]                                                                       |
 <!-- SerializedQuery END -->
 
 
