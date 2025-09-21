@@ -24,3 +24,4 @@ Sly Flourish对这个问题的[观点](https://slyflourish.com/avoid_npc_betraya
 
 - [[桌面角色扮演游戏|TTRPG]]
 - [[玩家自主性|player agency]]
+- [[Avoid NPC Betrayal]]
