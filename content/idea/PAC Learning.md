@@ -5,6 +5,7 @@ tags:
   - 计算学习理论
 aliases:
   - Probably Approximately Correct
+  - 概率近似正确
 ---
 
 # Probably Approximately Correct
@@ -25,7 +26,6 @@ If $\mathcal{A}$ further runs in $\text{poly}(1/\epsilon, 1/\delta, n, \text{siz
 2. 泛化误差$R(\mathcal{h}_\mathcal{S})$被定义为假设与概念间结论不一致的概率，这个概率相对于同样的分布。[[PAC Learning]]的训练和测试都是在同一个分布下
 3. $\epsilon$是泛化误差的界，$\delta$则衡量信心。由于分布是任意的，总是存在极端情况，因此PAC只要求有一定的概率近似正确，这一概率随着样本量的增加而增加。
 4. n代表表示一个样本需要$O(n)$的cost，比如欧几里得空间的维度
-5. 通常的机器学习算法的概念类包含在假设类中
 
 ## Definition - Agnostic Case/Agnostic PAC Learning
 
