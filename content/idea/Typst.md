@@ -8,4 +8,11 @@ tags:
 
 其语法相比之下会更加简单、接近一般的编程语言，LSP 支持也很好。我主要使用 Typst 进行 [[桌面角色扮演游戏|TRPG]] 相关的排版
 
-- [typst-ose](https://github.com/redhossu/typst-ose)
+- [typst-ose](https://github.com/redhossu/typst-ose) 由红线完成的类OSE风格模板
+
+
+Typst的脚本语言以前缀#进入，进入后函数不需要再使用该前缀。每个函数有按位置的传参，以及按名称传参两种方式。
+
+使用<>添加标签，@引用标签
+
+数学模式同样是$，单独成行需要在两侧各添加一个空格

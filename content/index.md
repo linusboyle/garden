@@ -14,6 +14,9 @@ date: 2025-01-19
 
 | 修剪时间               | 链接                                                                                                                                 |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| October 07, 2025   | [[Typst]]                                                                                                           |
+| October 03, 2025   | [[数理逻辑]]                                                                                                             |
+| October 03, 2025   | [[20251003120210 推导规则的分类]]                                                                         |
 | October 02, 2025   | [[Ampliative Argument]]                                                                               |
 | September 24, 2025 | [[Separation Logic]]                                                                                     |
 | September 23, 2025 | [[清华大学TRPG跑团社群]]                                                                                             |
@@ -31,11 +34,7 @@ date: 2025-01-19
 | September 10, 2025 | [[非终止性分析]]                                                                                                         |
 | September 10, 2025 | [[差分]]                                                                                                                 |
 | September 10, 2025 | [[单调队列]]                                                                                                             |
-| September 10, 2025 | [[单调栈]]                                                                                                               |
-| September 10, 2025 | [[prove nontermination 08]]                                                                       |
-| September 10, 2025 | [[nontermination via safety]]                                                                   |
 <!-- SerializedQuery END -->
-
 
 
 ---
