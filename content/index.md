@@ -15,26 +15,26 @@ date: 2025-01-19
 
 | 修剪时间               | 链接                                                                                                                                                                               |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| October 16, 2025   | [[Bertalign]]                                                                                                                                                 |
-| October 16, 2025   | [[20251015082732 我的翻译相关NLP实践]]                                                                                                               |
-| October 14, 2025   | [[20251014052643 Tea-reading]]                                                                                                               |
-| October 11, 2025   | [[Interleaving and Lock-Step Semantics for Analysis and Verification of GPU Kernels]] |
-| October 11, 2025   | [[Typst]]                                                                                                                                                         |
-| October 09, 2025   | [[Ampliative Argument]]                                                                                                                             |
-| October 09, 2025   | [[20251003120210 推导规则的分类]]                                                                                                                       |
-| October 09, 2025   | [[数理逻辑]]                                                                                                                                                           |
+| October 21, 2025   | [[RSS]]                                                                                                                                                             |
+| October 21, 2025   | [[20251014052643 Tea-reading]]                                                                                                               |
+| October 21, 2025   | [[音乐欣赏]]                                                                                                                                                           |
+| October 21, 2025   | [[rsshub开发]]                                                                                                                                                   |
+| October 19, 2025   | [[翻译及校对常用正则表达式]]                                                                                                                                           |
+| October 15, 2025   | [[20251015082732 我的翻译相关NLP实践]]                                                                                                               |
+| October 12, 2025   | [[Bertalign]]                                                                                                                                                 |
+| October 10, 2025   | [[Interleaving and Lock-Step Semantics for Analysis and Verification of GPU Kernels]] |
+| October 07, 2025   | [[Typst]]                                                                                                                                                         |
+| October 03, 2025   | [[数理逻辑]]                                                                                                                                                           |
+| October 03, 2025   | [[20251003120210 推导规则的分类]]                                                                                                                       |
+| October 02, 2025   | [[Ampliative Argument]]                                                                                                                             |
 | September 24, 2025 | [[Separation Logic]]                                                                                                                                   |
 | September 23, 2025 | [[清华大学TRPG跑团社群]]                                                                                                                                           |
 | September 22, 2025 | [[PAC Learning]]                                                                                                                                           |
-| September 22, 2025 | [[20250917100353 PAC Learning中的大O记号问题]]                                                                                             |
-| September 22, 2025 | [[避免NPC的背叛]]                                                                                                                                                   |
-| September 18, 2025 | [[DnD]]                                                                                                                                                             |
-| September 18, 2025 | [[Nano Banana 测试]]                                                                                                                                       |
-| September 15, 2025 | [[Finding real bugs in big programs with incorrectness logic]]                                               |
-| September 15, 2025 | [[Incorrectness Logic]]                                                                                                                             |
-| September 14, 2025 | [[母舰]]                                                                                                                                                               |
-| September 14, 2025 | [[个人简介]]                                                                                                                                                           |
-| September 14, 2025 | [[友链]]                                                                                                                                                               |
+| September 21, 2025 | [[避免NPC的背叛]]                                                                                                                                                   |
+| September 17, 2025 | [[20250917100353 PAC Learning中的大O记号问题]]                                                                                             |
+| September 16, 2025 | [[Incorrectness Logic]]                                                                                                                             |
+| September 16, 2025 | [[母舰]]                                                                                                                                                               |
+| September 16, 2025 | [[Finding real bugs in big programs with incorrectness logic]]                                               |
 <!-- SerializedQuery END -->
 
 
