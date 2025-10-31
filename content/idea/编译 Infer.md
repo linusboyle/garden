@@ -5,17 +5,17 @@ tags:
 aliases:
 ---
 
+## TMPFS
+
 ```
 fatal error: error in backend: IO failure on output stream: Disk quota exceeded
 ````
 
-编译LLVM时默认在tmpfs下进行，但是`/tmp`大小不够。传入环境变量CLANG_TMP_DIR进行替代即可。
+编译LLVM时默认在tmpfs下进行，但是`/tmp`大小不够，完成整个Infer的编译需要大约30GB的空间。传入环境变量CLANG_TMP_DIR，指向另一个文件夹进行替代即可。
 
----
+## LLVM 20.1.1 的编译问题
 
-LLVM 20.1.1 的编译问题
-
-在编译运行时存在问题，具体是在`llvm-project/compiler-rt/lib/sanitizer_common/sanitizer_platform_limits_posix.cpp` 的489行少了一个`s`，应将改行改为：
+在编译运行时存在问题，具体是在`llvm-project/compiler-rt/lib/sanitizer_common/sanitizer_platform_limits_posix.cpp` 的489行少了一个`s`，应将改行改为（或直接删除）：
 
 ```cpp
   unsigned struct_termio_sz = sizeof(struct termios);
