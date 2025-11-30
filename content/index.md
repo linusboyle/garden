@@ -9,32 +9,31 @@ date: 2025-01-19
 
 花园没有栅栏，也没有门扉，似乎在邀请过路人随意观览。一张石桌上正随意地摊开着些[[读书记录|书卷]]，散落其中的是些潦草写就的[[tags/post|文章]]。近处则是一些不久前修剪过的花卉，零落着等待最终的开花结果。越过花园，脚下的小径继续延伸，通往比邻而未知的[[友链|远方]]。
 
-
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 
-| 修剪时间               | 链接                                                                                                                                                                               |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| October 24, 2025   | [[编译 Infer]]                                                                                                                                                   |
-| October 21, 2025   | [[RSS]]                                                                                                                                                             |
-| October 21, 2025   | [[20251014052643 Tea-reading]]                                                                                                               |
-| October 21, 2025   | [[音乐欣赏]]                                                                                                                                                           |
-| October 21, 2025   | [[rsshub开发]]                                                                                                                                                   |
-| October 19, 2025   | [[翻译及校对常用正则表达式]]                                                                                                                                           |
-| October 12, 2025   | [[Bertalign]]                                                                                                                                                 |
-| October 10, 2025   | [[Interleaving and Lock-Step Semantics for Analysis and Verification of GPU Kernels]] |
-| October 07, 2025   | [[Typst]]                                                                                                                                                         |
-| October 03, 2025   | [[数理逻辑]]                                                                                                                                                           |
-| October 03, 2025   | [[20251003120210 推导规则的分类]]                                                                                                                       |
-| October 02, 2025   | [[Ampliative Argument]]                                                                                                                             |
-| September 24, 2025 | [[Separation Logic]]                                                                                                                                   |
-| September 23, 2025 | [[清华大学TRPG跑团社群]]                                                                                                                                           |
-| September 22, 2025 | [[PAC Learning]]                                                                                                                                           |
-| September 21, 2025 | [[避免NPC的背叛]]                                                                                                                                                   |
-| September 17, 2025 | [[20250917100353 PAC Learning中的大O记号问题]]                                                                                             |
-| September 16, 2025 | [[Incorrectness Logic]]                                                                                                                             |
-| September 16, 2025 | [[母舰]]                                                                                                                                                               |
-| September 16, 2025 | [[Finding real bugs in big programs with incorrectness logic]]                                               |
+| 修剪时间              | 链接                                                                                                                                                                               |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| November 28, 2025 | [[20251028022353 选择、将就与偏好]]                                                                                                                     |
+| November 26, 2025 | [[Memory Wall]]                                                                                                                                             |
+| November 26, 2025 | [[Disaggregated Memory]]                                                                                                                           |
+| November 26, 2025 | [[CXL]]                                                                                                                                                             |
+| November 07, 2025 | [[Münchhausen trilemma]]                                                                                                                           |
+| November 07, 2025 | [[20250610103733 GNS理论]]                                                                                                                           |
+| November 06, 2025 | [[left-pad]]                                                                                                                                                   |
+| November 06, 2025 | [[Infer]]                                                                                                                                                         |
+| November 01, 2025 | [[翻译及校对常用正则表达式]]                                                                                                                                           |
+| October 31, 2025  | [[轨训]]                                                                                                                                                               |
+| October 31, 2025  | [[桌面角色扮演游戏]]                                                                                                                                                   |
+| October 31, 2025  | [[玩家自主性]]                                                                                                                                                         |
+| October 31, 2025  | [[编译 Infer]]                                                                                                                                                   |
+| October 29, 2025  | [[PDF解析工具对比]]                                                                                                                                                 |
+| October 21, 2025  | [[RSS]]                                                                                                                                                             |
+| October 21, 2025  | [[20251014052643 Tea-reading]]                                                                                                               |
+| October 21, 2025  | [[音乐欣赏]]                                                                                                                                                           |
+| October 21, 2025  | [[rsshub开发]]                                                                                                                                                   |
+| October 12, 2025  | [[Bertalign]]                                                                                                                                                 |
+| October 10, 2025  | [[Interleaving and Lock-Step Semantics for Analysis and Verification of GPU Kernels]] |
 <!-- SerializedQuery END -->
 
 
