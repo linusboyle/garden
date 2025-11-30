@@ -1,5 +1,6 @@
 ---
 title: Christina's World
+release year: 1948
 date: 2025-11-30
 tags:
   - reference
