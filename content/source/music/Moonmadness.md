@@ -4,6 +4,7 @@ release year: 1976
 tags:
   - reference
   - 音乐
+  - album
 see also:
   - "[[索引]]"
   - "[[音乐欣赏]]"
