@@ -12,4 +12,8 @@ aliases:
 
 > 密歇根大学的研究显示，当有一半工作集无法放入内存时，应用性能会下降8到25倍[^1]
 
+## Related
+
+- [[memory footprint]]
+
 [^1]:  Juncheng Gu, Youngmoon Lee, Yiwen Zhang, Mosharaf Chowdhury, and Kang G. Shin. 2017. Efficient memory disaggregation with INFINISWAP. In Proceedings of the 14th USENIX Conference on Networked Systems Design and Implementation (NSDI), 2017.
