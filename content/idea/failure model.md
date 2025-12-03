@@ -12,4 +12,4 @@ aliases:
 
 ## Related
 
-- [[Disaggregated Memory]] 分离式内存等场景下崩溃是部分作用的。当然，这里需要考虑一个节点下线后如何资源回收的问题。
+- [[Disaggregated Memory]] 分离式内存/分布式共享内存等场景下崩溃是部分作用的。当然，这里需要考虑一个节点下线后如何资源回收的问题，见CXL-SHM。

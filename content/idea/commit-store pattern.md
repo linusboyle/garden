@@ -1,7 +1,8 @@
 ---
 title: commit-store pattern
 date: 2025-11-27
-tags: 
+tags:
+  - 设计模式
 aliases:
 ---
 
