@@ -15,5 +15,6 @@ aliases:
 ## Related
 
 - [[程序分析|Program Analysis]]
+- [[pointer analysis]] 
 
 [^1]: 不过实际上Java是在JVM层面实现的，javac并没有逃逸分析。这主要是因为Java中会有动态类加载，因此静态的分析无法确定函数的重载，故只能保守地认为对象发生了逃逸。详见[逃逸分析为何不能在编译期进行？](https://www.zhihu.com/question/27963717)
