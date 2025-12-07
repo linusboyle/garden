@@ -3,6 +3,7 @@ title: Finding real bugs in big programs with incorrectness logic
 date: 2025-09-11
 tags:
 - 论文
+- 错误逻辑
 ---
 
 OOPSLA'22, *Finding real bugs in big programs with incorrectness logic*
