@@ -91,6 +91,34 @@ see `infer capture --help`
 
 - [infer (infer.infer)](https://fbinfer.com/odoc/1.2.0/infer/infer.html)
 
+
+## 一些源码的结构
+
+- base/Location：源文件中的位置 source file location
+- IR: SIL IR的定义
+	- Procdesc涵盖了方法的所有信息
+
+### Pulse Checker
+
+整体是符号执行/抽象解释，维护抽象状态和路径条件等等，不同点是通过bi-abduction，如果前置条件可以通过推导补全出来，则继续执行下去。
+
+- 入口：Pulse.ml -> analyze()
+- 初始抽象（前置条件）状态: initial
+- Pulse的转移函数: PulseTransferFunctions，通过Functor调用Abs抽象解释组件
+	- exec_xxxx系列函数实现符号执行
+	- L618: exec_node_instrs
+- AnalysisState: 符号执行过程本身的状态（和抽象域的State不同），比如剩余disjuncts数
+
+### 抽象解释
+
+a < b 意味着a蕴涵b（a更强），故抽象域中的bottom是永假，top是永真
+
+抽象域分为NonDisjunctive和Disjunctive两种
+
+符号执行过程类似worklist，只更新delta部分（见L491）
+
+Disjunctive模式下达到上限后，被丢弃的disjunct并入NonDisjunctive状态
+
 ## Related
 
 - [[Separation logic and bi-abduction  Infer]]
