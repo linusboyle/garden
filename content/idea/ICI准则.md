@@ -5,7 +5,9 @@ tags:
 aliases:
 ---
 
-由Chris McDowall总结的、被广泛接受的一套RPG哲学，下面是我对其博客文章及Electric Bastionland部分的节译。
+由Chris McDowall总结的、被广泛接受的一套RPG哲学，下面是我对其博客文章及Electric Bastionland部分的节译。这套理念在千禧年前后就已经有人论述，在[[OSR]]社群中尤其如此，参见：
+
+- [[The Basis of the Game is Making Decisions]]
 
 # ICI准则
 
