@@ -1,7 +1,8 @@
 ---
 title: failure model
 date: 2025-11-28
-tags: 
+tags:
+  - idea
 aliases:
 ---
 
@@ -12,4 +13,4 @@ aliases:
 
 ## Related
 
-- [[Disaggregated Memory]] 分离式内存/分布式共享内存等场景下崩溃是部分作用的。当然，这里需要考虑一个节点下线后如何资源回收的问题，见CXL-SHM。
+- [[Disaggregated Memory]] 分离式内存/分布式共享内存DSM等场景下崩溃是部分作用的。当然，这里需要考虑一个节点下线后如何资源回收的问题，见[[Partial Failure Resilient Memory Management System for (CXL-based) Distributed Shared Memory|CXL-SHM]]。
