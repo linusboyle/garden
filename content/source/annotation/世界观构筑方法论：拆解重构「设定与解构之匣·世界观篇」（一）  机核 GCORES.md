@@ -1,5 +1,8 @@
 ---
 date: 2020-01-01
+tag:
+- annotation
+- src/webpage
 ---
 
 # 世界观构筑方法论：拆解重构「设定与解构之匣·世界观篇」（一）  机核 GCORES

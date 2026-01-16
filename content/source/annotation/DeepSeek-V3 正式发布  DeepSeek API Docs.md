@@ -1,5 +1,8 @@
 ---
 date: 2020-01-01
+tag:
+- annotation
+- src/webpage
 ---
 
 # DeepSeek-V3 正式发布  DeepSeek API Docs

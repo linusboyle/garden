@@ -1,5 +1,8 @@
 ---
 date: 2020-01-01
+tag:
+- annotation
+- src/webpage
 ---
 
 # What’s a Thieves’ Guild and where did it come from

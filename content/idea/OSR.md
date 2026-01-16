@@ -15,3 +15,7 @@ OSR 理论读物：
 
 - Matt Finch：老派游戏快速入门
 - Ben Milton,  Steven Lumpkin, David Perry：伪经指南
+
+## Related
+
+- [[The Basic Procedure of the OSR — Prismatic Wasteland]]

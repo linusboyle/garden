@@ -1,5 +1,8 @@
 ---
 date: 2020-01-01
+tag:
+- annotation
+- src/webpage
 ---
 
 # 从稽古到新视野：“德式自由推演”FKR游戏风格

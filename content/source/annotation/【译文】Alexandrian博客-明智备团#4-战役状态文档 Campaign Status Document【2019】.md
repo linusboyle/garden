@@ -1,5 +1,8 @@
 ---
 date: 2020-01-01
+tag:
+- annotation
+- src/webpage
 ---
 
 # 【译文】Alexandrian博客-明智备团#4-战役状态文档 Campaign Status Document【2019】

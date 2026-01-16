@@ -26,4 +26,5 @@ aliases:
 ## Related
 
 - [[What Makes an RPG Fun]] 作者的博客版
+- [[What Makes an RPG an RPG]] 接续上文
 - [[乐趣自主性理论]] 我翻译的中文版，包括[[Arbiter of Worlds]]中这一章的内容，同样的内容在ACKS2中也有。

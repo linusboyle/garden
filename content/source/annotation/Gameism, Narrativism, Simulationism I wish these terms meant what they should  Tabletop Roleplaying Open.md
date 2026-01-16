@@ -1,5 +1,8 @@
 ---
 date: 2020-01-01
+tag:
+- annotation
+- src/webpage
 ---
 
 # Gameism, Narrativism, Simulationism I wish these terms meant what they should  Tabletop Roleplaying Open

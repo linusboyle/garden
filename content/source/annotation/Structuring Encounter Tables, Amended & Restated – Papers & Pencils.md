@@ -1,5 +1,8 @@
 ---
 date: 2020-01-01
+tag:
+- annotation
+- src/webpage
 ---
 
 # Structuring Encounter Tables, Amended & Restated – Papers & Pencils

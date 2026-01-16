@@ -1,5 +1,8 @@
 ---
 date: 2020-01-01
+tag:
+- annotation
+- src/webpage
 ---
 
 # 报告显示AI领域人才市场供需两旺，人才争夺战延伸至校招

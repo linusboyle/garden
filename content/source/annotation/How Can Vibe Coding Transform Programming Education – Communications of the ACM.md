@@ -1,5 +1,8 @@
 ---
 date: 2020-01-01
+tag:
+- annotation
+- src/webpage
 ---
 
 # How Can Vibe Coding Transform Programming Education – Communications of the ACM

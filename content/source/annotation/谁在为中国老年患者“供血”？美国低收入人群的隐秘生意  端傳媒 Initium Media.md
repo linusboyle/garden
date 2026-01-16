@@ -1,5 +1,8 @@
 ---
 date: 2020-01-01
+tag:
+- annotation
+- src/webpage
 ---
 
 # 谁在为中国老年患者“供血”？美国低收入人群的隐秘生意  端傳媒 Initium Media

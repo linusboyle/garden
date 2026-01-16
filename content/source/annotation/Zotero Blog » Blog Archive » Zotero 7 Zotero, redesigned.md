@@ -1,5 +1,8 @@
 ---
 date: 2020-01-01
+tag:
+- annotation
+- src/webpage
 ---
 
 # Zotero Blog » Blog Archive » Zotero 7 Zotero, redesigned
