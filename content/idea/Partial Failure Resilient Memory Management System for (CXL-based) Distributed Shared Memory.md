@@ -9,6 +9,7 @@ aliases:
 
 SOSP'23
 
+Partial Failure Resilient DSM （RDSM）
 
 
 ## Related
