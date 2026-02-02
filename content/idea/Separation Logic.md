@@ -44,6 +44,8 @@ $$
 | $p * p$         | separating conjunction | 分离与   |
 | $p \multimap p$ | separating implication | 分离蕴涵 |
 
+它们用于Structural Assertion (与Logical/Boolean Assertion区分）.
+
 ### Semantics
 
 对堆的建模有多种方式，比如可以假设堆地址和变量值不在一个domain。这里假设堆的地址都是整数（好处是可以支持指针算术运算），即
@@ -79,7 +81,7 @@ $$[p_0 \rightarrow * p_1]_{\text{asrt}}s h \text{ iff } \forall h'. (h' \perp h 
 
 #### 常见性质
 
-分离逻辑是一种Substructural Logic.
+分离逻辑是一种[[Substructural Logic]].
 
 
 1. 分离与有结合律、交换律
@@ -107,8 +109,10 @@ Frame规则的重要性在于允许使用局部的规约：
 
 > To understand how a program works, it should be possible for reasoning and specification to be confined to the cells that the program actually accesses[^1]. The value of any other cell will automatically remain unchanged
 
+> “When working in separation logic, specifications like {P} e {Q} are generally stated in a “small footprint” style where P mentions only the state e relies on for its execution. This intuition is backed by the celebrated frame rule, which says that if {P} e {Q} holds, any disjoint state is unaffected, namely {P ∗ F } e {Q ∗ F }.” (Chajed, 2022, p. 30)
+
 ## Related
 
 - [[数理逻辑]]
 
-[^1]: memory footprint
+[^1]: [[memory footprint]]
