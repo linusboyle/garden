@@ -84,11 +84,11 @@ $$[p_0 \rightarrow * p_1]_{\text{asrt}}s h \text{ iff } \forall h'. (h' \perp h 
 分离逻辑是一种[[Substructural Logic]].
 
 
-1. 分离与有结合律、交换律
+1. 分离与有结合律、交换律，但没有Weakening和Contraction
 2. emp是分离与的单位元
 3. 分离与对析取有分配律，对合取只有一侧成立$(p_1 \land p_2) * q \rightarrow (p_1 * q) \land (p_2 * q)$
 
-满足特定情况下具有更好的性质：
+满足特定条件的分离逻辑公式具有更好的性质：
 
 - pure assertion: 不包含emp和$\mapsto$，此时分离与、分离蕴涵和相应的逻辑连接词等价
 - intuitionistic assertion: 如果h满足，则h的扩展h'也满足
