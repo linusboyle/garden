@@ -52,7 +52,7 @@ Generally, determining crash consistency bugs requires ==application specific kn
 **Logics**
 
 - Crash Hoare Logic (for sequential file system)
-- Perennial (for concurrent file system, no WMM behaviour)
+- [[Perennial]] (for concurrent file system, no WMM behaviour)
 - Spirea (for [[Non-Volatile Memory|NVM]])
 
 ## Related

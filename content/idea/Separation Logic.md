@@ -124,5 +124,6 @@ Frame规则的重要性在于允许使用局部的规约：
 
 - [[数理逻辑]]
 - [15-818A3 Introduction to Separation Logic](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/fox-19/member/jcr/www15818As2011/cs818A3-11.html)
+- [SF 第6卷](https://softwarefoundations.cis.upenn.edu/slf-current/toc.html)
 
 [^1]: [[memory footprint]]
