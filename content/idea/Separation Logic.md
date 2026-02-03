@@ -6,11 +6,15 @@ aliases:
 - 分离逻辑
 ---
 
-对可变共享数据结构的研究导向了在逻辑层面的若干独立发现，在2002年由J.C. Reynolds正式在LICS'02上提出分离逻辑的概念。分离逻辑既指一种谓词逻辑的扩展，也指以此种逻辑进行断言的Hoare Logic扩展及其推理系统。
+分离逻辑既指一种谓词逻辑的扩展，也指以此种逻辑进行断言的Hoare Logic扩展及其推理系统。
+
+> The key ideas of Separation Logic were devised by John Reynolds, inspired in part by older work by Burstall [1972]. Reynolds presented his ideas in lectures given in the fall of 1999. The proposed rules turned out to be unsound, but O'Hearn and Ishtiaq [2001] noticed a strong relationship with the logic of bunched implications [O'Hearn and Pym, 1999], leading to ideas on how to set up a sound program logic. Soon afterwards, the seminal publications on Separation Logic appeared at the CSL workshop [O'Hearn et al., 2001] and at the LICS conference [Reynolds, 2002].
+
+>“Today, the core definitions of Separation Logic may appear as the obvious thing to write, or even as the only thing that would make sense to write. Perhaps the best way to truly value the contribution of Separation Logic is to realize that, following the introduction of the first program logics in the late sixties [Floyd, 1967; Hoare, 1969; Dijkstra, 1975], people have tried for 30 years to verify programs without Separation Logic.”如今，分离逻辑的核心定义看似是理所当然的表述，甚至可能是唯一合理的表述。要真正理解分离逻辑的贡献，或许最好的方式是认识到：自上世纪六十年代末首批程序逻辑体系提出以来[Floyd, 1967; Hoare, 1969; Dijkstra, 1975]，人们在没有分离逻辑的情况下尝试进行程序验证已长达三十年。 (Charguéraud, 2023, p. 7)
 
 ## Motivation
 
-对于堆上的数据结构，如果仅使用谓词逻辑进行描述会非常复杂，也难以scale。究其原因，通常对这类程序进行分析时，往往需要对数据结构间的共享/别名情况进行限制，譬如：
+对于堆上的数据结构，如果仅使用谓词逻辑进行描述会非常复杂，难以scale。究其原因，通常对这类程序进行分析时，往往需要对数据结构间的共享 Sharing/别名 Aliasing情况进行限制，譬如：
 
 $$
 (\exists \alpha, \beta. \textbf{list} \; \alpha \; i \wedge \textbf{list} \; \beta \; j \wedge \alpha_0^\dagger = \alpha^\dagger \cdot \beta) \\ \wedge (\forall k. \textbf{reach}(i, k) \wedge \textbf{reach}(j, k) \Rightarrow k = \textbf{nil}),
@@ -29,6 +33,10 @@ $$
 $$
 
 分离逻辑可以解决上述问题，关键点在于这些情况均可用堆的「分离」刻画，且分离逻辑公式可以从堆的局部属性出发。
+
+> "The main difficulty is not one of finding an in-principle adequate axiomatization of pointer operations; rather there is a mismatch between simple intuitions about the way that pointer operations work and the complexity of their axiomatic treatments....when there is aliasing, arising from several pointers to a given cell, an alteration to a cell may affect the values of many syntactically unrelated expressions." CSL'01
+> 
+> “主要难点并不在于找到指针操作在原则上完备的公理化描述，而在于指针运作方式的直观理解与其公理化处理的复杂性之间存在脱节……当出现多个指针指向同一存储单元的别名现象时，对单元的修改可能会影响许多语法上无关的表达式的值。”
 
 
 ## Assertion Language
@@ -100,10 +108,11 @@ $$[p_0 \rightarrow * p_1]_{\text{asrt}}s h \text{ iff } \forall h'. (h' \perp h 
 
 此时，霍尔逻辑中的Constancy规则（在结论的前后置条件都逻辑与上一个公式）不再可靠，取而代之的是重要的Frame规则：
 
+$$
+\frac{\{p\} c \{q\}}{\{p * r\} c \{q * r\}}
+$$
 
-$$\frac{\{p\} c \{q\}}{\{p * r\} c \{q * r\}}$$
-
-where no variable occurring free in r is modified by c .
+where no variable occurring free in r is modified by c ($mod(c) \cap fv(r) = \emptyset$).
 
 Frame规则的重要性在于允许使用局部的规约：
 
@@ -114,5 +123,6 @@ Frame规则的重要性在于允许使用局部的规约：
 ## Related
 
 - [[数理逻辑]]
+- [15-818A3 Introduction to Separation Logic](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/fox-19/member/jcr/www15818As2011/cs818A3-11.html)
 
 [^1]: [[memory footprint]]

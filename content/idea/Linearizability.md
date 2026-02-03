@@ -12,7 +12,7 @@ In a concurrent system, an execution of the system results in a _history_, an or
 A history is **linearizable** if there is a total order `lin` of completed operations such that
 
 1. Every operation has the same result if they were completed one by one in the order `lin`. (All operations appear as atomic to the client)
-2. If an operation a completes before another operation b begins, then a precedes b in `lin`. (The order should obey the real-time execution)
+2. If an operation `a` completes before another operation `b` begins, then `a` precedes `b` in `lin`. (The order should obey the real-time execution)
 
 A program (or object) is linearizable if all valid history of it can be linearized.
 
