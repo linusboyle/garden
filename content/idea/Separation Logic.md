@@ -10,7 +10,7 @@ aliases:
 
 > The key ideas of Separation Logic were devised by John Reynolds, inspired in part by older work by Burstall [1972]. Reynolds presented his ideas in lectures given in the fall of 1999. The proposed rules turned out to be unsound, but O'Hearn and Ishtiaq [2001] noticed a strong relationship with the logic of bunched implications [O'Hearn and Pym, 1999], leading to ideas on how to set up a sound program logic. Soon afterwards, the seminal publications on Separation Logic appeared at the CSL workshop [O'Hearn et al., 2001] and at the LICS conference [Reynolds, 2002].
 
->“Today, the core definitions of Separation Logic may appear as the obvious thing to write, or even as the only thing that would make sense to write. Perhaps the best way to truly value the contribution of Separation Logic is to realize that, following the introduction of the first program logics in the late sixties [Floyd, 1967; Hoare, 1969; Dijkstra, 1975], people have tried for 30 years to verify programs without Separation Logic.”如今，分离逻辑的核心定义看似是理所当然的表述，甚至可能是唯一合理的表述。要真正理解分离逻辑的贡献，或许最好的方式是认识到：自上世纪六十年代末首批程序逻辑体系提出以来[Floyd, 1967; Hoare, 1969; Dijkstra, 1975]，人们在没有分离逻辑的情况下尝试进行程序验证已长达三十年。 (Charguéraud, 2023, p. 7)
+>“Today, the core definitions of Separation Logic may appear as the obvious thing to write, or even as the only thing that would make sense to write. Perhaps the best way to truly value the contribution of Separation Logic is to realize that, following the introduction of the first program logics in the late sixties [Floyd, 1967; Hoare, 1969; Dijkstra, 1975], people have tried for 30 years to verify programs without Separation Logic.”如今，分离逻辑的核心定义看似是理所当然的表述，甚至可能是唯一合理的表述。要真正理解分离逻辑的贡献，或许最好的方式是认识到：自上世纪六十年代末首批程序逻辑提出以来[Floyd, 1967; Hoare, 1969; Dijkstra, 1975]，人们在没有分离逻辑的情况下尝试进行程序验证已长达三十年。 (Charguéraud, 2023, p. 7)
 
 ## Motivation
 
@@ -85,7 +85,7 @@ $$[p_0 * p_1]_{\text{asrt}} s h \text{ iff } \exists h_0, h_1. h_0 \perp h_1 \te
 
 #### 分离蕴涵
 
-$$[p_0 \rightarrow * p_1]_{\text{asrt}}s h \text{ iff } \forall h'. (h' \perp h \text{ and } [p_0]_{\text{asrt}}s h') \text{ implies } [p_1]_{\text{asrt}}s (h \cdot h').$$
+$$[p_0 \multimap p_1]_{\text{asrt}}s h \text{ iff } \forall h'. (h' \perp h \text{ and } [p_0]_{\text{asrt}}s h') \text{ implies } [p_1]_{\text{asrt}}s (h \cdot h').$$
 
 #### 常见性质
 
@@ -119,6 +119,8 @@ Frame规则的重要性在于允许使用局部的规约：
 > To understand how a program works, it should be possible for reasoning and specification to be confined to the cells that the program actually accesses[^1]. The value of any other cell will automatically remain unchanged
 
 > “When working in separation logic, specifications like {P} e {Q} are generally stated in a “small footprint” style where P mentions only the state e relies on for its execution. This intuition is backed by the celebrated frame rule, which says that if {P} e {Q} holds, any disjoint state is unaffected, namely {P ∗ F } e {Q ∗ F }.” (Chajed, 2022, p. 30)
+
+特别地，分离逻辑的局部规约同时也保证了对堆的完全所有权，即在逻辑层面保证了不会有其他指令/部分对堆进行修改。实际上，分离与不仅可以表示堆的分离，也可以表示“资源”的分离——分离逻辑非常适合用于并发场景，见[[Concurrent Separation Logic]]
 
 ## Related
 
