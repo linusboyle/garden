@@ -16,13 +16,13 @@ aliases:
 > 
 > “they now denote ownership by whichever thread is running the code in question. Concretely, this means that if a thread t can assert l → v, then t knows that no other thread can read or write l concurrently, so it can completely ignore the other threads and just reason about as if it were operating in a sequential setting.” (Jung 等, 2018, p. 3)
 
-如果线程间不相干，亦即各自操作分离的内存，则有下面的推导规则：
+如果线程各自操作分离的内存，则有下面的推导规则：
 
 $$\frac{\{P\} C\{Q\} \quad\left\{P^{\prime}\right\} C^{\prime}\left\{Q^{\prime}\right\}}{\left\{P * P^{\prime}\right\} C \| C^{\prime}\left\{Q * Q^{\prime}\right\}}$$
 
 where C does not modify any variables free in P′, C′, Q′, and conversely.
 
-与不相干线程对应的霍尔逻辑规则是Tony Hoare在‘Towards a Theory of Parallel Programming (1972)’提出的，不过霍尔逻辑是全局的，对数组的更新也是全局（a[i] = ... 被认为改变了a），故实际应用不广泛。
+与此对应的霍尔逻辑规则是Tony Hoare在‘Towards a Theory of Parallel Programming (1972)’提出的，不过霍尔逻辑是全局的，对数组的更新也是全局（a[i] = ... 被认为改变了a），故实际应用不广泛。
 
 ## 所有权的动态转移
 
