@@ -8,7 +8,7 @@ aliases:
 
 SOSP'19 Verifying concurrent, crash-safe systems with Perennial
 
-基于Iris风格的[[Concurrent Separation Logic|并发分离逻辑]]，对并发系统的崩溃一致性进行验证的证明系统。
+基于Iris风格的[[Concurrent Separation Logic|并发分离逻辑]]，对并发系统的崩溃一致性进行验证的证明系统。本文隐含了[[Strict Persistency]]及[[failure model|Full System Failure Model]]的假设，磁盘写不会重排，恢复例程不会并发。
 
 - Specification: Perennial的规约是系统的抽象/逻辑[[变迁系统]]，正确性表示为系统的具体实现与规约间的抽象精化关系（在本文中，使用forward simulation进行证明）。见下图
 

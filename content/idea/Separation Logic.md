@@ -92,7 +92,7 @@ $$[p_0 \multimap p_1]_{\text{asrt}}s h \text{ iff } \forall h'. (h' \perp h \tex
 分离逻辑是一种[[Substructural Logic]].
 
 
-1. 分离与有结合律、交换律，但没有Weakening和Contraction
+1. 分离与有结合律、交换律（在堆集合上构成[[monoid|幺半群]]），但没有Weakening和Contraction
 2. emp是分离与的单位元
 3. 分离与对析取有分配律，对合取只有一侧成立$(p_1 \land p_2) * q \rightarrow (p_1 * q) \land (p_2 * q)$
 
