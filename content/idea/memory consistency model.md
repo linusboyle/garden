@@ -8,6 +8,8 @@ see also:
 aliases:
   - WMM
   - weak memory model
+  - 内存一致性模型
+  - 内存模型
 ---
 
 ## memory consistency model
