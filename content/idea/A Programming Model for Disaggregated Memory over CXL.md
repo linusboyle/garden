@@ -14,6 +14,8 @@ ASPLOS'26
 > In our email discussions with Intel engineers, they have told us that CXL systems are intended to provide TSO ordering guarantees across machines, although there is no formal specification yet.
 2. 系统不再只有单个failure domain，各节点可以各自崩溃。
 
+## CXL0
+
 本文根据[[CXL]]规范讨论了在一般情况下的一种编程模型CXL0。其模型中考虑Type-2型设备，即互连的设备均有处理器和内存，且可以对内存的共享进行配置，共享内存保持[[cache coherence]]。cache line可以缓存远端内存。
 
 CXL0抽象掉了每个节点内部的一致性模型，而只讨论提交到CXL连接网络的transaction的语义。
@@ -28,6 +30,15 @@ CXL0的原语包括：
 
 Crash变迁规则刻画了单个节点的崩溃。如果节点的内存是[[Non-Volatile Memory|NVM]]，则保留数据，否则重置。无论如何，缓存行总是被清空。
 
+## CXL系统
+
+本文也讨论了目前CXL实现或者预想中的应用
+
+![[A Programming Model for Disaggregated Memory over CXL-20260206143017950.webp]]
+
+1. Host-Device Pairing（已实现）：a host and an accelerator that share memory in  a cache-coherent manner using CXL.cache and CXL.mem.
+2. Partitioned disaggregated memory pool（已实现）：在这种情况下，共享内存池逻辑上等价于节点之外的一个failure domain，故在系统中的行为和[[Non-Volatile Memory|NVM]]相同。
+3. Shared disaggregated memory pool：尚未实现，不过理论上能提供缓存一致的共享内存访问。
 
 ## Related
 
