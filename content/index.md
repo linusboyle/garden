@@ -9,31 +9,32 @@ date: 2025-01-19
 
 花园没有栅栏，也没有门扉，似乎在邀请过路人随意观览。一张石桌上正随意地摊开着些[[读书记录|书卷]]，散落其中的是些潦草写就的[[tags/post|文章]]。近处则是一些不久前修剪过的花卉，零落着等待最终的开花结果。越过花园，脚下的小径继续延伸，通往比邻而未知的[[友链|远方]]。
 
+
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 
-| 修剪时间             | 链接                                                                                                                                                                                                     |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| January 31, 2026 | [[Substructural Logic]]                                                                                                                                                   |
-| January 31, 2026 | [[Separation Logic]]                                                                                                                                                         |
-| January 30, 2026 | [[20260129114433 IO操作的持久化顺序约束]]                                                                                                                                   |
-| January 30, 2026 | [[mimalloc]]                                                                                                                                                                         |
-| January 30, 2026 | [[20260106033746 PMEM内存分配与GC]]                                                                                                                                     |
-| January 30, 2026 | [[CXL]]                                                                                                                                                                                   |
-| January 30, 2026 | [[Partial Failure Resilient Memory Management System for (CXL-based) Distributed Shared Memory]] |
-| January 30, 2026 | [[failure model]]                                                                                                                                                               |
-| January 16, 2026 | [[母舰]]                                                                                                                                                                                     |
-| January 16, 2026 | [[桌面角色扮演游戏]]                                                                                                                                                                         |
-| January 16, 2026 | [[20250627113222 agency theory of fun]]                                                                                                                   |
-| January 16, 2026 | [[RSS]]                                                                                                                                                                                   |
-| January 16, 2026 | [[OSR]]                                                                                                                                                                                   |
-| January 16, 2026 | [[20250610103733 GNS理论]]                                                                                                                                                 |
-| January 16, 2026 | [[Escape Analysis]]                                                                                                                                                           |
-| January 16, 2026 | [[Infer]]                                                                                                                                                                               |
-| January 04, 2026 | [[读书记录]]                                                                                                                                                                                 |
-| January 04, 2026 | [[乐趣自主性理论]]                                                                                                                                                                           |
-| January 04, 2026 | [[20250627112628 保证玩家开心并非GM的职责]]                                                                                                                                 |
-| January 04, 2026 | [[ICI准则]]                                                                                                                                                                               |
+| 修剪时间              | 链接                                                                                                                       |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| February 06, 2026 | [[A Programming Model for Disaggregated Memory over CXL]] |
+| February 06, 2026 | [[failure model]]                                                                                 |
+| February 06, 2026 | [[memory consistency model]]                                                           |
+| February 05, 2026 | [[program order]]                                                                                 |
+| February 05, 2026 | [[modification order]]                                                                       |
+| February 05, 2026 | [[coherence memory model]]                                                               |
+| February 05, 2026 | [[Total Store Order]]                                                                         |
+| February 05, 2026 | [[TSO operational semantics]]                                                         |
+| February 05, 2026 | [[Sequential Consistency]]                                                               |
+| February 05, 2026 | [[SC operational semantics]]                                                           |
+| February 05, 2026 | [[SC declarative model]]                                                                   |
+| February 05, 2026 | [[Evaluation Context]]                                                                       |
+| February 05, 2026 | [[Classification of memory consistency model]]                       |
+| February 05, 2026 | [[Perennial]]                                                                                         |
+| February 04, 2026 | [[Separation Logic]]                                                                           |
+| February 04, 2026 | [[monoid]]                                                                                               |
+| February 04, 2026 | [[semigroup]]                                                                                         |
+| February 04, 2026 | [[Concurrent Separation Logic]]                                                     |
+| February 04, 2026 | [[Sequent Calculus]]                                                                           |
+| February 03, 2026 | [[Crash Consistency]]                                                                         |
 <!-- SerializedQuery END -->
 
 

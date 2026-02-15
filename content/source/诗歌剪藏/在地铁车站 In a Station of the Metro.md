@@ -1,15 +1,15 @@
 ---
 title: 在地铁车站 In a Station of the Metro
 date: 2026-01-26
-tags: 
+tags:
 aliases:
+author:
+  - 庞德
 ---
 
 In a Station of the Metro  
 在地铁车站
 
-庞德
-  
 The apparition of these faces in the crowd;  
 人群中这些面容幽灵般显现  
 Petals on a wet, black bough.  

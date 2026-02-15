@@ -1,7 +1,9 @@
 ---
 title: Patterns
 date: 2025-09-11
-tags: 
+tags:
+author:
+  - Amy Lowell
 ---
 
 Patterns
