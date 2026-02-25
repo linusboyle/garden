@@ -9,13 +9,13 @@ date: 2025-01-19
 
 花园没有栅栏，也没有门扉，似乎在邀请过路人随意观览。一张石桌上正随意地摊开着些[[读书记录|书卷]]，散落其中的是些潦草写就的[[tags/post|文章]]。近处则是一些不久前修剪过的花卉，零落着等待最终的开花结果。越过花园，脚下的小径继续延伸，通往比邻而未知的[[友链|远方]]。
 
-
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 
 | 修剪时间              | 链接                                                                                                                       |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| February 06, 2026 | [[A Programming Model for Disaggregated Memory over CXL]] |
+| February 25, 2026 | [[A Programming Model for Disaggregated Memory over CXL]] |
+| February 24, 2026 | [[20260224113601 Archlinux更新时的签名问题]]                                           |
 | February 06, 2026 | [[failure model]]                                                                                 |
 | February 06, 2026 | [[memory consistency model]]                                                           |
 | February 05, 2026 | [[program order]]                                                                                 |
@@ -34,7 +34,6 @@ date: 2025-01-19
 | February 04, 2026 | [[semigroup]]                                                                                         |
 | February 04, 2026 | [[Concurrent Separation Logic]]                                                     |
 | February 04, 2026 | [[Sequent Calculus]]                                                                           |
-| February 03, 2026 | [[Crash Consistency]]                                                                         |
 <!-- SerializedQuery END -->
 
 

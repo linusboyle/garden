@@ -22,7 +22,7 @@ Every hardware architecture has its own memory model. [[memory barrier (fence)]]
 
 ### Operational semantics
 
-The operational semantics can be given in small steps semantics. The system is composed of a *thread subsystem* and a *storage subsystem*.
+The operational semantics can be given in small steps semantics. The system is composed of a *thread subsystem* and a *storage subsystem* (effectively [[变迁系统|LTS]]).
 
 The thread subsystem interpret the sequential program in each thread. It might take internal steps, which does not use memory (such as operation on registers, so ), or take a step that requires memory access $P,S \rightarrow^{i:l} P', S'$. (The access or fences are represented as labels `l`)
 
