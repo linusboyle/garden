@@ -128,3 +128,13 @@ Created: [[2025-06-10]]
 
 
 
+Created: [[2026-01-16]] 
+
+> 模拟主义rpg则是那种你游玩以深入钻探主题的游戏，你的这个主题可以是一个虚构世界、一个虚构角色、或是你所用规则的模拟模型。
+
+
+
+[See in context](https://hyp.is/l0zuavLnEfCEDCdrm8i5wg/www.goddessfantasy.net/bbs/index.php?topic=159076.0) at [【译文】重审GNS](https://www.goddessfantasy.net/bbs/index.php?topic=159076.0)
+
+
+

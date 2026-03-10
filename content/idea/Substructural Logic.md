@@ -9,3 +9,7 @@ aliases:
 
 - Relevance Logic: No weakening rule
 - Linear Logic: No weakening and contraction rule
+
+## Related
+
+- [[Substructural Logics]]
