@@ -12,28 +12,28 @@ date: 2025-01-19
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 
-| 修剪时间              | 链接                                                                                                                       |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| February 25, 2026 | [[A Programming Model for Disaggregated Memory over CXL]] |
-| February 24, 2026 | [[20260224113601 Archlinux更新时的签名问题]]                                           |
-| February 06, 2026 | [[failure model]]                                                                                 |
-| February 06, 2026 | [[memory consistency model]]                                                           |
-| February 05, 2026 | [[program order]]                                                                                 |
-| February 05, 2026 | [[modification order]]                                                                       |
-| February 05, 2026 | [[coherence memory model]]                                                               |
-| February 05, 2026 | [[Total Store Order]]                                                                         |
-| February 05, 2026 | [[TSO operational semantics]]                                                         |
-| February 05, 2026 | [[Sequential Consistency]]                                                               |
-| February 05, 2026 | [[SC operational semantics]]                                                           |
-| February 05, 2026 | [[SC declarative model]]                                                                   |
-| February 05, 2026 | [[Evaluation Context]]                                                                       |
-| February 05, 2026 | [[Classification of memory consistency model]]                       |
-| February 05, 2026 | [[Perennial]]                                                                                         |
-| February 04, 2026 | [[Separation Logic]]                                                                           |
-| February 04, 2026 | [[monoid]]                                                                                               |
-| February 04, 2026 | [[semigroup]]                                                                                         |
-| February 04, 2026 | [[Concurrent Separation Logic]]                                                     |
-| February 04, 2026 | [[Sequent Calculus]]                                                                           |
+| 修剪时间              | 链接                                                                                                                     |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| March 14, 2026    | [[皇帝的旧衣]]                                                                                               |
+| March 14, 2026    | [[20260314022844 GOD is REAL (unless declared INTEGER)]] |
+| March 14, 2026    | [[Read-Modify-Write]]                                                                       |
+| March 14, 2026    | [[SC declarative model]]                                                                 |
+| March 14, 2026    | [[SC operational semantics]]                                                         |
+| March 13, 2026    | [[20260312103408 社交媒体之死]]                                                               |
+| March 12, 2026    | [[20260312100953 Enshittification]]                                           |
+| March 12, 2026    | [[20250609112156 大模型在TLA+建模与验证方面的能力]]                                       |
+| March 12, 2026    | [[20250609054034 LLM for Formal Methods]]                               |
+| March 12, 2026    | [[20250624055524 Vibe Coding]]                                                     |
+| March 10, 2026    | [[桌面角色扮演游戏]]                                                                                         |
+| March 10, 2026    | [[Substructural Logic]]                                                                   |
+| March 07, 2026    | [[马面裙]]                                                                                                   |
+| February 27, 2026 | [[Zermelo–Fraenkel set theory]]                                                   |
+| February 27, 2026 | [[pure set]]                                                                                         |
+| February 25, 2026 | [[memory consistency model]]                                                         |
+| February 25, 2026 | [[cache coherence]]                                                                           |
+| February 25, 2026 | [[Persistency semantics of the Intel-x86 architecture]]   |
+| February 25, 2026 | [[Taming x86-TSO persistency]]                                                     |
+| February 25, 2026 | [[变迁系统]]                                                                                                 |
 <!-- SerializedQuery END -->
 
 
