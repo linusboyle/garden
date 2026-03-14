@@ -10,6 +10,6 @@ In [[Sequential Consistency]], the memory state is a function from location to v
 
 ![](Pasted%20image%2020220123210958.png)
 
-The SC has no internal steps of memory subsystem. So the whole semantics is straight-forward:
+The SC has no internal steps of memory subsystem. So fence has no effect, and the whole semantics is straight-forward:
 
 ![](Pasted%20image%2020220123211055.png)
