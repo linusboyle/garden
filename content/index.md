@@ -9,31 +9,32 @@ date: 2025-01-19
 
 花园没有栅栏，也没有门扉，似乎在邀请过路人随意观览。一张石桌上正随意地摊开着些[[读书记录|书卷]]，散落其中的是些潦草写就的[[tags/post|文章]]。近处则是一些不久前修剪过的花卉，零落着等待最终的开花结果。越过花园，脚下的小径继续延伸，通往比邻而未知的[[友链|远方]]。
 
+
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 
-| 修剪时间              | 链接                                                                                                                     |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| March 14, 2026    | [[皇帝的旧衣]]                                                                                               |
-| March 14, 2026    | [[20260314022844 GOD is REAL (unless declared INTEGER)]] |
-| March 14, 2026    | [[Read-Modify-Write]]                                                                       |
-| March 14, 2026    | [[SC declarative model]]                                                                 |
-| March 14, 2026    | [[SC operational semantics]]                                                         |
-| March 13, 2026    | [[20260312103408 社交媒体之死]]                                                               |
-| March 12, 2026    | [[20260312100953 Enshittification]]                                           |
-| March 12, 2026    | [[20250609112156 大模型在TLA+建模与验证方面的能力]]                                       |
-| March 12, 2026    | [[20250609054034 LLM for Formal Methods]]                               |
-| March 12, 2026    | [[20250624055524 Vibe Coding]]                                                     |
-| March 10, 2026    | [[桌面角色扮演游戏]]                                                                                         |
-| March 10, 2026    | [[Substructural Logic]]                                                                   |
-| March 07, 2026    | [[马面裙]]                                                                                                   |
-| February 27, 2026 | [[Zermelo–Fraenkel set theory]]                                                   |
-| February 27, 2026 | [[pure set]]                                                                                         |
-| February 25, 2026 | [[memory consistency model]]                                                         |
-| February 25, 2026 | [[cache coherence]]                                                                           |
-| February 25, 2026 | [[Persistency semantics of the Intel-x86 architecture]]   |
-| February 25, 2026 | [[Taming x86-TSO persistency]]                                                     |
-| February 25, 2026 | [[变迁系统]]                                                                                                 |
+| 修剪时间           | 链接                                                                                                                     |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| March 21, 2026 | [[20260321114521 注意力分散取决于设计模式而非媒介本身]]                                       |
+| March 21, 2026 | [[20260312100953 Enshittification]]                                           |
+| March 21, 2026 | [[20260320093338 后文字时代及衰退论]]                                                         |
+| March 21, 2026 | [[20260320092720 读写的重要性下降伴随着多模态的记录形式，而非回归口头传统]]                   |
+| March 20, 2026 | [[20260318044720 CXL 3.0 内存共享实现与落地进展]]                                     |
+| March 18, 2026 | [[failure model]]                                                                               |
+| March 15, 2026 | [[读书记录]]                                                                                                 |
+| March 15, 2026 | [[皇帝的旧衣]]                                                                                               |
+| March 14, 2026 | [[众山小]]                                                                                                   |
+| March 14, 2026 | [[20260312103408 社交媒体之死]]                                                               |
+| March 14, 2026 | [[20260314022844 GOD is REAL (unless declared INTEGER)]] |
+| March 14, 2026 | [[Read-Modify-Write]]                                                                       |
+| March 14, 2026 | [[SC declarative model]]                                                                 |
+| March 14, 2026 | [[SC operational semantics]]                                                         |
+| March 12, 2026 | [[20250609112156 大模型在TLA+建模与验证方面的能力]]                                       |
+| March 12, 2026 | [[20250609054034 LLM for Formal Methods]]                               |
+| March 12, 2026 | [[20250624055524 Vibe Coding]]                                                     |
+| March 10, 2026 | [[桌面角色扮演游戏]]                                                                                         |
+| March 10, 2026 | [[Substructural Logic]]                                                                   |
+| March 07, 2026 | [[马面裙]]                                                                                                   |
 <!-- SerializedQuery END -->
 
 
