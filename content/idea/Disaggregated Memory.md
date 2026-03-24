@@ -18,9 +18,10 @@ aliases:
 
 ## 实现
 
-- RDMA
-- [[CXL]]被认为是下一代的分离式内存技术的主流方向（远程内存访问延迟缩短至170到250纳秒，接近本地内存访问延迟）
+- RDMA：使用Message Passing，需要通过网络传输
+- [[CXL]]被认为是下一代的分离式内存技术的主流方向（远程内存访问延迟缩短至170到250纳秒，接近本地内存访问延迟）：提供Load/Store语义
 
 ## Related
 
 - [“分离式内存”术语发布 | CCF术语快线](https://www.ccf.org.cn/Media_list/gzwyh/jsjsysdwyh/2022-03-25/789826.shtml)
+- 分离式内存如果共享，则构成DSM的实现；关于该技术的前景和挑战，见[[Revisiting Distributed Memory in the CXL Era]]

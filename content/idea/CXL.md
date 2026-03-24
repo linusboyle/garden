@@ -26,3 +26,4 @@ aliases:
 
 - [Homepage - Compute Express Link](https://computeexpresslink.org/) 目前已发布4.0版本规范
 - [[Revisiting Distributed Memory in the CXL Era]] 讨论3.0引入的DSM支持
+- [[20260318044720 CXL 3.0 内存共享实现与落地进展|CXL 3.0 内存共享实现与落地进展]]
