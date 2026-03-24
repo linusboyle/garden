@@ -9,32 +9,31 @@ date: 2025-01-19
 
 花园没有栅栏，也没有门扉，似乎在邀请过路人随意观览。一张石桌上正随意地摊开着些[[读书记录|书卷]]，散落其中的是些潦草写就的[[tags/post|文章]]。近处则是一些不久前修剪过的花卉，零落着等待最终的开花结果。越过花园，脚下的小径继续延伸，通往比邻而未知的[[友链|远方]]。
 
-
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 
-| 修剪时间           | 链接                                                                                                                     |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| March 21, 2026 | [[20260321114521 注意力分散取决于设计模式而非媒介本身]]                                       |
-| March 21, 2026 | [[20260312100953 Enshittification]]                                           |
-| March 21, 2026 | [[20260320093338 后文字时代及衰退论]]                                                         |
-| March 21, 2026 | [[20260320092720 读写的重要性下降伴随着多模态的记录形式，而非回归口头传统]]                   |
-| March 20, 2026 | [[20260318044720 CXL 3.0 内存共享实现与落地进展]]                                     |
-| March 18, 2026 | [[failure model]]                                                                               |
-| March 15, 2026 | [[读书记录]]                                                                                                 |
-| March 15, 2026 | [[皇帝的旧衣]]                                                                                               |
-| March 14, 2026 | [[众山小]]                                                                                                   |
-| March 14, 2026 | [[20260312103408 社交媒体之死]]                                                               |
-| March 14, 2026 | [[20260314022844 GOD is REAL (unless declared INTEGER)]] |
-| March 14, 2026 | [[Read-Modify-Write]]                                                                       |
-| March 14, 2026 | [[SC declarative model]]                                                                 |
-| March 14, 2026 | [[SC operational semantics]]                                                         |
-| March 12, 2026 | [[20250609112156 大模型在TLA+建模与验证方面的能力]]                                       |
-| March 12, 2026 | [[20250609054034 LLM for Formal Methods]]                               |
-| March 12, 2026 | [[20250624055524 Vibe Coding]]                                                     |
-| March 10, 2026 | [[桌面角色扮演游戏]]                                                                                         |
-| March 10, 2026 | [[Substructural Logic]]                                                                   |
-| March 07, 2026 | [[马面裙]]                                                                                                   |
+| 修剪时间           | 链接                                                                                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| March 24, 2026 | [[20260324100032 Agent Skills]]                                                                                                               |
+| March 24, 2026 | [[序数法生成排列]]                                                                                                                                                       |
+| March 24, 2026 | [[国史读书会01]]                                                                                                                                                       |
+| March 24, 2026 | [[求解常系数线性递推关系]]                                                                                                                                               |
+| March 24, 2026 | [[Leslie Lamport]]                                                                                                                                         |
+| March 24, 2026 | [[LLVM 转换IR格式]]                                                                                                                                               |
+| March 24, 2026 | [[stochastic search]]                                                                                                                                   |
+| March 24, 2026 | [[constraint solving based synthesis]]                                                                                                 |
+| March 24, 2026 | [[程序综合]]                                                                                                                                                             |
+| March 24, 2026 | [[程序综合的一般原则]]                                                                                                                                                   |
+| March 24, 2026 | [[programming by example]]                                                                                                                         |
+| March 24, 2026 | [[enumerative search based synthesis]]                                                                                                 |
+| March 24, 2026 | [[Probabilistic Program Verification via Inductive Synthesis of Inductive Invariants]] |
+| March 24, 2026 | [[树的直径]]                                                                                                                                                             |
+| March 24, 2026 | [[compositional concurrent program verification (sample-generalize-check)]]                       |
+| March 24, 2026 | [[trace abstraction]]                                                                                                                                   |
+| March 24, 2026 | [[终止性分析]]                                                                                                                                                           |
+| March 24, 2026 | [[基于trace的程序建模]]                                                                                                                                             |
+| March 24, 2026 | [[lasso]]                                                                                                                                                           |
+| March 24, 2026 | [[并发程序分析验证]]                                                                                                                                                     |
 <!-- SerializedQuery END -->
 
 
