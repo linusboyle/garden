@@ -1,7 +1,6 @@
 ---
 title: memory consistency model
 created time: "[[2024-02-25]]"
-source: "[[weak memory consistency]]"
 tags:
   - idea
 see also: 

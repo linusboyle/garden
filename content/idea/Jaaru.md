@@ -3,7 +3,7 @@ title: Jaaru
 date: 2022-10-10
 tags:
 related:
-- "[[persistent memory verification]]"
+  - "[[persistent memory verification (primitive idea)]]"
 ---
 
 # Jaaru
