@@ -1,7 +1,9 @@
 ---
-title: trace abstraction 路径抽象
+title: trace abstraction
 date: 2021-06-20
-tags: 
+tags:
+aliases:
+  - 路径抽象
 ---
 
 # trace abstraction 路径抽象

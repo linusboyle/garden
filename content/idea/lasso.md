@@ -12,7 +12,7 @@ tags:
 
 lasso是比较典型的无穷路径的一种有穷表示（一个简单的 [[ω-automata|omega automata]]），可能在多个场合生成：
 
-*   基于 [[trace abstraction 路径抽象]]的终止性证明中lasso是（也许为伪）反例。如果lasso的终止性被证明，则将用于trace abstraction的精化；如果非终止性被证明，则证伪了终止性
+*   基于 [[trace abstraction]]的终止性证明中lasso是（也许为伪）反例。如果lasso的终止性被证明，则将用于trace abstraction的精化；如果非终止性被证明，则证伪了终止性
 
 > 在[[终止性分析]]中反例常以lasso的形式给出。
 

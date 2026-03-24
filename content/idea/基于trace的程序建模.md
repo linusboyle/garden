@@ -22,4 +22,4 @@ definition
 correctness
 -----------
 
-P是正确的，当且仅当其所有的control flow trace是正确的。即$L(P) \subset {correct \quad traces}$。要证明P的正确性，可以用[[trace abstraction 路径抽象|trace abstraction]]方法
+P是正确的，当且仅当其所有的control flow trace是正确的。即$L(P) \subset {correct \quad traces}$。要证明P的正确性，可以用[[trace abstraction|trace abstraction]]方法
