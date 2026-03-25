@@ -1,7 +1,8 @@
 ---
 title: 2LS
 date: 2021-06-20
-tags: 
+tags:
+  - tool
 ---
 
 # 2LS
