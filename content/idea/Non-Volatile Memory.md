@@ -93,4 +93,4 @@ Persistency Model for ARMv8:
 
 ### 2024
 
-- Discovering Likely Program Invariants for Persistent Memory (ASE)
+- [[Discovering Likely Program Invariants for Persistent Memory]] (ASE)

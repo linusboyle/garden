@@ -6,7 +6,7 @@ aliases:
 ---
 
 # compositional concurrent program verification (sample-generalize-check)
-采用组合-泛化-检查方法来进行并发程序验证的基本思想，可以用[[A New Notion of Compositionality for Concurrent Program Proofs (Invited Talk)|A New Notion of Compositionality for Concurrent Program Proofs (Invited Talk)]]中的一段话说明：
+采用组合-泛化-检查方法来进行并发程序验证的基本思想，可以用*A New Notion of Compositionality for Concurrent Program Proofs (Invited Talk)* 中的一段话说明：
 
 > The principle behind our methodology is simple. It is difficult to reason about the correctness of a complex concurrent program, however, **it is much simpler to reason about the correctness of a single behaviour (i.e. a single run) of the same program.** 
 > 
