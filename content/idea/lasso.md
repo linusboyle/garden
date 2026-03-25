@@ -8,7 +8,7 @@ tags:
 
 简单的来说，lasso是一条有特定形态的程序执行路径。它有两个部分: stem和loop。stem和loop都是有限的程序片段，且loop在程序的CFG或调用图上形成环。lasso也可以看作只有一条路径的简单程序
 
-如果lasso的路径在语义上是正确的，则称为是feasible。这里可以借用 [[trace]] 中的相关概念。从另一个角度，lasso就是一个特殊的trace。
+如果lasso的路径在语义上是正确的，则称为是feasible。这里可以借用 [[program trace of statements]] 中的相关概念。从另一个角度，lasso就是一个特殊的trace。
 
 lasso是比较典型的无穷路径的一种有穷表示（一个简单的 [[ω-automata|omega automata]]），可能在多个场合生成：
 

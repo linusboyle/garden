@@ -9,7 +9,7 @@ aliases:
 # trace abstraction 路径抽象
 trace abstraction是一种程序验证的方法。程序正确性的定义见[[基于trace的程序建模|基于trace的程序建模]]。因为程序的自动机解释，可以将验证视作语言的包含关系检查$L(P) \subset {correct \quad traces}$
 
-一般来说，所有正确的[[trace|trace]]组成的集合不是regular的（有限或[[ω-regular language|ω-regular language]]）。但是对每一个正确的程序P，都存在一个有限状态自动机A，其语言是P和所有正确trace的语言的插值，即：
+一般来说，所有正确的[[program trace of statements|trace]]组成的集合不是regular的（有限或[[ω-regular language|ω-regular language]]）。但是对每一个正确的程序P，都存在一个有限状态自动机A，其语言是P和所有正确trace的语言的插值，即：
 
 $L(P) \subseteq L(A) \subseteq {correct \quad traces}$
 

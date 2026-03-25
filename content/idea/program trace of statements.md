@@ -1,7 +1,9 @@
 ---
-title: trace
+title: program trace of statements
 date: 2021-06-20
 tags:
+aliases:
+  - trace
 ---
 # trace
 definition
@@ -32,8 +34,7 @@ in other words:
 
 > in whatever valuation of the program variables the execution starts, one of the `assume` statements in the sequence cannot be executed
 
-Thus, infeasibility implies (any) correctness. 这个性质的重要性在于，一般来说，一个[[基于trace的程序建模|程
-序]] 如果的确是正确的，那么其正确的、feasible的control flow trace不是regular的。但是，其所有正确的control flow trace（包括infeasible的）是regular的。因此，将infeasible的trace考虑为正确的trace，是验证能够进行的条件。
+Thus, infeasibility implies (any) correctness. 这个性质的重要性在于，一般来说，一个[[基于trace的程序建模|程序]] 如果的确是正确的，那么其正确的、feasible的control flow trace不是regular的。但是，其所有正确的control flow trace（包括infeasible的）是regular的。因此，将infeasible的trace考虑为正确的trace，是验证能够进行的条件。
 
 > 另外，如果程序本身不是正确的，那么即使是其正确的那部份control flow trace也不一定是regular的。
 > 
