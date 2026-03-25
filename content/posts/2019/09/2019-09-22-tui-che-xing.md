@@ -9,6 +9,8 @@ tags:
 license: cc-by-nc-nd
 toc: true
 description: 托物言志一首
+aliases:
+  - 推车行
 ---
 
 雄鲸吞沙太匆匆，群蚕食叶最消磨。
