@@ -39,7 +39,7 @@ Traditionally, this method is actually similar to [[data poisoning]], by adding 
 
 > (1) Adi, Y.; Baum, C.; Cisse, M.; Pinkas, B.; Keshet, J. Turning Your Weakness Into a Strength: Watermarking Deep Neural Networks by Backdooring; 2018; pp 1615–1631. 
 
-Watermarking can also happen at the prediction stage instead of training. DAWN modifies a small fraction of responses (0.5% or less) returned by the prediction API by replacing correct labels with incorrect ones. This embeds a watermark into any surrogate model trained using the responses. It can be used later to verify if a suspected surrogate model contains the watermark and is therefore extracted from the victim model. -> [[DAWN paper summary (AIGC)]]
+Watermarking can also happen at the prediction stage instead of training. DAWN modifies a small fraction of responses (0.5% or less) returned by the prediction API by replacing correct labels with incorrect ones. This embeds a watermark into any surrogate model trained using the responses. It can be used later to verify if a suspected surrogate model contains the watermark and is therefore extracted from the victim model. 
 
 > (1) Szyller, S.; Atli, B. G.; Marchal, S.; Asokan, N. DAWN: Dynamic Adversarial Watermarking of Neural Networks. arXiv July 16, 2021. https://doi.org/10.48550/arXiv.1906.00830. 
 
