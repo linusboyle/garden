@@ -3,6 +3,8 @@ title: Büchi automata
 date: 2020-12-17
 tags:
   - automata
+aliases:
+  - Buchi automata
 ---
 
 # Büchi automata
