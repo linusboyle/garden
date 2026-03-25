@@ -12,28 +12,28 @@ date: 2025-01-19
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 
-| 修剪时间           | 链接                                                                                                                                                                                 |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| March 24, 2026 | [[20260324100032 Agent Skills]]                                                                                                               |
-| March 24, 2026 | [[序数法生成排列]]                                                                                                                                                       |
-| March 24, 2026 | [[政资研国史读书会01]]                                                                                                                                                       |
-| March 24, 2026 | [[求解常系数线性递推关系]]                                                                                                                                               |
-| March 24, 2026 | [[Leslie Lamport]]                                                                                                                                         |
-| March 24, 2026 | [[LLVM 转换IR格式]]                                                                                                                                               |
-| March 24, 2026 | [[stochastic search]]                                                                                                                                   |
-| March 24, 2026 | [[constraint solving based synthesis]]                                                                                                 |
-| March 24, 2026 | [[程序综合]]                                                                                                                                                             |
-| March 24, 2026 | [[程序综合的一般原则]]                                                                                                                                                   |
-| March 24, 2026 | [[programming by example]]                                                                                                                         |
-| March 24, 2026 | [[enumerative search based synthesis]]                                                                                                 |
-| March 24, 2026 | [[Probabilistic Program Verification via Inductive Synthesis of Inductive Invariants]] |
-| March 24, 2026 | [[树的直径]]                                                                                                                                                             |
-| March 24, 2026 | [[compositional concurrent program verification (sample-generalize-check)]]                       |
-| March 24, 2026 | [[trace abstraction]]                                                                                                                                   |
-| March 24, 2026 | [[终止性分析]]                                                                                                                                                           |
-| March 24, 2026 | [[基于trace的程序建模]]                                                                                                                                             |
-| March 24, 2026 | [[lasso]]                                                                                                                                                           |
-| March 24, 2026 | [[并发程序分析验证]]                                                                                                                                                     |
+| 修剪时间           | 链接                                                                                           |
+| -------------- | -------------------------------------------------------------------------------------------- |
+| March 25, 2026 | [[trace abstraction]]                                             |
+| March 25, 2026 | [[lasso]]                                                                     |
+| March 25, 2026 | [[20250521124325 所谓的“教程等级”]]                               |
+| March 25, 2026 | [[OSR]]                                                                         |
+| March 25, 2026 | [[idea/202203221303 东航飞机失事.md\|202203221303 东航飞机失事]]                                         |
+| March 25, 2026 | [[20250124 爱情的辩证法]]                                                 |
+| March 25, 2026 | [[20250302“复兴”并非复刻]]                                               |
+| March 25, 2026 | [[Transferability of Adversarial Examples]] |
+| March 24, 2026 | [[Robustness (NN)]]                                                 |
+| March 24, 2026 | [[Non-Volatile Memory]]                                         |
+| March 24, 2026 | [[decision-based adversarial attack]]             |
+| March 24, 2026 | [[Fast Gradient Sign Method (FGSM)]]               |
+| March 24, 2026 | [[20260324100032 Agent Skills]]                         |
+| March 24, 2026 | [[序数法生成排列]]                                                                 |
+| March 24, 2026 | [[求解常系数线性递推关系]]                                                         |
+| March 24, 2026 | [[Leslie Lamport]]                                                   |
+| March 24, 2026 | [[LLVM 转换IR格式]]                                                         |
+| March 24, 2026 | [[stochastic search]]                                             |
+| March 24, 2026 | [[constraint solving based synthesis]]           |
+| March 24, 2026 | [[程序综合]]                                                                       |
 <!-- SerializedQuery END -->
 
 
