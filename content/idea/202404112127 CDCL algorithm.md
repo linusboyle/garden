@@ -8,6 +8,7 @@ see also:
   - "[[Unit Propagation]]"
 aliases:
   - Conflict Driven Clause Learning
+  - CDCL
 ---
 
 > Conflict-driven clause learning works as follows.
