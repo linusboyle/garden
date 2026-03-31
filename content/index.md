@@ -15,9 +15,10 @@ date: 2025-01-19
 
 | 修剪时间           | 链接                                                                                                                                                                                 |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| March 31, 2026 | [[202501240000 爱情的辩证法]]                                                                                                                               |
+| March 30, 2026 | [[读书记录]]                                                                                                                                                             |
 | March 30, 2026 | [[20260330024103 Verifying Concurrent Programs under Weak Consistency]]                               |
 | March 27, 2026 | [[202404112127 CDCL algorithm]]                                                                                                               |
-| March 26, 2026 | [[202501240000 爱情的辩证法]]                                                                                                                                       |
 | March 26, 2026 | [[20260318044720 CXL 3.0 内存共享实现与落地进展]]                                                                                                 |
 | March 26, 2026 | [[Persistent Owicki-Gries Reasoning]]                                                                                                   |
 | March 26, 2026 | [[Transition Invariants and Transition Predicate Abstraction for Program Termination]] |
@@ -34,7 +35,6 @@ date: 2025-01-19
 | March 25, 2026 | [[weak memory consistency]]                                                                                                                       |
 | March 25, 2026 | [[失语症]]                                                                                                                                                               |
 | March 25, 2026 | [[字典序法生成排列]]                                                                                                                                                     |
-| March 25, 2026 | [[termination condition 08]]                                                                                                                     |
 <!-- SerializedQuery END -->
 
 
