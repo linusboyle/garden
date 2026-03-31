@@ -17,7 +17,7 @@ date: 2025-01-19
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | March 30, 2026 | [[20260330024103 Verifying Concurrent Programs under Weak Consistency]]                               |
 | March 27, 2026 | [[202404112127 CDCL algorithm]]                                                                                                               |
-| March 26, 2026 | [[20250124 爱情的辩证法]]                                                                                                                                       |
+| March 26, 2026 | [[202501240000 爱情的辩证法]]                                                                                                                                       |
 | March 26, 2026 | [[20260318044720 CXL 3.0 内存共享实现与落地进展]]                                                                                                 |
 | March 26, 2026 | [[Persistent Owicki-Gries Reasoning]]                                                                                                   |
 | March 26, 2026 | [[Transition Invariants and Transition Predicate Abstraction for Program Termination]] |
