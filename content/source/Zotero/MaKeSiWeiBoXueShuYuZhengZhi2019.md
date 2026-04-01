@@ -1,6 +1,7 @@
 ---
 title: '学术与政治'
 year: 2019
+date: 2026-04-01
 citekey: "@MaKeSiWeiBoXueShuYuZhengZhi2019"
 itemType: book
 authors: 马克斯韦伯
@@ -885,4 +886,5 @@ aliases:
 
 ### Related Items
 
-- [[|]]
+
+  - [[|]]
