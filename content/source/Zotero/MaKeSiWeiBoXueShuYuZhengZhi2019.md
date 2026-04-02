@@ -1,12 +1,15 @@
 ---
 title: '学术与政治'
 year: 2019
+date: 2026-04-01
 citekey: "@MaKeSiWeiBoXueShuYuZhengZhi2019"
 itemType: book
 authors: 马克斯韦伯
 publisher: 上海三联书店
 isbn: 978-7-5426-6464-8
 tags: 
+- Zotero
+- imported
 aliases:
   - "MaKeSiWeiBoXueShuYuZhengZhi2019"
   - '学术与政治'
@@ -885,4 +888,5 @@ aliases:
 
 ### Related Items
 
-- [[|]]
+
+  - [[|]]

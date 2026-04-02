@@ -1,6 +1,6 @@
 ---
 title: Interval counterexamples for loop invariant learning
-date: 2022-08-111111111111
+date: 2022-08-11
 tags: 
 aliases:
 ---
