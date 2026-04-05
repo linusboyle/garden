@@ -8,7 +8,7 @@ tags:
 see also:
   - "[[索引]]"
   - "[[2025-06-27]]"
-author:
+authors:
 rating: 4
 zotero url:
 finished date:

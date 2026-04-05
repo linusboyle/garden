@@ -2,7 +2,7 @@
 title: Patterns
 date: 2025-09-11
 tags:
-author:
+authors:
   - Amy Lowell
 ---
 

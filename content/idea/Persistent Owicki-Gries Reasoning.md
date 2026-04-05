@@ -9,9 +9,9 @@ see also:
   - "[[索引]]"
   - "[[2024-11-23]]"
   - "[[Non-Volatile Memory|NVM]]"
-author: 
+authors:
 published at: OOPSLA2020
-zotero url: 
+zotero url:
 aliases:
   - POG
 ---

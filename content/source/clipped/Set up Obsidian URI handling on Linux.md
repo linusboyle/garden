@@ -1,12 +1,12 @@
 ---
-title: "Set up Obsidian URI handling on Linux"
-date: "2026-04-01"
-source: "https://amirrachum.com/obsidian-uri-linux/"
-author:
+title: Set up Obsidian URI handling on Linux
+date: 2026-04-01
+source: https://amirrachum.com/obsidian-uri-linux/
+authors:
   - "[[Amir Rachum]]"
-description: "A practical tutorial on setting up Obsidian URI handling on Linux"
+description: A practical tutorial on setting up Obsidian URI handling on Linux
 tags:
-  - "clipped"
+  - clipped
 aliases:
 ---
 [Obsidian](https://obsidian.md/) has a cool API where you can construct [Obsidian URIs](https://help.obsidian.md/Advanced+topics/Using+obsidian+URI) to issue various commands. The way it works is that you have a URI like this:

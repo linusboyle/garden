@@ -7,7 +7,7 @@ see also:
   - "[[索引]]"
   - "[[2024-08-04]]"
   - "[[Non-Volatile Memory|NVM]]"
-author:
+authors:
 zotero url:
 ---
 

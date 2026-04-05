@@ -1,9 +1,9 @@
 ---
 title: The Microbe
 date: 2026-03-15
-tags: 
+tags:
 aliases:
-author: Hilaire Belloc
+authors: Hilaire Belloc
 year:
 ---
 

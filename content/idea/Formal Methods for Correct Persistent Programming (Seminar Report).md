@@ -8,8 +8,8 @@ tags:
 see also:
   - "[[索引]]"
   - "[[2024-12-10]]"
-author: 
-published at: DROP 
+authors:
+published at: DROP
 zotero url:
 ---
 

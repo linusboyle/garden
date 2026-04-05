@@ -1,12 +1,12 @@
 ---
-title: "Multilingual support in LLMs is not a nice-to-have"
-date: "2026-03-31"
-source: "https://blog.burkert.me/posts/ai_multilingual_llm_study/"
-author:
+title: Multilingual support in LLMs is not a nice-to-have
+date: 2026-03-31
+source: https://blog.burkert.me/posts/ai_multilingual_llm_study/
+authors:
   - "[[Tom Burkert]]"
 description: "I remember back in November 2022, when ChatGPT was released and everyone was going crazy about how smart and humanlike it was. I sat down and started talking to it in Czech. After reading so many raving reviews and hyperbolic predictions, I was shocked by how quickly I ran into the model’s limits in Czech. Now don’t get me wrong: I know my native tongue is not a top-tier language, given it only has about 10 million native speakers. I don’t expect AI models to be as proficient in Czech as in English or other major languages. But it still made me think: if I am getting a much worse experience from large language models than English speakers are, what is the experience like for people who speak languages with even less digital support?"
 tags:
-  - "clipped"
+  - clipped
 aliases:
 ---
 I remember back in November 2022, when ChatGPT was released and everyone was going crazy about how smart and humanlike it was. I sat down and started talking to it in Czech. After reading so many raving reviews and hyperbolic predictions, I was shocked by how quickly I ran into the model’s limits in Czech. Now don’t get me wrong: I know my native tongue is not a top-tier language, given it only has about 10 million native speakers. I don’t expect AI models to be as proficient in Czech as in English or other major languages. But it still made me think: if I am getting a much worse experience from large language models than English speakers are, what is the experience like for people who speak languages with even less digital support?

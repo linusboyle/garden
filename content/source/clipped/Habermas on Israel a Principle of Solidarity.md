@@ -1,12 +1,12 @@
 ---
 title: "Habermas on Israel: a Principle of Solidarity"
-date: "2026-04-01"
-source: "https://www.resetdoc.org/story/habermas-israel-principle-solidariety/"
-author:
+date: 2026-04-01
+source: https://www.resetdoc.org/story/habermas-israel-principle-solidariety/
+authors:
   - "[[Reset DOC]]"
-description: "This letter follows the increase of the anti-Semite attacks in Germany and around the world after the beginning of the last Hamas-Israel war. It was published by the Research Center “Normative Orders” at the Goethe University Frankfurt. This letter has been signed by Nicole Deitelhoff, Chair for International Relations and Theories of Global Order; Rainer Forst, Professor …"
+description: This letter follows the increase of the anti-Semite attacks in Germany and around the world after the beginning of the last Hamas-Israel war. It was published by the Research Center “Normative Orders” at the Goethe University Frankfurt. This letter has been signed by Nicole Deitelhoff, Chair for International Relations and Theories of Global Order; Rainer Forst, Professor …
 tags:
-  - "clipped"
+  - clipped
 aliases:
 ---
 ![](https://resetdoc.b-cdn.net/wp-content/uploads/2022/05/Jurgen-Habermas-SLIDER2-1.jpg)

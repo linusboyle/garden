@@ -10,7 +10,7 @@ see also:
   - "[[2024-12-02]]"
   - "[[Non-Volatile Memory|NVM]]"
   - "[[persistent invariant]]"
-author:
+authors:
   - Zunchen Huang, Srivatsan Ravi, and Chao Wang
 published at: ASE2024
 zotero url:

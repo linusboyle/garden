@@ -8,8 +8,8 @@ tags:
 see also:
   - "[[索引]]"
   - "[[2024-09-27]]"
-author: Justin Alexander
-zotero url: 
+authors: Justin Alexander
+zotero url:
 finished date:
 rating: 4
 ---

@@ -3,7 +3,7 @@ title: 在地铁车站 In a Station of the Metro
 date: 2026-01-26
 tags:
 aliases:
-author:
+authors:
   - 庞德
 ---
 

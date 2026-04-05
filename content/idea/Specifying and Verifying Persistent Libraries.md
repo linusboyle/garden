@@ -10,7 +10,7 @@ see also:
   - "[[Non-Volatile Memory|NVM]]"
   - "[[Linearizability]]"
   - "[[The Path to Durable Linearizability]]"
-author: 
+authors:
 zotero url:
 ---
 

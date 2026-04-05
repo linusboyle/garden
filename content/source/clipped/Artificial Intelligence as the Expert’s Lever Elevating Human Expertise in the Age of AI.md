@@ -1,13 +1,13 @@
 ---
 title: "Artificial Intelligence as the Expert’s Lever: Elevating Human Expertise in the Age of AI"
-date: "2026-04-01"
-source: "https://lemire.me/blog/2025/01/04/artificial-intelligence-as-the-experts-lever-elevating-human-expertise-in-the-age-of-ai/"
-author:
+date: 2026-04-01
+source: https://lemire.me/blog/2025/01/04/artificial-intelligence-as-the-experts-lever-elevating-human-expertise-in-the-age-of-ai/
+authors:
   - "[[Daniel Lemire]]"
   - "[[View all posts by Daniel Lemire]]"
 description: "The more likely outcome of the rise of generative artificial intelligence is higher value for the best experts... where 'expert' means 'someone with experience solving real problems'. \"While one may worry that AI will simply render expertise redundant and experts superfluous, history and economic logic suggest otherwise. AI is a tool, like a calculator or … Continue reading Artificial Intelligence as the Expert’s Lever: Elevating Human Expertise in the Age of AI"
 tags:
-  - "clipped"
+  - clipped
 aliases:
 ---
 The more likely outcome of the rise of generative artificial intelligence is higher value for the best experts… where ‘expert’ means ‘someone with experience solving real problems’.
