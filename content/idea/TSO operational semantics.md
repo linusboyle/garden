@@ -20,3 +20,7 @@ In this case, the memory state is a function from location to value, M, plus a b
 ![](Pasted%20image%2020220123211351.png)
 
 Note that the buffer is propagated to main memory in the order it is fired.
+
+## Related
+
+- [[cache coherence]] 每个线程的store buffer在cache之前。另外，TSO中的total store order，指的并不是操作实际到达内存的顺序，而是visibility order（到达coherent cache）。

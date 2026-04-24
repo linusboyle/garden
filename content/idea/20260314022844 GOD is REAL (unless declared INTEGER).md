@@ -4,10 +4,10 @@ date: 2026-03-14
 tags:
   - idea
   - zettelkasten
+  - joke
 see also:
   - "[[索引]]"
   - "[[2026-03-14]]"
-  - 笑话
 alias:
   - GOD is REAL (unless declared INTEGER)
 ---

@@ -61,12 +61,13 @@ Notes:
 - NVO-LOC: for each location x, its store and persist orders coincide.
 - NVO-WU-FOFL and NVO-FOFL-D: given x ∈ X and C=flushopt x or C=flush x, all writes on X (store-) ordered before C persist before all instructions (store-) ordered after C, regardless of their cache line.
 
-**Crush**
+**Crash**
 
-In [[#Operational Semantics]], at any point the system can crush, resetting the buffers to the initial state (but the memory is kept).
+In [[#Operational Semantics]], at any point the system can crash, resetting the buffers to the initial state (but the memory is kept).
 
 In [[#Declarative Semantics]], only a *prefix* of the durable events in  `nvo` order is persisted.
 
 ## Related
 
-- [[Total Store Order|TSO]] 
+- [[Total Store Order|TSO]]
+- 对于直接连接内存控制器的[[Non-Volatile Memory|NVM]]设备而言，visibility order是到达cache的顺序，在[[Persistency semantics of the Intel-x86 architecture|Px86]]中的persistent buffer可以认为就是cache（cache的写回本身也是不确定，而且同一位置满足fifo的）。
