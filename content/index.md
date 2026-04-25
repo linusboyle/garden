@@ -9,16 +9,23 @@ date: 2025-01-19
 
 花园没有栅栏，也没有门扉，似乎在邀请过路人随意观览。一张石桌上正随意地摊开着些[[读书记录|书卷]]，散落其中的是些潦草写就的[[tags/post|文章]]。近处则是一些不久前修剪过的花卉，零落着等待最终的开花结果。越过花园，脚下的小径继续延伸，通往比邻而未知的[[友链|远方]]。
 
-
 <!-- QueryToSerialize: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 <!-- SerializedQuery: Table without id file.mday as 修剪时间, file.link as 链接  From "idea" Sort file.mtime desc Limit 20 -->
 
 | 修剪时间           | 链接                                                                                                                                                                                 |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| April 23, 2026 | [[20260314022844 GOD is REAL (unless declared INTEGER)]]                                                             |
+| April 23, 2026 | [[20260423033518 Two Hard Things in Computer Science]]                                                                 |
+| April 23, 2026 | [[cache coherence]]                                                                                                                                       |
+| April 23, 2026 | [[Persistency semantics of the Intel-x86 architecture]]                                                               |
+| April 23, 2026 | [[TSO operational semantics]]                                                                                                                   |
+| April 23, 2026 | [[coherence]]                                                                                                                                                   |
+| April 23, 2026 | [[coherence memory model]]                                                                                                                         |
+| April 23, 2026 | [[VPS 常见工具]]                                                                                                                                                     |
+| April 11, 2026 | [[20260403104812 马克思主义与身份政治]]                                                                                                                   |
+| April 11, 2026 | [[读书记录]]                                                                                                                                                             |
 | April 11, 2026 | [[20251003120210 推导规则的分类]]                                                                                                                         |
-| April 10, 2026 | [[20260403104812 马克思主义与身份政治]]                                                                                                                   |
 | April 05, 2026 | [[20260405083242 核心家庭]]                                                                                                                               |
-| April 05, 2026 | [[读书记录]]                                                                                                                                                             |
 | April 05, 2026 | [[基于归纳程序合成的算法自动应用]]                                                                                                                                       |
 | April 05, 2026 | [[Specifying and Verifying Persistent Libraries]]                                                                           |
 | April 05, 2026 | [[Probabilistic Program Verification via Inductive Synthesis of Inductive Invariants]] |
@@ -27,14 +34,6 @@ date: 2025-01-19
 | April 05, 2026 | [[Discovering Likely Program Invariants for Persistent Memory]]                                               |
 | April 05, 2026 | [[Abstraction for Crash-Resilient Objects]]                                                                                       |
 | April 03, 2026 | [[202403282147 葛兰西的霸权理论]]                                                                                                                           |
-| April 01, 2026 | [[A Programming Model for Disaggregated Memory over CXL]]                                                           |
-| April 01, 2026 | [[Interval counterexamples for loop invariant learning]]                                                             |
-| March 31, 2026 | [[202501240000 爱情的辩证法]]                                                                                                                               |
-| March 30, 2026 | [[20260330024103 Verifying Concurrent Programs under Weak Consistency]]                               |
-| March 27, 2026 | [[202404112127 CDCL algorithm]]                                                                                                               |
-| March 26, 2026 | [[20260318044720 CXL 3.0 内存共享实现与落地进展]]                                                                                                 |
-| March 26, 2026 | [[Transition Invariants and Transition Predicate Abstraction for Program Termination]] |
-| March 25, 2026 | [[Non-Volatile Memory]]                                                                                                                               |
 <!-- SerializedQuery END -->
 
 
