@@ -6,6 +6,9 @@ aliases:
 - 万智牌
 ---
 
-## 轮抽理论
+## 限制赛
 
 1. [[Stark Reality - Drafting the Hard Way]]
+2. [[Do the Bots Send Signals]]
+3. [[Learning from the Best]]
+4. [[Simulating Draft Strategies]]
