@@ -12,3 +12,9 @@ aliases:
 2. [[Do the Bots Send Signals]]
 3. [[Learning from the Best]]
 4. [[Simulating Draft Strategies]]
+
+### 法术力基础
+
+ref. Frank Karsten
+
+- 主色均需要至少8点
