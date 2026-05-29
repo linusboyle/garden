@@ -40,3 +40,8 @@ Every formula in this fragment can be uniquely represented by a finite set of **
 schematic examples: union-free regular expression over B(AP),  the Boolean combination of some atomic propositions.
 
 The proof is straightforward : for finite traces, LTL language is regular, which is equivalent to a union of the language of a union-free regular expression.
+
+
+---
+
+Theory and applications of Craig Interpolation
