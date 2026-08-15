@@ -1,18 +1,19 @@
 ---
-title: '离开学术界:实用指南'
+title: 离开学术界:实用指南
 year: 2023
 date: 2026-04-01
 citekey: "@KeLiSiTuoFu*QiaTeLinChiKaiXueShuJieShiYongZhiNan2023"
 itemType: book
-authors: 克里斯托弗·卡特林
+authors:
+  - 克里斯托弗·卡特林
 publisher: 华东师范大学出版社有限公司
 isbn: 978-7-5760-4000-5
-tags: 
-- Zotero
-- imported
+tags:
+  - Zotero
+  - imported
 aliases:
-  - "KeLiSiTuoFu*QiaTeLinChiKaiXueShuJieShiYongZhiNan2023"
-  - '离开学术界:实用指南'
+  - KeLiSiTuoFu*QiaTeLinChiKaiXueShuJieShiYongZhiNan2023
+  - 离开学术界:实用指南
 ---
 
 ## [离开学术界:实用指南](zotero://select/library/items/XWACGHC8)
