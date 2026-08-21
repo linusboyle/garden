@@ -12,6 +12,14 @@ aliases:
 
 > 密歇根大学的研究显示，当有一半工作集无法放入内存时，应用性能会下降8到25倍[^1]
 
+在非HBM的情况下，CPU单核心访存次数与DRAM延迟的趋势如下（[[hennessyComputerArchitectureQuantitative2026]]）：
+
+![[Pasted image 20260821142035.png]]
+
+> Although the gap in access time has increased significantly for many years, the lack of significant performance improvement in single processors has led to a slowdown in the growth of the gap between processors and DRAM
+
+然而对于多核处理器，最高理论访存带宽依旧远远超过DRAM的带宽。
+
 ## Related
 
 - [[memory footprint]]
