@@ -17,6 +17,8 @@ aliases:
 
 ![[Pasted image 20230109144446.png]]
 
+“Virtually all computers since 1975 have used DRAMs for main memory and SRAMs for cache, with one to three levels integrated onto the processor chip with the CPU. Today, all PMDs and laptops and most desktops use Flash rather than disk drives. Many servers use Flash in combination with disk drives.”
+
 ## Related
 
 - 
