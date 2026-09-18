@@ -11,7 +11,7 @@ see also:
 authors: Justin Alexander
 zotero url:
 finished date:
-rating: 4
+rating: 3.5
 ---
 
 1. Ruling：默认判决为肯定，不要否定玩家的行动，不要对玩家说不（除非太离谱）
