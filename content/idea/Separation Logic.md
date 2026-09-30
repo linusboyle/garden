@@ -14,7 +14,7 @@ aliases:
 
 ## Motivation
 
-对于堆上的数据结构，如果仅使用谓词逻辑进行描述会非常复杂，难以scale。究其原因，通常对这类程序进行分析时，往往需要对数据结构间的共享 Sharing/别名 Aliasing情况进行限制，譬如：
+对于堆上的数据结构，如果仅使用谓词逻辑进行描述会非常复杂，难以scale。究其原因，通常对这类程序进行分析时，需要对数据结构间的共享 Sharing/别名 Aliasing情况进行限制，譬如：
 
 $$
 (\exists \alpha, \beta. \textbf{list} \; \alpha \; i \wedge \textbf{list} \; \beta \; j \wedge \alpha_0^\dagger = \alpha^\dagger \cdot \beta) \\ \wedge (\forall k. \textbf{reach}(i, k) \wedge \textbf{reach}(j, k) \Rightarrow k = \textbf{nil}),

@@ -10,7 +10,7 @@ aliases:
 
 > Peter O'Hearn, Resources, concurrency, and local reasoning & Stephan Brookes, A semantics for concurrent separation logic. TCS'07
 
-分离逻辑原本用于对堆数据结构进行推理，设计了分离与等构造对这类数据结构的「共享」情况进行了限制。类似地，在并发程序中也存在资源的分离和共享，堆就是其中的一种资源。此时，分离逻辑公式不仅指示堆的值，也指示其所有权。例如，$e \mapsto e'$ 可以解释为「e映射为e'，当前线程可以操作位置e，且其他线程一定不会操作e。」
+分离逻辑原本用于对堆数据结构进行推理，设计了分离与等构造对这类数据结构的「共享」情况进行了限制。类似地，在并发程序中也存在资源的分离和共享，堆就是其中的一种资源。此时，分离逻辑公式不仅指示堆的值，也指示其**所有权**。例如，$e \mapsto e'$ 可以解释为「e映射为e'，当前线程可以操作位置e，且其他线程一定不会操作e。」
 
 > “it was not long before O’Hearn made the critical observation that separation logic’s built-in support for interference resistance could be equally—if not even more—useful for reasoning about concurrent programs” (Jung 等, 2018, p. 3)
 > 
