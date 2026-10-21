@@ -12,6 +12,8 @@ aliases:
 
 A [[memory consistency model|memory model]] is multi-copy atomic (MCA) if store values propagate atomically: as soon as the value becomes visible to another processor, no future load can access an earlier value. CPU's can't disagree on the order of stores issued by different CPUs to different addresses.
 
+In a MCA model, a load is globally ordered after the store it reads from (i.e. it cannot read *early* before the store is globally visible). 
+
 From Arm A7.1.1 AXI/ACE Specification:
 
 > A system is defined as being multi-copy atomic if:
@@ -89,3 +91,4 @@ A MCA model forbids the behavior r1=1, r2=0, r3=1, r4=0.
 ## Related
 
 - [[cache coherence]]
+- [[Classification of memory consistency model]]
