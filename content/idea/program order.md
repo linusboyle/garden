@@ -7,5 +7,5 @@ aliases:
   - sequenced-before
 ---
 
-program order is a partial order on all events as defined by the program syntactically. It is also known as sequenced-before order
+program order (po) is a strict order on all events within a thread as defined by the program syntactically. It is also known as sequenced-before (sb) order.
 

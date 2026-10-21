@@ -43,7 +43,7 @@ Other models, such as Promising and Weakestmo, consider multiple program executi
 
 In an execution, apart from [[program order]] and read from order, there are also *address, data, and control* dependency order. A prefix of an event e is an event e' in the same thread that: $(e', e) \in (rf \cup addr \cup data \cup ctrl)^{+}$.
 
-A model is well-prefixed if no consistent execution contains an event that is its own prefix. All porf-acyclic models (note that all dependency orders are subset of [[program order]]) and dependency-tracking models are well-prefixed 
+A model is well-prefixed if no consistent execution contains an event that is its own prefix. All porf-acyclic models (note that all dependency orders are subset of [[program order]]) and dependency-tracking models are well-prefixed. 
 
 The original C11 model does not. It allows out-of-thin-air behaviour.
 

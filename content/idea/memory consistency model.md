@@ -3,21 +3,24 @@ title: memory consistency model
 created time: "[[2024-02-25]]"
 tags:
   - idea
-see also: 
+see also:
 aliases:
   - WMM
   - weak memory model
   - 内存一致性模型
   - 内存模型
+  - memory model
 ---
 
 ## memory consistency model
 
-**memory models**: the semantics of shared memory. WMM deals with ordering constraints, but is not just reordering.
+**memory models**: the semantics of shared memory. 
+
+WMM deals with ordering constraints, but is not just reordering.
 
 Every hardware architecture has its own memory model. [[memory barrier (fence)]]  can be used to enforce ordering constraints.
 
-[[Sequential Consistency]]  is the simpliest memory model.
+[[Sequential Consistency]]  is the simpliest memory model, but no major architecture implement it.
 
 ### Operational semantics
 
@@ -31,5 +34,7 @@ The whole system either takes internal step of either subsystem, or take steps w
 
 - [[SC operational semantics]] 
 - [[TSO operational semantics]] 
+
+---
 
 ![[Classification of memory consistency model]]
