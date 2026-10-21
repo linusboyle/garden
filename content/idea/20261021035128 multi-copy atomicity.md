@@ -10,7 +10,7 @@ aliases:
   - other-multi-copy-atomicity
 ---
 
-A [[memory consistency model|memory model]] is multi-copy atomic (MCA) if store values propagate atomically: as soon as the value becomes visible to another processor, no future load can access an earlier value. CPU's can't disagree on the order of stores issued by different CPUs to different addresses
+A [[memory consistency model|memory model]] is multi-copy atomic (MCA) if store values propagate atomically: as soon as the value becomes visible to another processor, no future load can access an earlier value. CPU's can't disagree on the order of stores issued by different CPUs to different addresses.
 
 From Arm A7.1.1 AXI/ACE Specification:
 
@@ -27,8 +27,26 @@ From a related RISCV issue:
 > - Single-copy atomic: a store becomes visible to all processors at the same time (e.g. SC).  
 > - Multi-copy atomic: **a store becomes visible to the issuing processor before becoming visible simultaneously to all other processors** (e.g. in , TSO, and Alpha).  
 > - Non-atomic (or non-multi-copy-atomic): a store becomes visible to different processors at different times (e.g. POWER).
+>
+> [Multi-copy atomic vs other-multi-copy atomic · Issue #1205 · riscv/riscv-isa-manual](https://github.com/riscv/riscv-isa-manual/issues/1205)
 
 MCA per this kind of definition is also referred to as *other-multi-copy-atomicity*  
+
+Per [Linux Kernel Doc](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/memory-barriers.txt#n1370):
+
+```
+Multicopy atomicity is a deeply intuitive notion about ordering that is
+not always provided by real computer systems, namely that a given store
+becomes visible at the same time to all CPUs, or, alternatively, that all
+CPUs agree on the order in which all stores become visible.  However,
+support of full multicopy atomicity would rule out valuable hardware
+optimizations, so a weaker form called ``other multicopy atomicity''
+instead guarantees only that a given store becomes visible at the same
+time to all -other- CPUs.  The remainder of this document discusses this
+weaker form, but for brevity will call it simply ``multicopy atomicity''.
+```
+
+Note that MCA is a property of [[memory consistency model|memory model]], so simply providing [[cache coherence]] does not entail MCA (e.g. Power).
 
 ## Test
 
@@ -67,7 +85,7 @@ A MCA model forbids the behavior r1=1, r2=0, r3=1, r4=0.
 
 - PTX
 - IBM Power
-  
+
 ## Related
 
-- 
+- [[cache coherence]]
