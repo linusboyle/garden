@@ -17,3 +17,4 @@ coherence/consistency 都为一致性，但略有区别
 ## Related
 
 - extracted from: [[cache coherence]]
+- [[20260423033518 Two Hard Things in Computer Science|Two Hard Things in Computer Science]]

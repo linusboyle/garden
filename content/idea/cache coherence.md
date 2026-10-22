@@ -18,10 +18,11 @@ aliases:
 > Another way to view this definition is to consider, for each memory location, that the memory location’s lifetime is divided up into epochs. In each epoch, either a single core has read-write access or some number of cores (possibly zero) have read-only access. [[nagarajanPrimerMemoryConsistency2020|A Primer on Memory Consistency and Cache Coherence]]
 2. Data-Value Invariant. The value of the memory location at the start of an epoch is the same as the value of the memory location at the end of the its last read-write epoch.
 
-另外，缓存一致性是实现内存模型的一部分。可以把缓存一致性视作内存模型，并得到[[coherence memory model|COH]]模型。因为绝大多数的硬件都保证缓存一致性，所以一般内存模型都满足COH约束（对同一个位置的操作是SC的）。
+另外，缓存一致性是实现内存模型的一部分。可以把缓存一致性视作内存模型，并得到[[coherence memory model|COH]]模型。因为绝大多数的硬件都保证缓存一致性，所以一般内存模型都满足COH约束（对同一个位置的操作是SC的，COH=per location SC）。
 
 
 ## Related
 
 - [[Non-Volatile Memory]] 透明缓存多数情况下对内存模型确实没什么影响，但是如果考虑崩溃以及非易失性内存，缓存的存在将导致weak persistenct behaviour，如见[[Persistency semantics of the Intel-x86 architecture|Px86]]
 - [[20260821024532 缓存一致性与内存模型的关系]]
+- [What is the difference between sequential consistency and coherence? | Simple Thoughts and Complex Stuff.](https://pveentjer.github.io/memory-models/2022/09/01/relation-coherence-sc.html)
