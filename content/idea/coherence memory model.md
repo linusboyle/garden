@@ -11,7 +11,7 @@ aliases:
   - COH
 ---
 
-COH是缓存一致性在内存模型层面的体现。COH除了硬件提供的最基础保障外没有任何约束（See [[cache coherence]]），即对于每个位置而言，其上的内存操作符合 [[Sequential Consistency|SC]]。但是coherence的限制过于弱。COH=Per-location SC
+COH是缓存一致性在内存模型层面的体现。COH除了硬件提供的最基础保障外没有任何约束（See [[cache coherence]]），即对于每个位置而言，其上的内存操作符合 [[Sequential Consistency|SC]]。但是coherence的限制过于弱，它没有规定对不同内存地址的操作的顺序。COH=Per-location SC
 
 ![[Pasted image 20240405213159.png]]
 

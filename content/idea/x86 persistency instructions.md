@@ -1,11 +1,9 @@
 ---
-title: X86 persistency instructions
+title: x86 persistency instructions
 date: 2022-09-08
 tags:
 aliases:
 ---
-
-# X86 persistency instruction
 
 The instruction `clwb`, `clflush`, `clflushopt` writes cache line back **asynchronously**
 

@@ -16,7 +16,7 @@ x86 is an **asynchronous** model, where writes are buffed and then persisted to 
 
 **Explicit Persist**
 
-There are several primitives for controling the persistence of writes. [[X86 persistency instructions]].
+There are several primitives for controling the persistence of writes. [[x86 persistency instructions]].
 
 > “Moreover, explicit persist may themselves execute synchronously or asynchronously. For instance, the sync instruction in epoch persistency executes synchronously: it blocks until all pending writes are persisted. By contrast, the per-cache-line persist instructions of Intel-x86 execute asynchronously: they do not stall execution and merely guarantee that the cache line will be persisted at a future time.” ([Raad 等。, 2020, p. 114](zotero://select/library/items/ZDDZXBRH)) ([pdf](zotero://open-pdf/library/items/JP7UATKU?page=4&annotation=WMPMYPTD))
 

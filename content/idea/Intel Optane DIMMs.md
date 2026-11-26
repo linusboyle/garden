@@ -23,5 +23,5 @@ CPU 还提供了 NTSTORE（Non-temporal stores）指令可以做到数据写入�
 
 ## Related
 
-- [[X86 persistency instructions]]
+- [[x86 persistency instructions]]
 - [[Non-Volatile Memory|NVM]]

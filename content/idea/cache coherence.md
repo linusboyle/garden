@@ -13,21 +13,33 @@ aliases:
 
 ## 定义
 
-对缓存一致性而言，关注的是读和写操作。从硬件的实现角度常见的一种定义是：
+### 从硬件实现角度
 
-1. **Single-Writer, Multiple-Reader (SWMR)** Invariant. For any memory location A, at any given time, there exists only a single core that may write to A (and can also read it) or some number of cores that may only read A.  
-2. Data-Value Invariant. The value of the memory location at the start of an epoch is the same as the value of the memory location at the end of the its last read-write epoch.
+缓存一致性协议为处理器提供读和写操作的接口。
+
+> (1) a read-request method that takes in a memory location as the parameter and returns a value; and (2) a write-request method that takes in a memory location and a value (to be written) as parameters and returns an acknowledgment.
+
+从硬件的实现角度，缓存一致性常见的一种定义是：
+
+1. [[20261019082827 SWMR|SWMR]] Invariant. 
+2. Data-Value Invariant: the value of the memory location at the start of an epoch is the same as the value of the memory location at the end of its last read-write epoch.
+
+### 从内存模型角度
+
+缓存一致性是实现内存模型的一部分。可以把缓存一致性视作内存模型，并得到[[coherence memory model|COH]]模型。因为绝大多数的硬件都保证缓存一致性，所以一般内存模型都满足COH约束（对同一个位置的操作是SC的，COH=per location SC）。
+
+> “It is worth noting that any coherence protocol that satisfies the SWMR and data-value invariants (combined with a pipeline that does not reorder accesses to any specific location) is also guaranteed to satisfy this consistency-like definition of coherence. (However, the converse is not necessarily true.)”
 
 ## 分类 
 
-缓存一致性是实现内存模型的一部分。可以把缓存一致性视作内存模型，并得到[[coherence memory model|COH]]模型。因为绝大多数的硬件都保证缓存一致性，所以一般内存模型都满足COH约束（对同一个位置的操作是SC的，COH=per location SC）。根据与[[memory consistency model|内存一致性模型]]之间的关系，可以分为两大类：
+根据与[[memory consistency model|内存模型]]之间的关系，可以分为两大类：
 
 - Consistency-agnostic coherence：写事件是同步传播的，在对所有核可见前不会返回ack。此时，缓存仿佛在[[20260821025035 Memory Hierarchy|内存层级]]中不存在，对程序和程序员完全透明，内存系统可以被当作是原子的。在此类情况下，处理器的微架构实现内存模型的细节。
 - Consistency-directed coherence：写事件是异步传播的，因此可能会出现读取非实时最新数据的情况，但是缓存一致性协议和处理器微架构一同，依旧可以实现内存模型。这种协议比较新兴，主要出现在GPU中，不过[[Sequential Consistency|SC]]和[[Total Store Order|TSO]]都可以以此种方式实现。
 
 ## Related
 
-- [[Non-Volatile Memory]] 缓存一致性协议对软件一般是透明的，多数情况下其具体实现对内存模型确实没什么影响（只要缓存本身是一致的即可），但是如果考虑崩溃以及非易失性内存，缓存的存在将导致weak persistent behaviour，如参见[[Persistency semantics of the Intel-x86 architecture|Px86]]，另见[[持久内存与缓存的关系]]
+- [[Non-Volatile Memory]] Consistency-agnostic coherence对软件一般是透明的，多数情况下其具体实现对内存模型确实没什么影响（只要缓存本身是一致的即可），但是如果考虑崩溃以及非易失性内存，缓存的存在将导致weak persistent behaviour，如参见[[Persistency semantics of the Intel-x86 architecture|Px86]]，另见[[持久内存与缓存的关系]]
 - [[20260821024532 缓存一致性与内存模型的关系]]
 - [What is the difference between sequential consistency and coherence? | Simple Thoughts and Complex Stuff.](https://pveentjer.github.io/memory-models/2022/09/01/relation-coherence-sc.html)
 - [[20260423033518 Two Hard Things in Computer Science|Two Hard Things in Computer Science]]

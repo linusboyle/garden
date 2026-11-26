@@ -8,5 +8,5 @@ see also:
   - "[[Non-Volatile Memory|NVM]]"
 ---
 
-1. Per-location persist instruction: [[X86 persistency instructions]] (asynchronous)
+1. Per-location persist instruction: [[x86 persistency instructions]] (asynchronous)
 2. All-location: PFENCE, Persist Barrier .etc in epoch persistency model (stronger barrier)

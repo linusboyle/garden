@@ -27,3 +27,5 @@ aliases:
 - [Homepage - Compute Express Link](https://computeexpresslink.org/) 目前已发布4.0版本规范
 - [[Revisiting Distributed Memory in the CXL Era]] 讨论3.0引入的DSM支持
 - [[20260318044720 CXL 3.0 内存共享实现与落地进展|CXL 3.0 内存共享实现与落地进展]]
+- [The Rebirth of Persistent Memory and CXL DDR4 Reuse - Compute Express Link](https://computeexpresslink.org/blog/the-rebirth-of-persistent-memory-and-cxl-ddr4-reuse-4837/) [[Non-Volatile Memory|NVM]] 在CXL下的应用
+![[Pasted image 20261125201620.png]]

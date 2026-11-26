@@ -1,8 +1,9 @@
 ---
 title: SMT
 date: 2020-01-01
-tags: 
-- Satisfiability Modulo Theories
+tags:
+aliases:
+  - Satisfiability Modulo Theories
 ---
 
 # SMT
