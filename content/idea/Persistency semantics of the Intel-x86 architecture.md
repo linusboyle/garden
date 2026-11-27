@@ -18,7 +18,7 @@ x86 is an **asynchronous** model, where writes are buffed and then persisted to 
 
 There are several primitives for controling the persistence of writes. [[x86 persistency instructions]].
 
-> “Moreover, explicit persist may themselves execute synchronously or asynchronously. For instance, the sync instruction in epoch persistency executes synchronously: it blocks until all pending writes are persisted. By contrast, the per-cache-line persist instructions of Intel-x86 execute asynchronously: they do not stall execution and merely guarantee that the cache line will be persisted at a future time.” ([Raad 等。, 2020, p. 114](zotero://select/library/items/ZDDZXBRH)) ([pdf](zotero://open-pdf/library/items/JP7UATKU?page=4&annotation=WMPMYPTD))
+> “Moreover, explicit persist may themselves execute synchronously or asynchronously. For instance, the sync instruction in epoch persistency executes synchronously: it blocks until all pending writes are persisted. By contrast, the per-cache-line persist instructions of Intel-x86 execute asynchronously: they do not stall execution and merely guarantee that the cache line will be persisted at a future time.” 
 
 The actual behaviour of x86 persist instructions are asynchronous, but there's equivalent models where these instructions are synchronous. [[Taming x86-TSO persistency]]
 
@@ -26,10 +26,7 @@ Also, these instructions can be reordered as well.
 
 ## The order of the instructions
 
-![](images/image-2025-08-30T14-54-17-883Z-1.png) 
-
-([pdf](zotero://open-pdf/library/items/JP7UATKU?page=8&annotation=GV9T4GS6)) ([Raad 等。, 2020, p. 118](zotero://select/library/items/ZDDZXBRH))
-
+![[image-2025-08-30T14-54-17-883Z-1.png]]
 
 A few notes:
 - Write-Read reordering is in the original [[Total Store Order]] model. ((? of course, only between different threads))
@@ -40,10 +37,7 @@ A few notes:
 
 Store buffer (per thread) + Persistent buffer (non-FIFO list) + Main memory (NVM)
 
-![](images/image-2025-08-30T14-54-17-891Z-2.png) 
-
-([pdf](zotero://open-pdf/library/items/JP7UATKU?page=13&annotation=YEYZ2SH3)) ([Raad 等。, 2020, p. 123](zotero://select/library/items/ZDDZXBRH))
-
+![[image-2025-08-30T14-54-17-891Z-2.png]]
 
 ![[Pasted image 20220713134340.png]]
 
